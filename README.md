@@ -40,6 +40,7 @@ Um projeto híbrido de análise de ativos B3 com Node.js/Express, EJS e Python.
 - `docs/contributing.md` - guia de contribuição e boas práticas
 - `docs/roadmap.md` - ideias e prioridades para evolução do projeto
 - `docs/testes.md` - como rodar testes locais e pipelines de CI
+- Branch `feature/docs` foi criada para esta documentação e está pronta para revisão.
 - `CHANGELOG.md` - histórico de alterações
 - `requirements.txt` - dependências Python
 - `Dockerfile` - build de contêiner Docker
