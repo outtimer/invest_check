@@ -86,7 +86,7 @@ app.get('/api/preco/:ticker', (req, res) => {
     if (!ticker.includes('.') && ticker.length <= 6) ticker += '.SA';
     exec(`python -c "import yfinance as yf; print(yf.Ticker('${ticker}').history(period='1d')['Close'].iloc[-1])"`, (err, stdout) => {
         if (err || !stdout.trim()) return res.json({ preco: 0 });
-        res.json({ preco: parseFloat(stdout).toFixed(2) });
+        res.json({ preco: Number(parseFloat(stdout).toFixed(2)) });
     });
 });
 
@@ -99,7 +99,7 @@ app.get('/api/preco-historico', (req, res) => {
     const cmd = `python -c "import yfinance as yf; d=yf.download('${t}', start='${data}', period='1d', progress=False); print(d['Close'].iloc[0] if not d.empty else 0)"`;
     exec(cmd, (err, stdout) => {
         if (err || !stdout.trim()) return res.json({ preco: 0 });
-        res.json({ preco: parseFloat(stdout).toFixed(2) });
+        res.json({ preco: Number(parseFloat(stdout).toFixed(2)) });
     });
 });
 
