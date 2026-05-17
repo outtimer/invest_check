@@ -1,0 +1,7926 @@
+[
+    {
+        "ticker": "EGGY3.SA",
+        "nome": "GRANJA FARIA S.A."
+    },
+    {
+        "ticker": "PETR4.SA",
+        "nome": "PETROLEO BRASILEIRO S.A. PETROBRAS"
+    },
+    {
+        "ticker": "ITSA4.SA",
+        "nome": "ITAUSA S.A."
+    },
+    {
+        "ticker": "COGN3.SA",
+        "nome": "COGNA EDUCAÇÃO S.A."
+    },
+    {
+        "ticker": "B3SA3.SA",
+        "nome": "B3 S.A. - BRASIL. BOLSA. BALCÃO"
+    },
+    {
+        "ticker": "ABEV3.SA",
+        "nome": "AMBEV S.A."
+    },
+    {
+        "ticker": "CSMG3.SA",
+        "nome": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG"
+    },
+    {
+        "ticker": "MGLU3.SA",
+        "nome": "MAGAZINE LUIZA S.A."
+    },
+    {
+        "ticker": "CSAN3.SA",
+        "nome": "COSAN S.A."
+    },
+    {
+        "ticker": "CPLE3.SA",
+        "nome": "CIA PARANAENSE DE ENERGIA - COPEL"
+    },
+    {
+        "ticker": "USIM5.SA",
+        "nome": "USINAS SID DE MINAS GERAIS S.A.-USIMINAS"
+    },
+    {
+        "ticker": "VAMO3.SA",
+        "nome": "VAMOS LOCAÇÃO DE CAMINHÕES. MÁQUINAS E EQUIP. S.A."
+    },
+    {
+        "ticker": "RAIZ4.SA",
+        "nome": "RAIZEN S.A."
+    },
+    {
+        "ticker": "VALE3.SA",
+        "nome": "VALE S.A."
+    },
+    {
+        "ticker": "HAPV3.SA",
+        "nome": "HAPVIDA PARTICIPACOES E INVESTIMENTOS SA"
+    },
+    {
+        "ticker": "BBDC4.SA",
+        "nome": "BCO BRADESCO S.A."
+    },
+    {
+        "ticker": "PRIO3.SA",
+        "nome": "PRIO S.A."
+    },
+    {
+        "ticker": "PETR3.SA",
+        "nome": "PETROLEO BRASILEIRO S.A. PETROBRAS"
+    },
+    {
+        "ticker": "ADSH11.SA",
+        "nome": "ADSH11"
+    },
+    {
+        "ticker": "AZTE3.SA",
+        "nome": "AZEVEDO & TRAVASSOS ENERGIA S.A."
+    },
+    {
+        "ticker": "CVCB3.SA",
+        "nome": "CVC BRASIL OPERADORA E AGÊNCIA DE VIAGENS S.A."
+    },
+    {
+        "ticker": "BRAV3.SA",
+        "nome": "BRAVA ENERGIA S.A."
+    },
+    {
+        "ticker": "RCSL4.SA",
+        "nome": "RECRUSUL S.A."
+    },
+    {
+        "ticker": "MRVE3.SA",
+        "nome": "MRV ENGENHARIA E PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "ITUB4.SA",
+        "nome": "ITAU UNIBANCO HOLDING S.A."
+    },
+    {
+        "ticker": "MOVI3.SA",
+        "nome": "MOVIDA PARTICIPACOES SA"
+    },
+    {
+        "ticker": "BEEF3.SA",
+        "nome": "MINERVA S.A."
+    },
+    {
+        "ticker": "ONCO3.SA",
+        "nome": "ONCOCLINICAS DO BRASIL SERVICOS MEDICOS  S.A."
+    },
+    {
+        "ticker": "ASAI3.SA",
+        "nome": "SENDAS DISTRIBUIDORA S.A."
+    },
+    {
+        "ticker": "JHSF3.SA",
+        "nome": "JHSF PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "EQTL3.SA",
+        "nome": "EQUATORIAL S.A."
+    },
+    {
+        "ticker": "CSNA3.SA",
+        "nome": "CIA SIDERURGICA NACIONAL"
+    },
+    {
+        "ticker": "BBAS3.SA",
+        "nome": "BCO BRASIL S.A."
+    },
+    {
+        "ticker": "NEOE3.SA",
+        "nome": "NEOENERGIA S.A."
+    },
+    {
+        "ticker": "CMIG4.SA",
+        "nome": "CIA ENERGETICA DE MINAS GERAIS - CEMIG"
+    },
+    {
+        "ticker": "MOTV3.SA",
+        "nome": "MOTIVA INFRAESTRUTURA DE MOBILIDADE S.A."
+    },
+    {
+        "ticker": "AURE3.SA",
+        "nome": "AUREN ENERGIA S.A."
+    },
+    {
+        "ticker": "MBRF3.SA",
+        "nome": "MBRF3"
+    },
+    {
+        "ticker": "AXIA3.SA",
+        "nome": "AXIA3"
+    },
+    {
+        "ticker": "GMAT3.SA",
+        "nome": "GRUPO MATEUS S.A."
+    },
+    {
+        "ticker": "OIBR3.SA",
+        "nome": "OI S.A."
+    },
+    {
+        "ticker": "NATU3.SA",
+        "nome": "NATURA COSMETICOS S.A."
+    },
+    {
+        "ticker": "DIRR3.SA",
+        "nome": "DIRECIONAL ENGENHARIA S.A."
+    },
+    {
+        "ticker": "BRKM5.SA",
+        "nome": "BRASKEM S.A."
+    },
+    {
+        "ticker": "POMO4.SA",
+        "nome": "MARCOPOLO S.A."
+    },
+    {
+        "ticker": "CBAV3.SA",
+        "nome": "COMPANHIA BRASILEIRA DE ALUMÍNIO"
+    },
+    {
+        "ticker": "CEAB3.SA",
+        "nome": "CEA MODAS S.A."
+    },
+    {
+        "ticker": "LREN3.SA",
+        "nome": "LOJAS RENNER S.A."
+    },
+    {
+        "ticker": "VBBR3.SA",
+        "nome": "VIBRA ENERGIA S.A."
+    },
+    {
+        "ticker": "ECOR3.SA",
+        "nome": "ECORODOVIAS INFRAESTRUTURA E LOGÍSTICA S.A."
+    },
+    {
+        "ticker": "SUZB3.SA",
+        "nome": "SUZANO S.A."
+    },
+    {
+        "ticker": "RADL3.SA",
+        "nome": "RAIA DROGASIL S.A."
+    },
+    {
+        "ticker": "LWSA3.SA",
+        "nome": "LWSA S.A."
+    },
+    {
+        "ticker": "GGBR4.SA",
+        "nome": "GERDAU S.A."
+    },
+    {
+        "ticker": "ANIM3.SA",
+        "nome": "ANIMA HOLDING S.A."
+    },
+    {
+        "ticker": "AZEV4.SA",
+        "nome": "AZEVEDO E TRAVASSOS S.A."
+    },
+    {
+        "ticker": "RAIL3.SA",
+        "nome": "RUMO S.A."
+    },
+    {
+        "ticker": "SMTO3.SA",
+        "nome": "SAO MARTINHO S.A."
+    },
+    {
+        "ticker": "RAPT4.SA",
+        "nome": "RANDONCORP S.A."
+    },
+    {
+        "ticker": "SIMH3.SA",
+        "nome": "SIMPAR S.A."
+    },
+    {
+        "ticker": "PGMN3.SA",
+        "nome": "EMPREENDIMENTOS PAGUE MENOS S.A."
+    },
+    {
+        "ticker": "M2ST34.SA",
+        "nome": "M2ST34"
+    },
+    {
+        "ticker": "EMBJ3.SA",
+        "nome": "EMBJ3"
+    },
+    {
+        "ticker": "CMIN3.SA",
+        "nome": "CSN MINERAÇÃO S.A."
+    },
+    {
+        "ticker": "RENT3.SA",
+        "nome": "LOCALIZA RENT A CAR S.A."
+    },
+    {
+        "ticker": "CYRE3.SA",
+        "nome": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART"
+    },
+    {
+        "ticker": "GOAU4.SA",
+        "nome": "METALURGICA GERDAU S.A."
+    },
+    {
+        "ticker": "BBDC3.SA",
+        "nome": "BCO BRADESCO S.A."
+    },
+    {
+        "ticker": "BBSE3.SA",
+        "nome": "BB SEGURIDADE PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "AUAU3.SA",
+        "nome": "UNIÃO PET PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "NVDC34.SA",
+        "nome": "NVDC34"
+    },
+    {
+        "ticker": "WEGE3.SA",
+        "nome": "WEG S.A."
+    },
+    {
+        "ticker": "BOVA11.SA",
+        "nome": "BOVA11"
+    },
+    {
+        "ticker": "AMER3.SA",
+        "nome": "AMERICANAS S.A"
+    },
+    {
+        "ticker": "BPAC11.SA",
+        "nome": "BCO BTG PACTUAL S.A."
+    },
+    {
+        "ticker": "KLBN4.SA",
+        "nome": "KLABIN S.A."
+    },
+    {
+        "ticker": "PMAM3.SA",
+        "nome": "PARANAPANEMA S.A."
+    },
+    {
+        "ticker": "ROXO34.SA",
+        "nome": "ROXO34"
+    },
+    {
+        "ticker": "AMBP3.SA",
+        "nome": "AMBIPAR PARTICIPACOES E EMPREENDIMENTOS S/A"
+    },
+    {
+        "ticker": "ENEV3.SA",
+        "nome": "ENEVA S.A"
+    },
+    {
+        "ticker": "SMFT3.SA",
+        "nome": "SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A."
+    },
+    {
+        "ticker": "YDUQ3.SA",
+        "nome": "YDUQS PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "UGPA3.SA",
+        "nome": "ULTRAPAR PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "GARE11.SA",
+        "nome": "GARE11"
+    },
+    {
+        "ticker": "TIMS3.SA",
+        "nome": "TIM S.A."
+    },
+    {
+        "ticker": "VIVT3.SA",
+        "nome": "TELEFÔNICA BRASIL S.A"
+    },
+    {
+        "ticker": "PCAR3.SA",
+        "nome": "CIA BRASILEIRA DE DISTRIBUICAO"
+    },
+    {
+        "ticker": "DESK3.SA",
+        "nome": "DESKTOP S.A."
+    },
+    {
+        "ticker": "PLPL3.SA",
+        "nome": "PLANO & PLANO DESENVOLVIMENTO IMOBILIÁRIO S.A."
+    },
+    {
+        "ticker": "ODPV3.SA",
+        "nome": "ODONTOPREV S.A."
+    },
+    {
+        "ticker": "LJQQ3.SA",
+        "nome": "LOJAS QUERO-QUERO S/A"
+    },
+    {
+        "ticker": "FNAM11.SA",
+        "nome": "FNAM11"
+    },
+    {
+        "ticker": "ENGI11.SA",
+        "nome": "ENERGISA S.A."
+    },
+    {
+        "ticker": "SBSP3.SA",
+        "nome": "CIA SANEAMENTO BASICO EST SAO PAULO"
+    },
+    {
+        "ticker": "INTB3.SA",
+        "nome": "INTELBRAS S.A. IND DE TELEC ELETRONICA BRASILEIRA"
+    },
+    {
+        "ticker": "LIGT3.SA",
+        "nome": "LIGHT S.A."
+    },
+    {
+        "ticker": "KLBN11.SA",
+        "nome": "KLABIN S.A."
+    },
+    {
+        "ticker": "BHIA3.SA",
+        "nome": "GRUPO CASAS BAHIA S.A."
+    },
+    {
+        "ticker": "CXSE3.SA",
+        "nome": "CAIXA SEGURIDADE PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "VIVA3.SA",
+        "nome": "VIVARA PARTICIPAÇOES S.A"
+    },
+    {
+        "ticker": "AZZA3.SA",
+        "nome": "AZZAS 2154 S.A."
+    },
+    {
+        "ticker": "SAPR4.SA",
+        "nome": "CIA SANEAMENTO DO PARANA - SANEPAR"
+    },
+    {
+        "ticker": "RECV3.SA",
+        "nome": "PETRORECÔNCAVO S.A."
+    },
+    {
+        "ticker": "BRAP4.SA",
+        "nome": "BRADESPAR S.A."
+    },
+    {
+        "ticker": "RDOR3.SA",
+        "nome": "REDE DOR SÃO LUIZ S.A."
+    },
+    {
+        "ticker": "TEND3.SA",
+        "nome": "CONSTRUTORA TENDA S.A."
+    },
+    {
+        "ticker": "CAML3.SA",
+        "nome": "CAMIL ALIMENTOS S.A."
+    },
+    {
+        "ticker": "ALPA4.SA",
+        "nome": "ALPARGATAS S.A."
+    },
+    {
+        "ticker": "USIM3.SA",
+        "nome": "USINAS SID DE MINAS GERAIS S.A.-USIMINAS"
+    },
+    {
+        "ticker": "CURY3.SA",
+        "nome": "CURY CONSTRUTORA E INCORPORADORA S.A."
+    },
+    {
+        "ticker": "DXCO3.SA",
+        "nome": "DEXCO S.A."
+    },
+    {
+        "ticker": "QUAL3.SA",
+        "nome": "QUALICORP CONSULTORIA E CORRETORA DE SEGUROS S.A."
+    },
+    {
+        "ticker": "KEPL3.SA",
+        "nome": "KEPLER WEBER S.A."
+    },
+    {
+        "ticker": "TSLA34.SA",
+        "nome": "TSLA34"
+    },
+    {
+        "ticker": "ALOS3.SA",
+        "nome": "ALLOS S.A"
+    },
+    {
+        "ticker": "IBOV11.SA",
+        "nome": "IBOV11"
+    },
+    {
+        "ticker": "RIAA3.SA",
+        "nome": "RIAA3"
+    },
+    {
+        "ticker": "ARML3.SA",
+        "nome": "ARMAC LOCAÇÃO. LOGÍSTICA E SERVIÇOS S.A."
+    },
+    {
+        "ticker": "MXRF11.SA",
+        "nome": "MXRF11"
+    },
+    {
+        "ticker": "NFLX34.SA",
+        "nome": "NFLX34"
+    },
+    {
+        "ticker": "PINE4.SA",
+        "nome": "BCO PINE S.A."
+    },
+    {
+        "ticker": "AURA33.SA",
+        "nome": "AURA MINERALS INC."
+    },
+    {
+        "ticker": "SBFG3.SA",
+        "nome": "GRUPO SBF SA"
+    },
+    {
+        "ticker": "SPXH11.SA",
+        "nome": "SPXH11"
+    },
+    {
+        "ticker": "VULC3.SA",
+        "nome": "VULCABRAS S.A."
+    },
+    {
+        "ticker": "POSI3.SA",
+        "nome": "POSITIVO TECNOLOGIA S.A."
+    },
+    {
+        "ticker": "MDNE3.SA",
+        "nome": "MOURA DUBEUX ENGENHARIA S/A"
+    },
+    {
+        "ticker": "FIQE3.SA",
+        "nome": "UNIFIQUE TELECOMUNICAÇÕES S.A."
+    },
+    {
+        "ticker": "VIUR11.SA",
+        "nome": "VIUR11"
+    },
+    {
+        "ticker": "BMGB4.SA",
+        "nome": "BANCO BMG S.A."
+    },
+    {
+        "ticker": "JSLG3.SA",
+        "nome": "JSL S.A."
+    },
+    {
+        "ticker": "INBR32.SA",
+        "nome": "INTER CO INC"
+    },
+    {
+        "ticker": "SMAL11.SA",
+        "nome": "SMAL11"
+    },
+    {
+        "ticker": "MULT3.SA",
+        "nome": "MULTIPLAN - EMPREEND IMOBILIARIOS S.A."
+    },
+    {
+        "ticker": "GRND3.SA",
+        "nome": "GRENDENE S.A."
+    },
+    {
+        "ticker": "SAPR11.SA",
+        "nome": "CIA SANEAMENTO DO PARANA - SANEPAR"
+    },
+    {
+        "ticker": "POMO3.SA",
+        "nome": "MARCOPOLO S.A."
+    },
+    {
+        "ticker": "CASH3.SA",
+        "nome": "MÉLIUZ S.A."
+    },
+    {
+        "ticker": "EGIE3.SA",
+        "nome": "ENGIE BRASIL ENERGIA S.A."
+    },
+    {
+        "ticker": "PRNR3.SA",
+        "nome": "PRINER SERVIÇOS INDUSTRIAIS S.A."
+    },
+    {
+        "ticker": "ISAE4.SA",
+        "nome": "ISA ENERGIA BRASIL S.A"
+    },
+    {
+        "ticker": "HBOR3.SA",
+        "nome": "HELBOR EMPREENDIMENTOS S.A."
+    },
+    {
+        "ticker": "SANB11.SA",
+        "nome": "BCO SANTANDER (BRASIL) S.A."
+    },
+    {
+        "ticker": "EZTC3.SA",
+        "nome": "EZ TEC EMPREEND. E PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "SLCE3.SA",
+        "nome": "SLC AGRICOLA S.A."
+    },
+    {
+        "ticker": "JALL3.SA",
+        "nome": "JALLES MACHADO S.A."
+    },
+    {
+        "ticker": "DASA3.SA",
+        "nome": "DIAGNOSTICOS DA AMERICA S.A."
+    },
+    {
+        "ticker": "TKNO4L.SA",
+        "nome": "TEKNO S.A. - INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "CSED3.SA",
+        "nome": "CRUZEIRO DO SUL EDUCACIONAL S.A."
+    },
+    {
+        "ticker": "TOTS3.SA",
+        "nome": "TOTVS S.A."
+    },
+    {
+        "ticker": "CPFE3.SA",
+        "nome": "CPFL ENERGIA S.A."
+    },
+    {
+        "ticker": "PNVL3.SA",
+        "nome": "DIMED S.A. DISTRIBUIDORA DE MEDICAMENTOS"
+    },
+    {
+        "ticker": "TAEE11.SA",
+        "nome": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A."
+    },
+    {
+        "ticker": "AXIA7.SA",
+        "nome": "AXIA7"
+    },
+    {
+        "ticker": "AXIA6.SA",
+        "nome": "AXIA6"
+    },
+    {
+        "ticker": "MELK3.SA",
+        "nome": "MELNICK DESENVOLVIMENTO IMOBILIÁRIO S.A."
+    },
+    {
+        "ticker": "KLBN3.SA",
+        "nome": "KLABIN S.A."
+    },
+    {
+        "ticker": "ITUB3.SA",
+        "nome": "ITAU UNIBANCO HOLDING S.A."
+    },
+    {
+        "ticker": "CTGP34.SA",
+        "nome": "CTGP34"
+    },
+    {
+        "ticker": "FLRY3.SA",
+        "nome": "FLEURY S.A."
+    },
+    {
+        "ticker": "CPTS11.SA",
+        "nome": "CPTS11"
+    },
+    {
+        "ticker": "HYPE3.SA",
+        "nome": "HYPERA S.A."
+    },
+    {
+        "ticker": "MYPK3.SA",
+        "nome": "IOCHPE MAXION S.A."
+    },
+    {
+        "ticker": "PSSA3.SA",
+        "nome": "PORTO SEGURO S.A."
+    },
+    {
+        "ticker": "VVEO3.SA",
+        "nome": "CM HOSPITALAR S.A."
+    },
+    {
+        "ticker": "BSTI39.SA",
+        "nome": "ISHARES 0-5 YEAR TIPS BOND ETF"
+    },
+    {
+        "ticker": "GGRC11.SA",
+        "nome": "GGRC11"
+    },
+    {
+        "ticker": "OBTC3.SA",
+        "nome": "ORANJEBTC S.A. - EDUCAÇÃO E INVESTIMENTO"
+    },
+    {
+        "ticker": "M1TA34.SA",
+        "nome": "M1TA34"
+    },
+    {
+        "ticker": "IGTI11.SA",
+        "nome": "IGUATEMI S.A."
+    },
+    {
+        "ticker": "AZEV3.SA",
+        "nome": "AZEVEDO E TRAVASSOS S.A."
+    },
+    {
+        "ticker": "BRSR6.SA",
+        "nome": "BCO ESTADO DO RIO GRANDE DO SUL S.A."
+    },
+    {
+        "ticker": "GFSA3.SA",
+        "nome": "GAFISA S.A."
+    },
+    {
+        "ticker": "MSFT34.SA",
+        "nome": "MSFT34"
+    },
+    {
+        "ticker": "GOLD11.SA",
+        "nome": "GOLD11"
+    },
+    {
+        "ticker": "RANI3.SA",
+        "nome": "IRANI PAPEL E EMBALAGEM S.A."
+    },
+    {
+        "ticker": "HBRE3.SA",
+        "nome": "HBR REALTY EMPREENDIMENTOS IMOBILIARIOS S/A"
+    },
+    {
+        "ticker": "VTRU3.SA",
+        "nome": "VITRU EDUCAÇÃO S.A"
+    },
+    {
+        "ticker": "TUPY3.SA",
+        "nome": "TUPY S.A."
+    },
+    {
+        "ticker": "OPCT3.SA",
+        "nome": "OCEANPACT SERVICOS MARITIMOS S.A."
+    },
+    {
+        "ticker": "MILS3.SA",
+        "nome": "MILLS LOCAÇÃO. SERVIÇOS E LOGÍSTICA S.A"
+    },
+    {
+        "ticker": "BABA34.SA",
+        "nome": "BABA34"
+    },
+    {
+        "ticker": "RURA11.SA",
+        "nome": "RURA11"
+    },
+    {
+        "ticker": "KNSC11.SA",
+        "nome": "KNSC11"
+    },
+    {
+        "ticker": "INEP4.SA",
+        "nome": "INEPAR S.A. INDUSTRIA E CONSTRUCOES"
+    },
+    {
+        "ticker": "GGPS3.SA",
+        "nome": "GPS PARTICIPACOES E EMPREENDIMENTOS S.A."
+    },
+    {
+        "ticker": "TTEN3.SA",
+        "nome": "TRÊS TENTOS AGROINDUSTRIAL S/A"
+    },
+    {
+        "ticker": "VGIR11.SA",
+        "nome": "VGIR11"
+    },
+    {
+        "ticker": "BMOB3.SA",
+        "nome": "BEMOBI MOBILE TECH S.A."
+    },
+    {
+        "ticker": "FESA4.SA",
+        "nome": "CIA FERRO LIGAS DA BAHIA - FERBASA"
+    },
+    {
+        "ticker": "VGIA11.SA",
+        "nome": "VGIA11"
+    },
+    {
+        "ticker": "HBSA3.SA",
+        "nome": "HIDROVIAS DO BRASIL S.A."
+    },
+    {
+        "ticker": "PETR4F.SA",
+        "nome": "PETROLEO BRASILEIRO S.A. PETROBRAS"
+    },
+    {
+        "ticker": "VITT3.SA",
+        "nome": "VITTIA S.A."
+    },
+    {
+        "ticker": "ALLD3.SA",
+        "nome": "ALLIED TECNOLOGIA S.A."
+    },
+    {
+        "ticker": "SEQL3.SA",
+        "nome": "SEQUOIA LOGISTICA E TRANSPORTES S.A"
+    },
+    {
+        "ticker": "ABCB4.SA",
+        "nome": "BCO ABC BRASIL S.A."
+    },
+    {
+        "ticker": "TFCO4.SA",
+        "nome": "TRACK & FIELD CO S.A."
+    },
+    {
+        "ticker": "CMDB11.SA",
+        "nome": "CMDB11"
+    },
+    {
+        "ticker": "PTBL3.SA",
+        "nome": "PBG S/A"
+    },
+    {
+        "ticker": "AVLL3.SA",
+        "nome": "ALPHAVILLE S.A."
+    },
+    {
+        "ticker": "IRBR3.SA",
+        "nome": "IRB - BRASIL RESSEGUROS S.A."
+    },
+    {
+        "ticker": "LTBX11.SA",
+        "nome": "LTBX11"
+    },
+    {
+        "ticker": "RNEW3.SA",
+        "nome": "RENOVA ENERGIA S.A."
+    },
+    {
+        "ticker": "SOJA3.SA",
+        "nome": "BOA SAFRA SEMENTES S.A."
+    },
+    {
+        "ticker": "AMZO34.SA",
+        "nome": "AMZO34"
+    },
+    {
+        "ticker": "BTHF11.SA",
+        "nome": "BTHF11"
+    },
+    {
+        "ticker": "LFTB11.SA",
+        "nome": "LFTB11"
+    },
+    {
+        "ticker": "TASA4.SA",
+        "nome": "TAURUS ARMAS S.A."
+    },
+    {
+        "ticker": "OXRL11.SA",
+        "nome": "OXRL11"
+    },
+    {
+        "ticker": "SNAG11.SA",
+        "nome": "SNAG11"
+    },
+    {
+        "ticker": "MTRE3.SA",
+        "nome": "MITRE REALTY EMPREENDIMENTOS E PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "DOLA11.SA",
+        "nome": "DOLA11"
+    },
+    {
+        "ticker": "VGHF11.SA",
+        "nome": "VGHF11"
+    },
+    {
+        "ticker": "SEER3.SA",
+        "nome": "SER EDUCACIONAL S.A."
+    },
+    {
+        "ticker": "ORVR3.SA",
+        "nome": "ORIZON VALORIZACAO DE RESIDUOS S.A."
+    },
+    {
+        "ticker": "RAPT3.SA",
+        "nome": "RANDONCORP S.A."
+    },
+    {
+        "ticker": "LIFE11.SA",
+        "nome": "LIFE11"
+    },
+    {
+        "ticker": "CYRE4.SA",
+        "nome": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART"
+    },
+    {
+        "ticker": "FGAA11.SA",
+        "nome": "FGAA11"
+    },
+    {
+        "ticker": "HGBS11.SA",
+        "nome": "HGBS11"
+    },
+    {
+        "ticker": "ITLC34.SA",
+        "nome": "ITLC34"
+    },
+    {
+        "ticker": "AMOB3F.SA",
+        "nome": "AUTOMOB PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "SYNE3.SA",
+        "nome": "SYN PROP E TECH S.A."
+    },
+    {
+        "ticker": "TGMA3.SA",
+        "nome": "TEGMA GESTAO LOGISTICA S.A."
+    },
+    {
+        "ticker": "HFOF11.SA",
+        "nome": "HFOF11"
+    },
+    {
+        "ticker": "EVEN3.SA",
+        "nome": "EVEN CONSTRUTORA E INCORPORADORA S.A."
+    },
+    {
+        "ticker": "JBSS32.SA",
+        "nome": "JBS N.V."
+    },
+    {
+        "ticker": "WIZC3.SA",
+        "nome": "WIZ CO PARTICIPAÇÕES E CORRETAGEM DE SEGUROS S.A."
+    },
+    {
+        "ticker": "TAEE4.SA",
+        "nome": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A."
+    },
+    {
+        "ticker": "BTCI11.SA",
+        "nome": "BTCI11"
+    },
+    {
+        "ticker": "VSLH11.SA",
+        "nome": "VSLH11"
+    },
+    {
+        "ticker": "INEP3.SA",
+        "nome": "INEPAR S.A. INDUSTRIA E CONSTRUCOES"
+    },
+    {
+        "ticker": "SHUL4.SA",
+        "nome": "SCHULZ S.A."
+    },
+    {
+        "ticker": "ALZR11.SA",
+        "nome": "ALZR11"
+    },
+    {
+        "ticker": "XPBR31.SA",
+        "nome": "XP INC."
+    },
+    {
+        "ticker": "BLAU3.SA",
+        "nome": "BLAU FARMACÊUTICA S.A."
+    },
+    {
+        "ticker": "MCRE11.SA",
+        "nome": "MCRE11"
+    },
+    {
+        "ticker": "AAPL34.SA",
+        "nome": "AAPL34"
+    },
+    {
+        "ticker": "MELI34.SA",
+        "nome": "MELI34"
+    },
+    {
+        "ticker": "TRXF11.SA",
+        "nome": "TRXF11"
+    },
+    {
+        "ticker": "VLID3.SA",
+        "nome": "VALID SOLUÇÕES S.A."
+    },
+    {
+        "ticker": "STOC34.SA",
+        "nome": "STOC34"
+    },
+    {
+        "ticker": "IMAB11.SA",
+        "nome": "IMAB11"
+    },
+    {
+        "ticker": "MLAS3.SA",
+        "nome": "GRUPO MULTI S.A."
+    },
+    {
+        "ticker": "RNEW4.SA",
+        "nome": "RENOVA ENERGIA S.A."
+    },
+    {
+        "ticker": "BRBI11.SA",
+        "nome": "BRBI BR PARTNERS S.A."
+    },
+    {
+        "ticker": "AGRO3.SA",
+        "nome": "BRASILAGRO - CIA BRAS DE PROP AGRICOLAS"
+    },
+    {
+        "ticker": "ALUP11.SA",
+        "nome": "ALUPAR INVESTIMENTO S/A"
+    },
+    {
+        "ticker": "HREC11.SA",
+        "nome": "HREC11"
+    },
+    {
+        "ticker": "SNEL11.SA",
+        "nome": "SNEL11"
+    },
+    {
+        "ticker": "ALUP4F.SA",
+        "nome": "ALUPAR INVESTIMENTO S/A"
+    },
+    {
+        "ticker": "SPG211.SA",
+        "nome": "SPG211"
+    },
+    {
+        "ticker": "ENJU3.SA",
+        "nome": "ENJOEI S.A."
+    },
+    {
+        "ticker": "RBVA11.SA",
+        "nome": "RBVA11"
+    },
+    {
+        "ticker": "BBAS3F.SA",
+        "nome": "BCO BRASIL S.A."
+    },
+    {
+        "ticker": "SAPR3.SA",
+        "nome": "CIA SANEAMENTO DO PARANA - SANEPAR"
+    },
+    {
+        "ticker": "GOGL34.SA",
+        "nome": "GOGL34"
+    },
+    {
+        "ticker": "LSOP11.SA",
+        "nome": "LSOP11"
+    },
+    {
+        "ticker": "BRKM3.SA",
+        "nome": "BRASKEM S.A."
+    },
+    {
+        "ticker": "TAEE3.SA",
+        "nome": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A."
+    },
+    {
+        "ticker": "MDIA3.SA",
+        "nome": "M.DIAS BRANCO S.A. IND COM DE ALIMENTOS"
+    },
+    {
+        "ticker": "VINO11.SA",
+        "nome": "VINO11"
+    },
+    {
+        "ticker": "VIVR3.SA",
+        "nome": "VIVER INCORPORADORA E CONSTRUTORA S.A."
+    },
+    {
+        "ticker": "RZAG11.SA",
+        "nome": "RZAG11"
+    },
+    {
+        "ticker": "PETR3F.SA",
+        "nome": "PETROLEO BRASILEIRO S.A. PETROBRAS"
+    },
+    {
+        "ticker": "HASH11.SA",
+        "nome": "HASH11"
+    },
+    {
+        "ticker": "N1OW34.SA",
+        "nome": "N1OW34"
+    },
+    {
+        "ticker": "LFTS11.SA",
+        "nome": "LFTS11"
+    },
+    {
+        "ticker": "C1GP34.SA",
+        "nome": "C1GP34"
+    },
+    {
+        "ticker": "AGXY3F.SA",
+        "nome": "AGROGALAXY PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "ETHE11.SA",
+        "nome": "ETHE11"
+    },
+    {
+        "ticker": "LEVE3.SA",
+        "nome": "MAHLE-METAL LEVE S.A."
+    },
+    {
+        "ticker": "LAVV3.SA",
+        "nome": "LAVVI EMPREENDIMENTOS IMOBILIÁRIOS S.A."
+    },
+    {
+        "ticker": "TASA3.SA",
+        "nome": "TAURUS ARMAS S.A."
+    },
+    {
+        "ticker": "KNCR11.SA",
+        "nome": "KNCR11"
+    },
+    {
+        "ticker": "MUTC34.SA",
+        "nome": "MUTC34"
+    },
+    {
+        "ticker": "QBTC11.SA",
+        "nome": "QBTC11"
+    },
+    {
+        "ticker": "UNIP6.SA",
+        "nome": "UNIPAR CARBOCLORO S.A."
+    },
+    {
+        "ticker": "VGRI11.SA",
+        "nome": "VGRI11"
+    },
+    {
+        "ticker": "GENB11.SA",
+        "nome": "GENB11"
+    },
+    {
+        "ticker": "NASD11.SA",
+        "nome": "NASD11"
+    },
+    {
+        "ticker": "D2PZ34.SA",
+        "nome": "D2PZ34"
+    },
+    {
+        "ticker": "CMIG3.SA",
+        "nome": "CIA ENERGETICA DE MINAS GERAIS - CEMIG"
+    },
+    {
+        "ticker": "HCTR11.SA",
+        "nome": "HCTR11"
+    },
+    {
+        "ticker": "KDIF11.SA",
+        "nome": "KDIF11"
+    },
+    {
+        "ticker": "XPML11.SA",
+        "nome": "XPML11"
+    },
+    {
+        "ticker": "RBRX11.SA",
+        "nome": "RBRX11"
+    },
+    {
+        "ticker": "ITSA4F.SA",
+        "nome": "ITAUSA S.A."
+    },
+    {
+        "ticker": "EPAR3.SA",
+        "nome": "EMBPAR PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "BAAX39.SA",
+        "nome": "ISHARES MSCI ALL COUNTRY ASIA EX JAPAN ETF"
+    },
+    {
+        "ticker": "TKNO3L.SA",
+        "nome": "TEKNO S.A. - INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "Q2SC34.SA",
+        "nome": "Q2SC34"
+    },
+    {
+        "ticker": "AGRX11.SA",
+        "nome": "AGRX11"
+    },
+    {
+        "ticker": "ROMI3.SA",
+        "nome": "ROMI S.A."
+    },
+    {
+        "ticker": "COIN11.SA",
+        "nome": "COIN11"
+    },
+    {
+        "ticker": "5PRE11.SA",
+        "nome": "5PRE11"
+    },
+    {
+        "ticker": "KLBN4F.SA",
+        "nome": "KLABIN S.A."
+    },
+    {
+        "ticker": "ALPA3.SA",
+        "nome": "ALPARGATAS S.A."
+    },
+    {
+        "ticker": "ORCL34.SA",
+        "nome": "ORCL34"
+    },
+    {
+        "ticker": "PRIO3F.SA",
+        "nome": "PRIO S.A."
+    },
+    {
+        "ticker": "BCTE39.SA",
+        "nome": "GLOBAL X CLEANTECH ETF"
+    },
+    {
+        "ticker": "SANB4.SA",
+        "nome": "BCO SANTANDER (BRASIL) S.A."
+    },
+    {
+        "ticker": "BMIL39.SA",
+        "nome": "GLOBAL X MILLENNIAL CONSUMER ETF"
+    },
+    {
+        "ticker": "TOKY3.SA",
+        "nome": "TOKY3"
+    },
+    {
+        "ticker": "BBSE3F.SA",
+        "nome": "BB SEGURIDADE PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "RBRL11.SA",
+        "nome": "RBRL11"
+    },
+    {
+        "ticker": "BTLG11.SA",
+        "nome": "BTLG11"
+    },
+    {
+        "ticker": "RENT4.SA",
+        "nome": "LOCALIZA RENT A CAR S.A."
+    },
+    {
+        "ticker": "BOVV11.SA",
+        "nome": "BOVV11"
+    },
+    {
+        "ticker": "TRIS3.SA",
+        "nome": "TRISUL S.A."
+    },
+    {
+        "ticker": "VALE3F.SA",
+        "nome": "VALE S.A."
+    },
+    {
+        "ticker": "EWBZ11.SA",
+        "nome": "EWBZ11"
+    },
+    {
+        "ticker": "RECT11.SA",
+        "nome": "RECT11"
+    },
+    {
+        "ticker": "RECM11.SA",
+        "nome": "RECM11"
+    },
+    {
+        "ticker": "BITH11.SA",
+        "nome": "BITH11"
+    },
+    {
+        "ticker": "IVVB11.SA",
+        "nome": "IVVB11"
+    },
+    {
+        "ticker": "CMIG4F.SA",
+        "nome": "CIA ENERGETICA DE MINAS GERAIS - CEMIG"
+    },
+    {
+        "ticker": "JFEN3.SA",
+        "nome": "JOAO FORTES ENGENHARIA S.A."
+    },
+    {
+        "ticker": "BSLI3.SA",
+        "nome": "BRB BCO DE BRASILIA S.A."
+    },
+    {
+        "ticker": "CPSH11.SA",
+        "nome": "CPSH11"
+    },
+    {
+        "ticker": "HGLG11.SA",
+        "nome": "HGLG11"
+    },
+    {
+        "ticker": "XPCA11.SA",
+        "nome": "XPCA11"
+    },
+    {
+        "ticker": "ITUB4F.SA",
+        "nome": "ITAU UNIBANCO HOLDING S.A."
+    },
+    {
+        "ticker": "ESPA3.SA",
+        "nome": "MPM CORPÓREOS S.A."
+    },
+    {
+        "ticker": "BIET39.SA",
+        "nome": "ISHARES EXPANDED TECH-SOFTWARE SECTOR ETF"
+    },
+    {
+        "ticker": "NIKE34.SA",
+        "nome": "NIKE34"
+    },
+    {
+        "ticker": "LOGG3.SA",
+        "nome": "LOG COMMERCIAL PROPERTIES"
+    },
+    {
+        "ticker": "GOAU3.SA",
+        "nome": "METALURGICA GERDAU S.A."
+    },
+    {
+        "ticker": "DVER11.SA",
+        "nome": "DVER11"
+    },
+    {
+        "ticker": "I1QY34.SA",
+        "nome": "I1QY34"
+    },
+    {
+        "ticker": "DEXP3.SA",
+        "nome": "DEXXOS PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "CYCR11.SA",
+        "nome": "CYCR11"
+    },
+    {
+        "ticker": "IFCM3.SA",
+        "nome": "INFRACOMMERCE CXAAS S.A."
+    },
+    {
+        "ticker": "VISC11.SA",
+        "nome": "VISC11"
+    },
+    {
+        "ticker": "MIDB11.SA",
+        "nome": "MIDB11"
+    },
+    {
+        "ticker": "LPSB3.SA",
+        "nome": "LPS BRASIL - CONSULTORIA DE IMOVEIS S.A."
+    },
+    {
+        "ticker": "ITSA3.SA",
+        "nome": "ITAUSA S.A."
+    },
+    {
+        "ticker": "HDOF11.SA",
+        "nome": "HDOF11"
+    },
+    {
+        "ticker": "GDXB39.SA",
+        "nome": "VANECK GOLD MINERS ETF"
+    },
+    {
+        "ticker": "CAPE11.SA",
+        "nome": "CAPE11"
+    },
+    {
+        "ticker": "AUPO11.SA",
+        "nome": "AUPO11"
+    },
+    {
+        "ticker": "BVBR11.SA",
+        "nome": "BVBR11"
+    },
+    {
+        "ticker": "BRCO11.SA",
+        "nome": "BRCO11"
+    },
+    {
+        "ticker": "BRST3.SA",
+        "nome": "BRISANET SERVIÇOS DE TELECOMUNICAÇÕES S.A."
+    },
+    {
+        "ticker": "RCSL3.SA",
+        "nome": "RECRUSUL S.A."
+    },
+    {
+        "ticker": "CXSE3F.SA",
+        "nome": "CAIXA SEGURIDADE PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "PTNT4.SA",
+        "nome": "PETTENATI S.A. INDUSTRIA TEXTIL"
+    },
+    {
+        "ticker": "JHSF3F.SA",
+        "nome": "JHSF PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "TGAR11.SA",
+        "nome": "TGAR11"
+    },
+    {
+        "ticker": "BBDC4F.SA",
+        "nome": "BCO BRADESCO S.A."
+    },
+    {
+        "ticker": "CTAX3.SA",
+        "nome": "CTAX3"
+    },
+    {
+        "ticker": "AURE3F.SA",
+        "nome": "AUREN ENERGIA S.A."
+    },
+    {
+        "ticker": "FIXA11.SA",
+        "nome": "FIXA11"
+    },
+    {
+        "ticker": "T2TD34.SA",
+        "nome": "T2TD34"
+    },
+    {
+        "ticker": "AAZQ11.SA",
+        "nome": "AAZQ11"
+    },
+    {
+        "ticker": "B5P211.SA",
+        "nome": "B5P211"
+    },
+    {
+        "ticker": "QETH11.SA",
+        "nome": "QETH11"
+    },
+    {
+        "ticker": "RECR11.SA",
+        "nome": "RECR11"
+    },
+    {
+        "ticker": "SAPR4F.SA",
+        "nome": "CIA SANEAMENTO DO PARANA - SANEPAR"
+    },
+    {
+        "ticker": "BDIF11.SA",
+        "nome": "BDIF11"
+    },
+    {
+        "ticker": "B3SA3F.SA",
+        "nome": "B3 S.A. - BRASIL. BOLSA. BALCÃO"
+    },
+    {
+        "ticker": "MANA11.SA",
+        "nome": "MANA11"
+    },
+    {
+        "ticker": "XINA11.SA",
+        "nome": "XINA11"
+    },
+    {
+        "ticker": "PRXB31.SA",
+        "nome": "PROSUS N.V."
+    },
+    {
+        "ticker": "ADBE34.SA",
+        "nome": "ADBE34"
+    },
+    {
+        "ticker": "PAGS34.SA",
+        "nome": "PAGS34"
+    },
+    {
+        "ticker": "FRAS3.SA",
+        "nome": "FRASLE MOBILITY S.A."
+    },
+    {
+        "ticker": "IRIM11.SA",
+        "nome": "IRIM11"
+    },
+    {
+        "ticker": "SNFZ11.SA",
+        "nome": "SNFZ11"
+    },
+    {
+        "ticker": "RAIZ4F.SA",
+        "nome": "RAIZEN S.A."
+    },
+    {
+        "ticker": "KISU11.SA",
+        "nome": "KISU11"
+    },
+    {
+        "ticker": "BPAC5.SA",
+        "nome": "BCO BTG PACTUAL S.A."
+    },
+    {
+        "ticker": "TSMC34.SA",
+        "nome": "TSMC34"
+    },
+    {
+        "ticker": "AGXY3.SA",
+        "nome": "AGROGALAXY PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "CPLE3F.SA",
+        "nome": "CIA PARANAENSE DE ENERGIA - COPEL"
+    },
+    {
+        "ticker": "BDOM11.SA",
+        "nome": "BDOM11"
+    },
+    {
+        "ticker": "DEBB11.SA",
+        "nome": "DEBB11"
+    },
+    {
+        "ticker": "SPXS11.SA",
+        "nome": "SPXS11"
+    },
+    {
+        "ticker": "BIYW39.SA",
+        "nome": "ISHARES US TECHNOLOGY ETF"
+    },
+    {
+        "ticker": "AROA11.SA",
+        "nome": "AROA11"
+    },
+    {
+        "ticker": "BIEO39.SA",
+        "nome": "ISHARES US OIL & GAS EXPLORATION & PRODUCTION ETF"
+    },
+    {
+        "ticker": "ETER3.SA",
+        "nome": "ETERNIT S.A."
+    },
+    {
+        "ticker": "C2OI34.SA",
+        "nome": "C2OI34"
+    },
+    {
+        "ticker": "TEPP11.SA",
+        "nome": "TEPP11"
+    },
+    {
+        "ticker": "P2LT34.SA",
+        "nome": "P2LT34"
+    },
+    {
+        "ticker": "ENDD11.SA",
+        "nome": "ENDD11"
+    },
+    {
+        "ticker": "WEGE3F.SA",
+        "nome": "WEG S.A."
+    },
+    {
+        "ticker": "PVBI11.SA",
+        "nome": "PVBI11"
+    },
+    {
+        "ticker": "LOGN3.SA",
+        "nome": "LOG-IN LOGISTICA INTERMODAL S.A."
+    },
+    {
+        "ticker": "JSAF11.SA",
+        "nome": "JSAF11"
+    },
+    {
+        "ticker": "KNCA11.SA",
+        "nome": "KNCA11"
+    },
+    {
+        "ticker": "MGLU3F.SA",
+        "nome": "MAGAZINE LUIZA S.A."
+    },
+    {
+        "ticker": "EXXO34.SA",
+        "nome": "EXXO34"
+    },
+    {
+        "ticker": "ISAE3.SA",
+        "nome": "ISA ENERGIA BRASIL S.A"
+    },
+    {
+        "ticker": "P2TC34.SA",
+        "nome": "P2TC34"
+    },
+    {
+        "ticker": "BOVX11.SA",
+        "nome": "BOVX11"
+    },
+    {
+        "ticker": "AMOB3.SA",
+        "nome": "AUTOMOB PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "BSLV39.SA",
+        "nome": "ISHARES SILVER TRUST"
+    },
+    {
+        "ticker": "SMAB11.SA",
+        "nome": "SMAB11"
+    },
+    {
+        "ticker": "PFIN11.SA",
+        "nome": "PFIN11"
+    },
+    {
+        "ticker": "IAAG11.SA",
+        "nome": "IAAG11"
+    },
+    {
+        "ticker": "AMAR3.SA",
+        "nome": "MARISA LOJAS S.A."
+    },
+    {
+        "ticker": "AVGO34.SA",
+        "nome": "AVGO34"
+    },
+    {
+        "ticker": "CDII11.SA",
+        "nome": "CDII11"
+    },
+    {
+        "ticker": "BAZA3.SA",
+        "nome": "BCO AMAZONIA S.A."
+    },
+    {
+        "ticker": "RBRY11.SA",
+        "nome": "RBRY11"
+    },
+    {
+        "ticker": "MSCD34.SA",
+        "nome": "MSCD34"
+    },
+    {
+        "ticker": "ENGI4.SA",
+        "nome": "ENERGISA S.A."
+    },
+    {
+        "ticker": "DCRA11.SA",
+        "nome": "DCRA11"
+    },
+    {
+        "ticker": "CSMG3F.SA",
+        "nome": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG"
+    },
+    {
+        "ticker": "DISB34.SA",
+        "nome": "DISB34"
+    },
+    {
+        "ticker": "CGRA4.SA",
+        "nome": "GRAZZIOTIN S.A."
+    },
+    {
+        "ticker": "BOL511.SA",
+        "nome": "BOL511"
+    },
+    {
+        "ticker": "PSVM11.SA",
+        "nome": "PORTO SUDESTE V.M. S.A."
+    },
+    {
+        "ticker": "BEWJ39.SA",
+        "nome": "ISHARES MSCI JAPAN ETF"
+    },
+    {
+        "ticker": "SOLH11.SA",
+        "nome": "SOLH11"
+    },
+    {
+        "ticker": "A1MD34.SA",
+        "nome": "A1MD34"
+    },
+    {
+        "ticker": "BBIG11.SA",
+        "nome": "BBIG11"
+    },
+    {
+        "ticker": "DEVA11.SA",
+        "nome": "DEVA11"
+    },
+    {
+        "ticker": "WRLD11.SA",
+        "nome": "WRLD11"
+    },
+    {
+        "ticker": "ARRI11.SA",
+        "nome": "ARRI11"
+    },
+    {
+        "ticker": "MCCI11.SA",
+        "nome": "MCCI11"
+    },
+    {
+        "ticker": "BIPC39.SA",
+        "nome": "ISHARES CORE MSCI PACIFIC ETF"
+    },
+    {
+        "ticker": "PMFO11.SA",
+        "nome": "PMFO11"
+    },
+    {
+        "ticker": "M2PM34.SA",
+        "nome": "M2PM34"
+    },
+    {
+        "ticker": "PORD11.SA",
+        "nome": "PORD11"
+    },
+    {
+        "ticker": "FIND11.SA",
+        "nome": "FIND11"
+    },
+    {
+        "ticker": "VCRI11.SA",
+        "nome": "VCRI11"
+    },
+    {
+        "ticker": "RBFM11.SA",
+        "nome": "RBFM11"
+    },
+    {
+        "ticker": "AXIA3F.SA",
+        "nome": "AXIA3F"
+    },
+    {
+        "ticker": "CNIC34.SA",
+        "nome": "CNIC34"
+    },
+    {
+        "ticker": "SANB3.SA",
+        "nome": "BCO SANTANDER (BRASIL) S.A."
+    },
+    {
+        "ticker": "BPAC3.SA",
+        "nome": "BCO BTG PACTUAL S.A."
+    },
+    {
+        "ticker": "BOBR4.SA",
+        "nome": "BOMBRIL S.A."
+    },
+    {
+        "ticker": "TD3511.SA",
+        "nome": "TD3511"
+    },
+    {
+        "ticker": "RZTR11.SA",
+        "nome": "RZTR11"
+    },
+    {
+        "ticker": "BRAP3.SA",
+        "nome": "BRADESPAR S.A."
+    },
+    {
+        "ticker": "BITB39.SA",
+        "nome": "ISHARES U.S. HOME CONSTRUCTION ETF"
+    },
+    {
+        "ticker": "VULC3F.SA",
+        "nome": "VULCABRAS S.A."
+    },
+    {
+        "ticker": "SNME11.SA",
+        "nome": "SNME11"
+    },
+    {
+        "ticker": "SPYI11.SA",
+        "nome": "SPYI11"
+    },
+    {
+        "ticker": "FHER3.SA",
+        "nome": "FERTILIZANTES HERINGER S.A."
+    },
+    {
+        "ticker": "PINE10.SA",
+        "nome": "BCO PINE S.A."
+    },
+    {
+        "ticker": "CMIN3F.SA",
+        "nome": "CSN MINERAÇÃO S.A."
+    },
+    {
+        "ticker": "ACWI11.SA",
+        "nome": "ACWI11"
+    },
+    {
+        "ticker": "USIM5F.SA",
+        "nome": "USINAS SID DE MINAS GERAIS S.A.-USIMINAS"
+    },
+    {
+        "ticker": "KLBN3F.SA",
+        "nome": "KLABIN S.A."
+    },
+    {
+        "ticker": "S2GM34.SA",
+        "nome": "S2GM34"
+    },
+    {
+        "ticker": "RECV3F.SA",
+        "nome": "PETRORECÔNCAVO S.A."
+    },
+    {
+        "ticker": "GGBR3.SA",
+        "nome": "GERDAU S.A."
+    },
+    {
+        "ticker": "VCJR11.SA",
+        "nome": "VCJR11"
+    },
+    {
+        "ticker": "XPLG11.SA",
+        "nome": "XPLG11"
+    },
+    {
+        "ticker": "BMGB4F.SA",
+        "nome": "BANCO BMG S.A."
+    },
+    {
+        "ticker": "POMO4F.SA",
+        "nome": "MARCOPOLO S.A."
+    },
+    {
+        "ticker": "LBRD34.SA",
+        "nome": "LBRD34"
+    },
+    {
+        "ticker": "COCA34.SA",
+        "nome": "COCA34"
+    },
+    {
+        "ticker": "XPSF11.SA",
+        "nome": "XPSF11"
+    },
+    {
+        "ticker": "AUVP11.SA",
+        "nome": "AUVP11"
+    },
+    {
+        "ticker": "TORD11.SA",
+        "nome": "TORD11"
+    },
+    {
+        "ticker": "ALUP4.SA",
+        "nome": "ALUPAR INVESTIMENTO S/A"
+    },
+    {
+        "ticker": "CPTI11.SA",
+        "nome": "CPTI11"
+    },
+    {
+        "ticker": "XB5011.SA",
+        "nome": "XB5011"
+    },
+    {
+        "ticker": "GOAU4F.SA",
+        "nome": "METALURGICA GERDAU S.A."
+    },
+    {
+        "ticker": "CSAN3F.SA",
+        "nome": "COSAN S.A."
+    },
+    {
+        "ticker": "BRAV3F.SA",
+        "nome": "BRAVA ENERGIA S.A."
+    },
+    {
+        "ticker": "MBRF3F.SA",
+        "nome": "MBRF3F"
+    },
+    {
+        "ticker": "ABEV3F.SA",
+        "nome": "AMBEV S.A."
+    },
+    {
+        "ticker": "EMBJ3F.SA",
+        "nome": "EMBJ3F"
+    },
+    {
+        "ticker": "IGTI3.SA",
+        "nome": "IGUATEMI S.A."
+    },
+    {
+        "ticker": "SIVR39.SA",
+        "nome": "ABRDN PHYSICAL SILVER SHARES ETF"
+    },
+    {
+        "ticker": "PFRM3.SA",
+        "nome": "PROFARMA DISTRIB PROD FARMACEUTICOS S.A."
+    },
+    {
+        "ticker": "BIXN39.SA",
+        "nome": "ISHARES GLOBAL TECH ETF"
+    },
+    {
+        "ticker": "RBRR11.SA",
+        "nome": "RBRR11"
+    },
+    {
+        "ticker": "B5MB11.SA",
+        "nome": "B5MB11"
+    },
+    {
+        "ticker": "DUOL34.SA",
+        "nome": "DUOL34"
+    },
+    {
+        "ticker": "BGIP3.SA",
+        "nome": "BCO ESTADO DE SERGIPE S.A. - BANESE"
+    },
+    {
+        "ticker": "ISAE4F.SA",
+        "nome": "ISA ENERGIA BRASIL S.A"
+    },
+    {
+        "ticker": "SSFO34.SA",
+        "nome": "SSFO34"
+    },
+    {
+        "ticker": "PTNT3.SA",
+        "nome": "PETTENATI S.A. INDUSTRIA TEXTIL"
+    },
+    {
+        "ticker": "SUZB3F.SA",
+        "nome": "SUZANO S.A."
+    },
+    {
+        "ticker": "EGIE3F.SA",
+        "nome": "ENGIE BRASIL ENERGIA S.A."
+    },
+    {
+        "ticker": "ALPK3.SA",
+        "nome": "ALLPARK EMPREENDIMENTOS PARTICIPACOES SERVICOS S.A"
+    },
+    {
+        "ticker": "DIVD11.SA",
+        "nome": "DIVD11"
+    },
+    {
+        "ticker": "GMAT3F.SA",
+        "nome": "GRUPO MATEUS S.A."
+    },
+    {
+        "ticker": "VILG11.SA",
+        "nome": "VILG11"
+    },
+    {
+        "ticker": "SAPI11.SA",
+        "nome": "SAPI11"
+    },
+    {
+        "ticker": "DMVF3.SA",
+        "nome": "D1000 VAREJO FARMA PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "G2DI33.SA",
+        "nome": "G2D INVESTMENTS LTD"
+    },
+    {
+        "ticker": "BODB11.SA",
+        "nome": "BODB11"
+    },
+    {
+        "ticker": "BKNG34.SA",
+        "nome": "BKNG34"
+    },
+    {
+        "ticker": "LVBI11.SA",
+        "nome": "LVBI11"
+    },
+    {
+        "ticker": "BBDC3F.SA",
+        "nome": "BCO BRADESCO S.A."
+    },
+    {
+        "ticker": "CHVX34.SA",
+        "nome": "CHVX34"
+    },
+    {
+        "ticker": "VRTM11.SA",
+        "nome": "VRTM11"
+    },
+    {
+        "ticker": "COGN3F.SA",
+        "nome": "COGNA EDUCAÇÃO S.A."
+    },
+    {
+        "ticker": "EQIR11.SA",
+        "nome": "EQIR11"
+    },
+    {
+        "ticker": "USDB11.SA",
+        "nome": "USDB11"
+    },
+    {
+        "ticker": "RADL3F.SA",
+        "nome": "RAIA DROGASIL S.A."
+    },
+    {
+        "ticker": "SLCE3F.SA",
+        "nome": "SLC AGRICOLA S.A."
+    },
+    {
+        "ticker": "TECN3.SA",
+        "nome": "TECHNOS S.A."
+    },
+    {
+        "ticker": "CAML3F.SA",
+        "nome": "CAMIL ALIMENTOS S.A."
+    },
+    {
+        "ticker": "SMTO3F.SA",
+        "nome": "SAO MARTINHO S.A."
+    },
+    {
+        "ticker": "UNIP3F.SA",
+        "nome": "UNIPAR CARBOCLORO S.A."
+    },
+    {
+        "ticker": "PATI3.SA",
+        "nome": "PANATLANTICA S.A."
+    },
+    {
+        "ticker": "BEES3.SA",
+        "nome": "BANESTES S.A. - BCO EST ESPIRITO SANTO"
+    },
+    {
+        "ticker": "MEAL3.SA",
+        "nome": "INTERNATIONAL MEAL COMPANY ALIMENTACAO S.A."
+    },
+    {
+        "ticker": "HAPV3F.SA",
+        "nome": "HAPVIDA PARTICIPACOES E INVESTIMENTOS SA"
+    },
+    {
+        "ticker": "CPTR11.SA",
+        "nome": "CPTR11"
+    },
+    {
+        "ticker": "SBSP3F.SA",
+        "nome": "CIA SANEAMENTO BASICO EST SAO PAULO"
+    },
+    {
+        "ticker": "PSSA3F.SA",
+        "nome": "PORTO SEGURO S.A."
+    },
+    {
+        "ticker": "S1BS34.SA",
+        "nome": "S1BS34"
+    },
+    {
+        "ticker": "CEDO4.SA",
+        "nome": "CIA FIACAO TECIDOS CEDRO CACHOEIRA"
+    },
+    {
+        "ticker": "DIVO11.SA",
+        "nome": "DIVO11"
+    },
+    {
+        "ticker": "EWJV39.SA",
+        "nome": "ISHARES MSCI JAPAN VALUE ETF"
+    },
+    {
+        "ticker": "GRND3F.SA",
+        "nome": "GRENDENE S.A."
+    },
+    {
+        "ticker": "HGRU11.SA",
+        "nome": "HGRU11"
+    },
+    {
+        "ticker": "QSOL11.SA",
+        "nome": "QSOL11"
+    },
+    {
+        "ticker": "HSML11.SA",
+        "nome": "HSML11"
+    },
+    {
+        "ticker": "PSEC11.SA",
+        "nome": "PSEC11"
+    },
+    {
+        "ticker": "RSID3.SA",
+        "nome": "ROSSI RESIDENCIAL S.A."
+    },
+    {
+        "ticker": "EQPA3.SA",
+        "nome": "EQUATORIAL PARA DISTRIBUIDORA DE ENERGIA S.A."
+    },
+    {
+        "ticker": "BIDU34.SA",
+        "nome": "BIDU34"
+    },
+    {
+        "ticker": "NEOE3F.SA",
+        "nome": "NEOENERGIA S.A."
+    },
+    {
+        "ticker": "GGBR4F.SA",
+        "nome": "GERDAU S.A."
+    },
+    {
+        "ticker": "CAUT11.SA",
+        "nome": "CAUT11"
+    },
+    {
+        "ticker": "S2NA34.SA",
+        "nome": "S2NA34"
+    },
+    {
+        "ticker": "CYRE3F.SA",
+        "nome": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART"
+    },
+    {
+        "ticker": "ALLD3F.SA",
+        "nome": "ALLIED TECNOLOGIA S.A."
+    },
+    {
+        "ticker": "BEWT39.SA",
+        "nome": "ISHARES MSCI TAIWAN ETF"
+    },
+    {
+        "ticker": "FATN11.SA",
+        "nome": "FATN11"
+    },
+    {
+        "ticker": "TPIS3.SA",
+        "nome": "TPI - TRIUNFO PARTICIP. E INVEST. S.A."
+    },
+    {
+        "ticker": "AGRO3F.SA",
+        "nome": "BRASILAGRO - CIA BRAS DE PROP AGRICOLAS"
+    },
+    {
+        "ticker": "DIRR3F.SA",
+        "nome": "DIRECIONAL ENGENHARIA S.A."
+    },
+    {
+        "ticker": "AZZA3F.SA",
+        "nome": "AZZAS 2154 S.A."
+    },
+    {
+        "ticker": "PICE11.SA",
+        "nome": "PICE11"
+    },
+    {
+        "ticker": "KNRI11.SA",
+        "nome": "KNRI11"
+    },
+    {
+        "ticker": "AZTE3F.SA",
+        "nome": "AZEVEDO & TRAVASSOS ENERGIA S.A."
+    },
+    {
+        "ticker": "JCCJ11.SA",
+        "nome": "JCCJ11"
+    },
+    {
+        "ticker": "TAEE4F.SA",
+        "nome": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A."
+    },
+    {
+        "ticker": "ABCB10.SA",
+        "nome": "BCO ABC BRASIL S.A."
+    },
+    {
+        "ticker": "MRVE3F.SA",
+        "nome": "MRV ENGENHARIA E PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "CSNA3F.SA",
+        "nome": "CIA SIDERURGICA NACIONAL"
+    },
+    {
+        "ticker": "VRTA11.SA",
+        "nome": "VRTA11"
+    },
+    {
+        "ticker": "MSBR34.SA",
+        "nome": "MSBR34"
+    },
+    {
+        "ticker": "WHRL3.SA",
+        "nome": "WHIRLPOOL S.A."
+    },
+    {
+        "ticker": "ALOS3F.SA",
+        "nome": "ALLOS S.A"
+    },
+    {
+        "ticker": "JURO11.SA",
+        "nome": "JURO11"
+    },
+    {
+        "ticker": "RIFF11.SA",
+        "nome": "RIFF11"
+    },
+    {
+        "ticker": "KNUQ11.SA",
+        "nome": "KNUQ11"
+    },
+    {
+        "ticker": "BLMG11.SA",
+        "nome": "BLMG11"
+    },
+    {
+        "ticker": "CEDO3.SA",
+        "nome": "CIA FIACAO TECIDOS CEDRO CACHOEIRA"
+    },
+    {
+        "ticker": "MATD3.SA",
+        "nome": "HOSPITAL MATER DEI S/A"
+    },
+    {
+        "ticker": "ODPV3F.SA",
+        "nome": "ODONTOPREV S.A."
+    },
+    {
+        "ticker": "WALM34.SA",
+        "nome": "WALM34"
+    },
+    {
+        "ticker": "HODL11.SA",
+        "nome": "HODL11"
+    },
+    {
+        "ticker": "P1YC34.SA",
+        "nome": "P1YC34"
+    },
+    {
+        "ticker": "EZTC3F.SA",
+        "nome": "EZ TEC EMPREEND. E PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "SPXB11.SA",
+        "nome": "SPXB11"
+    },
+    {
+        "ticker": "OIBR3F.SA",
+        "nome": "OI S.A."
+    },
+    {
+        "ticker": "BALM4.SA",
+        "nome": "BAUMER S.A."
+    },
+    {
+        "ticker": "VAMO3F.SA",
+        "nome": "VAMOS LOCAÇÃO DE CAMINHÕES. MÁQUINAS E EQUIP. S.A."
+    },
+    {
+        "ticker": "KNIP11.SA",
+        "nome": "KNIP11"
+    },
+    {
+        "ticker": "SPXR11.SA",
+        "nome": "SPXR11"
+    },
+    {
+        "ticker": "ISEN11.SA",
+        "nome": "ISEN11"
+    },
+    {
+        "ticker": "EQTL3F.SA",
+        "nome": "EQUATORIAL S.A."
+    },
+    {
+        "ticker": "BRCR11.SA",
+        "nome": "BRCR11"
+    },
+    {
+        "ticker": "ITUB3F.SA",
+        "nome": "ITAU UNIBANCO HOLDING S.A."
+    },
+    {
+        "ticker": "ITRI11.SA",
+        "nome": "ITRI11"
+    },
+    {
+        "ticker": "QQQI11.SA",
+        "nome": "QQQI11"
+    },
+    {
+        "ticker": "BRSR6F.SA",
+        "nome": "BCO ESTADO DO RIO GRANDE DO SUL S.A."
+    },
+    {
+        "ticker": "PMAM3F.SA",
+        "nome": "PARANAPANEMA S.A."
+    },
+    {
+        "ticker": "AERI3.SA",
+        "nome": "AERIS IND. E COM. DE EQUIP. GERACAO DE ENERGIA S/A"
+    },
+    {
+        "ticker": "OIAG11.SA",
+        "nome": "OIAG11"
+    },
+    {
+        "ticker": "E1TN34.SA",
+        "nome": "E1TN34"
+    },
+    {
+        "ticker": "CURY3F.SA",
+        "nome": "CURY CONSTRUTORA E INCORPORADORA S.A."
+    },
+    {
+        "ticker": "ABCB4F.SA",
+        "nome": "BCO ABC BRASIL S.A."
+    },
+    {
+        "ticker": "BRKM5F.SA",
+        "nome": "BRASKEM S.A."
+    },
+    {
+        "ticker": "CVCB3F.SA",
+        "nome": "CVC BRASIL OPERADORA E AGÊNCIA DE VIAGENS S.A."
+    },
+    {
+        "ticker": "ARGT39.SA",
+        "nome": "GLOBAL X MSCI ARGENTINA ETF"
+    },
+    {
+        "ticker": "HGCR11.SA",
+        "nome": "HGCR11"
+    },
+    {
+        "ticker": "USTK11.SA",
+        "nome": "USTK11"
+    },
+    {
+        "ticker": "CACR11.SA",
+        "nome": "CACR11"
+    },
+    {
+        "ticker": "AZEV4F.SA",
+        "nome": "AZEVEDO E TRAVASSOS S.A."
+    },
+    {
+        "ticker": "VBBR3F.SA",
+        "nome": "VIBRA ENERGIA S.A."
+    },
+    {
+        "ticker": "OXYP34.SA",
+        "nome": "OXYP34"
+    },
+    {
+        "ticker": "CXAG11.SA",
+        "nome": "CXAG11"
+    },
+    {
+        "ticker": "GAME11.SA",
+        "nome": "GAME11"
+    },
+    {
+        "ticker": "LREN3F.SA",
+        "nome": "LOJAS RENNER S.A."
+    },
+    {
+        "ticker": "TAEE3F.SA",
+        "nome": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A."
+    },
+    {
+        "ticker": "S2HO34.SA",
+        "nome": "S2HO34"
+    },
+    {
+        "ticker": "KEPL3F.SA",
+        "nome": "KEPLER WEBER S.A."
+    },
+    {
+        "ticker": "ETHY11.SA",
+        "nome": "ETHY11"
+    },
+    {
+        "ticker": "M2KS34.SA",
+        "nome": "M2KS34"
+    },
+    {
+        "ticker": "CPFE3F.SA",
+        "nome": "CPFL ENERGIA S.A."
+    },
+    {
+        "ticker": "TOTS3F.SA",
+        "nome": "TOTVS S.A."
+    },
+    {
+        "ticker": "FIQE3F.SA",
+        "nome": "UNIFIQUE TELECOMUNICAÇÕES S.A."
+    },
+    {
+        "ticker": "VIVT3F.SA",
+        "nome": "TELEFÔNICA BRASIL S.A"
+    },
+    {
+        "ticker": "MELK3F.SA",
+        "nome": "MELNICK DESENVOLVIMENTO IMOBILIÁRIO S.A."
+    },
+    {
+        "ticker": "BIGS39.SA",
+        "nome": "ISHARES 1-5 YEAR INVESTM GRADE CORPORATE BOND ETF"
+    },
+    {
+        "ticker": "FLRY3F.SA",
+        "nome": "FLEURY S.A."
+    },
+    {
+        "ticker": "SYNE3F.SA",
+        "nome": "SYN PROP E TECH S.A."
+    },
+    {
+        "ticker": "ENEV3F.SA",
+        "nome": "ENEVA S.A"
+    },
+    {
+        "ticker": "BEEF3F.SA",
+        "nome": "MINERVA S.A."
+    },
+    {
+        "ticker": "OIBR4.SA",
+        "nome": "OI S.A."
+    },
+    {
+        "ticker": "CSUD3.SA",
+        "nome": "CSU DIGITAL S.A."
+    },
+    {
+        "ticker": "RANI3F.SA",
+        "nome": "IRANI PAPEL E EMBALAGEM S.A."
+    },
+    {
+        "ticker": "ITSA3F.SA",
+        "nome": "ITAUSA S.A."
+    },
+    {
+        "ticker": "SUIN11.SA",
+        "nome": "SUIN11"
+    },
+    {
+        "ticker": "BERK34.SA",
+        "nome": "BERK34"
+    },
+    {
+        "ticker": "JSRE11.SA",
+        "nome": "JSRE11"
+    },
+    {
+        "ticker": "C1CL34.SA",
+        "nome": "C1CL34"
+    },
+    {
+        "ticker": "PACB11.SA",
+        "nome": "PACB11"
+    },
+    {
+        "ticker": "TVRI11.SA",
+        "nome": "TVRI11"
+    },
+    {
+        "ticker": "TASA4F.SA",
+        "nome": "TAURUS ARMAS S.A."
+    },
+    {
+        "ticker": "S1RP34.SA",
+        "nome": "S1RP34"
+    },
+    {
+        "ticker": "AXIA6F.SA",
+        "nome": "AXIA6F"
+    },
+    {
+        "ticker": "VANG11.SA",
+        "nome": "VANG11"
+    },
+    {
+        "ticker": "TXSA34.SA",
+        "nome": "TXSA34"
+    },
+    {
+        "ticker": "MGEL4.SA",
+        "nome": "MANGELS INDUSTRIAL S.A."
+    },
+    {
+        "ticker": "CLOV34.SA",
+        "nome": "CLOV34"
+    },
+    {
+        "ticker": "ALZC11.SA",
+        "nome": "ALZC11"
+    },
+    {
+        "ticker": "AXIA7F.SA",
+        "nome": "AXIA7F"
+    },
+    {
+        "ticker": "SAPR3F.SA",
+        "nome": "CIA SANEAMENTO DO PARANA - SANEPAR"
+    },
+    {
+        "ticker": "LEVE3F.SA",
+        "nome": "MAHLE-METAL LEVE S.A."
+    },
+    {
+        "ticker": "TIMS3F.SA",
+        "nome": "TIM S.A."
+    },
+    {
+        "ticker": "RENT3F.SA",
+        "nome": "LOCALIZA RENT A CAR S.A."
+    },
+    {
+        "ticker": "HSLG11.SA",
+        "nome": "HSLG11"
+    },
+    {
+        "ticker": "UNIP6F.SA",
+        "nome": "UNIPAR CARBOCLORO S.A."
+    },
+    {
+        "ticker": "ATED3.SA",
+        "nome": "ATOM EDUCAÇÃO E EDITORA S.A."
+    },
+    {
+        "ticker": "BIJR39.SA",
+        "nome": "ISHARES CORE S&P SMALL-CAP ETF"
+    },
+    {
+        "ticker": "CAMB3.SA",
+        "nome": "CAMBUCI S.A."
+    },
+    {
+        "ticker": "NORD3.SA",
+        "nome": "NORDON INDUSTRIAS METALURGICAS S.A."
+    },
+    {
+        "ticker": "EMAE4.SA",
+        "nome": "EMAE - EMPRESA METROP.AGUAS ENERGIA S.A."
+    },
+    {
+        "ticker": "MTRE3F.SA",
+        "nome": "MITRE REALTY EMPREENDIMENTOS E PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "FYTO11.SA",
+        "nome": "FYTO11"
+    },
+    {
+        "ticker": "IRBR3F.SA",
+        "nome": "IRB - BRASIL RESSEGUROS S.A."
+    },
+    {
+        "ticker": "CHIP11.SA",
+        "nome": "CHIP11"
+    },
+    {
+        "ticker": "PMLL11.SA",
+        "nome": "PMLL11"
+    },
+    {
+        "ticker": "JMBI11.SA",
+        "nome": "JMBI11"
+    },
+    {
+        "ticker": "BRAP4F.SA",
+        "nome": "BRADESPAR S.A."
+    },
+    {
+        "ticker": "BOVB11.SA",
+        "nome": "BOVB11"
+    },
+    {
+        "ticker": "AMBP3F.SA",
+        "nome": "AMBIPAR PARTICIPACOES E EMPREENDIMENTOS S/A"
+    },
+    {
+        "ticker": "EUCA4.SA",
+        "nome": "EUCATEX S.A. INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "SNSY5.SA",
+        "nome": "SANSUY S.A. INDUSTRIA DE PLASTICOS"
+    },
+    {
+        "ticker": "CMIG3F.SA",
+        "nome": "CIA ENERGETICA DE MINAS GERAIS - CEMIG"
+    },
+    {
+        "ticker": "UGPA3F.SA",
+        "nome": "ULTRAPAR PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "WHGR11.SA",
+        "nome": "WHGR11"
+    },
+    {
+        "ticker": "MULT3F.SA",
+        "nome": "MULTIPLAN - EMPREEND IMOBILIARIOS S.A."
+    },
+    {
+        "ticker": "TTEN3F.SA",
+        "nome": "TRÊS TENTOS AGROINDUSTRIAL S/A"
+    },
+    {
+        "ticker": "VGIP11.SA",
+        "nome": "VGIP11"
+    },
+    {
+        "ticker": "DDNB34.SA",
+        "nome": "DDNB34"
+    },
+    {
+        "ticker": "TRIG11.SA",
+        "nome": "TRIG11"
+    },
+    {
+        "ticker": "RICO11.SA",
+        "nome": "RICO11"
+    },
+    {
+        "ticker": "ASML34.SA",
+        "nome": "ASML34"
+    },
+    {
+        "ticker": "U1AL34.SA",
+        "nome": "U1AL34"
+    },
+    {
+        "ticker": "POMO3F.SA",
+        "nome": "MARCOPOLO S.A."
+    },
+    {
+        "ticker": "KORE11.SA",
+        "nome": "KORE11"
+    },
+    {
+        "ticker": "VCTH11.SA",
+        "nome": "VCTH11"
+    },
+    {
+        "ticker": "HAGA3.SA",
+        "nome": "HAGA S.A. INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "GOAT11.SA",
+        "nome": "GOAT11"
+    },
+    {
+        "ticker": "MFII11.SA",
+        "nome": "MFII11"
+    },
+    {
+        "ticker": "KCRE11.SA",
+        "nome": "KCRE11"
+    },
+    {
+        "ticker": "WIZC3F.SA",
+        "nome": "WIZ CO PARTICIPAÇÕES E CORRETAGEM DE SEGUROS S.A."
+    },
+    {
+        "ticker": "ASAI3F.SA",
+        "nome": "SENDAS DISTRIBUIDORA S.A."
+    },
+    {
+        "ticker": "XPIE11.SA",
+        "nome": "XPIE11"
+    },
+    {
+        "ticker": "CRFF11.SA",
+        "nome": "CRFF11"
+    },
+    {
+        "ticker": "CNES11.SA",
+        "nome": "CNES11"
+    },
+    {
+        "ticker": "CBOP11.SA",
+        "nome": "CBOP11"
+    },
+    {
+        "ticker": "G1MI34.SA",
+        "nome": "G1MI34"
+    },
+    {
+        "ticker": "S1YY34.SA",
+        "nome": "S1YY34"
+    },
+    {
+        "ticker": "ALUP3.SA",
+        "nome": "ALUPAR INVESTIMENTO S/A"
+    },
+    {
+        "ticker": "EQMA3B.SA",
+        "nome": "EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A."
+    },
+    {
+        "ticker": "N1CL34.SA",
+        "nome": "N1CL34"
+    },
+    {
+        "ticker": "GCRA11.SA",
+        "nome": "GCRA11"
+    },
+    {
+        "ticker": "A1TT34.SA",
+        "nome": "A1TT34"
+    },
+    {
+        "ticker": "URPR11.SA",
+        "nome": "URPR11"
+    },
+    {
+        "ticker": "CRAA11.SA",
+        "nome": "CRAA11"
+    },
+    {
+        "ticker": "CEAB3F.SA",
+        "nome": "CEA MODAS S.A."
+    },
+    {
+        "ticker": "MOVI3F.SA",
+        "nome": "MOVIDA PARTICIPACOES SA"
+    },
+    {
+        "ticker": "VIVA3F.SA",
+        "nome": "VIVARA PARTICIPAÇOES S.A"
+    },
+    {
+        "ticker": "CRIN34.SA",
+        "nome": "CRIN34"
+    },
+    {
+        "ticker": "BIOM3.SA",
+        "nome": "BIOMM S.A."
+    },
+    {
+        "ticker": "TRAD3.SA",
+        "nome": "TC S.A."
+    },
+    {
+        "ticker": "AUAU3F.SA",
+        "nome": "UNIÃO PET PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "C2OU34.SA",
+        "nome": "C2OU34"
+    },
+    {
+        "ticker": "A2RR34.SA",
+        "nome": "A2RR34"
+    },
+    {
+        "ticker": "EXES11.SA",
+        "nome": "EXES11"
+    },
+    {
+        "ticker": "RZAK11.SA",
+        "nome": "RZAK11"
+    },
+    {
+        "ticker": "M1MC34.SA",
+        "nome": "M1MC34"
+    },
+    {
+        "ticker": "T1AL34.SA",
+        "nome": "T1AL34"
+    },
+    {
+        "ticker": "WFCO34.SA",
+        "nome": "WFCO34"
+    },
+    {
+        "ticker": "GZIT11.SA",
+        "nome": "GZIT11"
+    },
+    {
+        "ticker": "AZPL11.SA",
+        "nome": "AZPL11"
+    },
+    {
+        "ticker": "IFRA11.SA",
+        "nome": "IFRA11"
+    },
+    {
+        "ticker": "ARMT34.SA",
+        "nome": "ARMT34"
+    },
+    {
+        "ticker": "O1KT34.SA",
+        "nome": "O1KT34"
+    },
+    {
+        "ticker": "HABT11.SA",
+        "nome": "HABT11"
+    },
+    {
+        "ticker": "BIED3.SA",
+        "nome": "BIOMA EDUCAÇÃO S.A."
+    },
+    {
+        "ticker": "MNPR3.SA",
+        "nome": "MINUPAR PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "REDE3.SA",
+        "nome": "REDE ENERGIA PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "ENGI3.SA",
+        "nome": "ENERGISA S.A."
+    },
+    {
+        "ticker": "BMGB10.SA",
+        "nome": "BANCO BMG S.A."
+    },
+    {
+        "ticker": "CLSC3.SA",
+        "nome": "CENTRAIS ELET DE SANTA CATARINA S.A."
+    },
+    {
+        "ticker": "ICRI11.SA",
+        "nome": "ICRI11"
+    },
+    {
+        "ticker": "SOJA3F.SA",
+        "nome": "BOA SAFRA SEMENTES S.A."
+    },
+    {
+        "ticker": "BEZU39.SA",
+        "nome": "ISHARES MSCI EUROZONE ETF"
+    },
+    {
+        "ticker": "HGRE11.SA",
+        "nome": "HGRE11"
+    },
+    {
+        "ticker": "ALUG11.SA",
+        "nome": "ALUG11"
+    },
+    {
+        "ticker": "XETH11.SA",
+        "nome": "XETH11"
+    },
+    {
+        "ticker": "VISA34.SA",
+        "nome": "VISA34"
+    },
+    {
+        "ticker": "RBHY11.SA",
+        "nome": "RBHY11"
+    },
+    {
+        "ticker": "PGMN3F.SA",
+        "nome": "EMPREENDIMENTOS PAGUE MENOS S.A."
+    },
+    {
+        "ticker": "E2AG34.SA",
+        "nome": "E2AG34"
+    },
+    {
+        "ticker": "PATL11.SA",
+        "nome": "PATL11"
+    },
+    {
+        "ticker": "KIVO11.SA",
+        "nome": "KIVO11"
+    },
+    {
+        "ticker": "JASC11.SA",
+        "nome": "JASC11"
+    },
+    {
+        "ticker": "RDOR3F.SA",
+        "nome": "REDE DOR SÃO LUIZ S.A."
+    },
+    {
+        "ticker": "PCIP11.SA",
+        "nome": "PCIP11"
+    },
+    {
+        "ticker": "CASH3F.SA",
+        "nome": "MÉLIUZ S.A."
+    },
+    {
+        "ticker": "BAER39.SA",
+        "nome": "ISHARES US AEROSPACE & DEFENSE ETF"
+    },
+    {
+        "ticker": "BHIA3F.SA",
+        "nome": "GRUPO CASAS BAHIA S.A."
+    },
+    {
+        "ticker": "BEES3F.SA",
+        "nome": "BANESTES S.A. - BCO EST ESPIRITO SANTO"
+    },
+    {
+        "ticker": "NLFA11.SA",
+        "nome": "NLFA11"
+    },
+    {
+        "ticker": "HAGA4.SA",
+        "nome": "HAGA S.A. INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "TELB3.SA",
+        "nome": "TELEC BRASILEIRAS S.A. TELEBRAS"
+    },
+    {
+        "ticker": "TCSA3.SA",
+        "nome": "TECNISA S.A."
+    },
+    {
+        "ticker": "BMEB4.SA",
+        "nome": "BCO MERCANTIL DO BRASIL S.A."
+    },
+    {
+        "ticker": "KNHF11.SA",
+        "nome": "KNHF11"
+    },
+    {
+        "ticker": "BIME11.SA",
+        "nome": "BIME11"
+    },
+    {
+        "ticker": "TEND3F.SA",
+        "nome": "CONSTRUTORA TENDA S.A."
+    },
+    {
+        "ticker": "BCPX39.SA",
+        "nome": "GLOBAL X COPPER MINERS ETF"
+    },
+    {
+        "ticker": "FESA4F.SA",
+        "nome": "CIA FERRO LIGAS DA BAHIA - FERBASA"
+    },
+    {
+        "ticker": "XFIX11.SA",
+        "nome": "XFIX11"
+    },
+    {
+        "ticker": "BSHV39.SA",
+        "nome": "ISHARES 0-1 YEAR TREASURY BOND ETF"
+    },
+    {
+        "ticker": "PINE4F.SA",
+        "nome": "BCO PINE S.A."
+    },
+    {
+        "ticker": "ROMI3F.SA",
+        "nome": "ROMI S.A."
+    },
+    {
+        "ticker": "IDKA11.SA",
+        "nome": "IDKA11"
+    },
+    {
+        "ticker": "RBHG11.SA",
+        "nome": "RBHG11"
+    },
+    {
+        "ticker": "B1TI34.SA",
+        "nome": "B1TI34"
+    },
+    {
+        "ticker": "T2ER34.SA",
+        "nome": "T2ER34"
+    },
+    {
+        "ticker": "LFIN11.SA",
+        "nome": "LFIN11"
+    },
+    {
+        "ticker": "BEES4.SA",
+        "nome": "BANESTES S.A. - BCO EST ESPIRITO SANTO"
+    },
+    {
+        "ticker": "NEXP3.SA",
+        "nome": "NEXPE PARTICIPAÇÕES S.A"
+    },
+    {
+        "ticker": "WHRL4.SA",
+        "nome": "WHIRLPOOL S.A."
+    },
+    {
+        "ticker": "PDTC3.SA",
+        "nome": "PADTEC HOLDING S.A."
+    },
+    {
+        "ticker": "LAND3.SA",
+        "nome": "TERRA SANTA PROPRIEDADES AGRICOLAS S.A."
+    },
+    {
+        "ticker": "D2AS34.SA",
+        "nome": "D2AS34"
+    },
+    {
+        "ticker": "SILK11.SA",
+        "nome": "SILK11"
+    },
+    {
+        "ticker": "BBSD11.SA",
+        "nome": "BBSD11"
+    },
+    {
+        "ticker": "ETHA39.SA",
+        "nome": "ISHARES ETHEREUM TRUST ETF"
+    },
+    {
+        "ticker": "GSFI11.SA",
+        "nome": "GSFI11"
+    },
+    {
+        "ticker": "VWRA11.SA",
+        "nome": "VWRA11"
+    },
+    {
+        "ticker": "MDNE3F.SA",
+        "nome": "MOURA DUBEUX ENGENHARIA S/A"
+    },
+    {
+        "ticker": "XPCI11.SA",
+        "nome": "XPCI11"
+    },
+    {
+        "ticker": "B2YN34.SA",
+        "nome": "B2YN34"
+    },
+    {
+        "ticker": "KNRE11.SA",
+        "nome": "KNRE11"
+    },
+    {
+        "ticker": "LILY34.SA",
+        "nome": "LILY34"
+    },
+    {
+        "ticker": "PEPB34.SA",
+        "nome": "PEPB34"
+    },
+    {
+        "ticker": "SPXI11.SA",
+        "nome": "SPXI11"
+    },
+    {
+        "ticker": "H1FC34.SA",
+        "nome": "H1FC34"
+    },
+    {
+        "ticker": "Z2SC34.SA",
+        "nome": "Z2SC34"
+    },
+    {
+        "ticker": "IRFM11.SA",
+        "nome": "IRFM11"
+    },
+    {
+        "ticker": "MATB11.SA",
+        "nome": "MATB11"
+    },
+    {
+        "ticker": "A1RE34.SA",
+        "nome": "A1RE34"
+    },
+    {
+        "ticker": "RCSL4F.SA",
+        "nome": "RECRUSUL S.A."
+    },
+    {
+        "ticker": "A1PL34.SA",
+        "nome": "A1PL34"
+    },
+    {
+        "ticker": "RBRP11.SA",
+        "nome": "RBRP11"
+    },
+    {
+        "ticker": "IBBP11.SA",
+        "nome": "IBBP11"
+    },
+    {
+        "ticker": "FSRF11.SA",
+        "nome": "FSRF11"
+    },
+    {
+        "ticker": "FNOR11.SA",
+        "nome": "FNOR11"
+    },
+    {
+        "ticker": "CEBR5.SA",
+        "nome": "CIA ENERGETICA DE BRASILIA"
+    },
+    {
+        "ticker": "FDES11.SA",
+        "nome": "FDES11"
+    },
+    {
+        "ticker": "FSTU11.SA",
+        "nome": "FSTU11"
+    },
+    {
+        "ticker": "P1KX34.SA",
+        "nome": "P1KX34"
+    },
+    {
+        "ticker": "SPYR11.SA",
+        "nome": "SPYR11"
+    },
+    {
+        "ticker": "XBIT11.SA",
+        "nome": "XBIT11"
+    },
+    {
+        "ticker": "LUPA3.SA",
+        "nome": "LUPATECH S.A."
+    },
+    {
+        "ticker": "CEEB3.SA",
+        "nome": "CIA ELETRICIDADE EST. DA BAHIA - COELBA"
+    },
+    {
+        "ticker": "ARND3.SA",
+        "nome": "ARND3"
+    },
+    {
+        "ticker": "NMKS15.SA",
+        "nome": "NMKS15"
+    },
+    {
+        "ticker": "SANB3F.SA",
+        "nome": "BCO SANTANDER (BRASIL) S.A."
+    },
+    {
+        "ticker": "GOAU3F.SA",
+        "nome": "METALURGICA GERDAU S.A."
+    },
+    {
+        "ticker": "ARXD11.SA",
+        "nome": "ARXD11"
+    },
+    {
+        "ticker": "PCAR3F.SA",
+        "nome": "CIA BRASILEIRA DE DISTRIBUICAO"
+    },
+    {
+        "ticker": "CLIN11.SA",
+        "nome": "CLIN11"
+    },
+    {
+        "ticker": "GPUS11.SA",
+        "nome": "GPUS11"
+    },
+    {
+        "ticker": "ALPA4F.SA",
+        "nome": "ALPARGATAS S.A."
+    },
+    {
+        "ticker": "S2FM34.SA",
+        "nome": "S2FM34"
+    },
+    {
+        "ticker": "AMER3F.SA",
+        "nome": "AMERICANAS S.A"
+    },
+    {
+        "ticker": "BPML11.SA",
+        "nome": "BPML11"
+    },
+    {
+        "ticker": "RZAT11.SA",
+        "nome": "RZAT11"
+    },
+    {
+        "ticker": "IRIF11.SA",
+        "nome": "IRIF11"
+    },
+    {
+        "ticker": "FMOF11.SA",
+        "nome": "FMOF11"
+    },
+    {
+        "ticker": "AALR3.SA",
+        "nome": "ALLIANÇA SAÚDE E PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "CTSA3.SA",
+        "nome": "CIA TECIDOS SANTANENSE"
+    },
+    {
+        "ticker": "UNIP3.SA",
+        "nome": "UNIPAR CARBOCLORO S.A."
+    },
+    {
+        "ticker": "EUCA3.SA",
+        "nome": "EUCATEX S.A. INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "CGRA3.SA",
+        "nome": "GRAZZIOTIN S.A."
+    },
+    {
+        "ticker": "LIGT3F.SA",
+        "nome": "LIGHT S.A."
+    },
+    {
+        "ticker": "NTNS11.SA",
+        "nome": "NTNS11"
+    },
+    {
+        "ticker": "DEFI11.SA",
+        "nome": "DEFI11"
+    },
+    {
+        "ticker": "META11.SA",
+        "nome": "META11"
+    },
+    {
+        "ticker": "NUCL11.SA",
+        "nome": "NUCL11"
+    },
+    {
+        "ticker": "PPEI11.SA",
+        "nome": "PPEI11"
+    },
+    {
+        "ticker": "GOVE11.SA",
+        "nome": "GOVE11"
+    },
+    {
+        "ticker": "USIM3F.SA",
+        "nome": "USINAS SID DE MINAS GERAIS S.A.-USIMINAS"
+    },
+    {
+        "ticker": "ECOR3F.SA",
+        "nome": "ECORODOVIAS INFRAESTRUTURA E LOGÍSTICA S.A."
+    },
+    {
+        "ticker": "SPMO11.SA",
+        "nome": "SPMO11"
+    },
+    {
+        "ticker": "CPLG11.SA",
+        "nome": "CPLG11"
+    },
+    {
+        "ticker": "RAIL3F.SA",
+        "nome": "RUMO S.A."
+    },
+    {
+        "ticker": "L1MN34.SA",
+        "nome": "L1MN34"
+    },
+    {
+        "ticker": "POSI3F.SA",
+        "nome": "POSITIVO TECNOLOGIA S.A."
+    },
+    {
+        "ticker": "POSB11.SA",
+        "nome": "POSB11"
+    },
+    {
+        "ticker": "BTAL11.SA",
+        "nome": "BTAL11"
+    },
+    {
+        "ticker": "IMBB11.SA",
+        "nome": "IMBB11"
+    },
+    {
+        "ticker": "XB3511.SA",
+        "nome": "XB3511"
+    },
+    {
+        "ticker": "BCRI11.SA",
+        "nome": "BCRI11"
+    },
+    {
+        "ticker": "G1DS34.SA",
+        "nome": "G1DS34"
+    },
+    {
+        "ticker": "VIGT11.SA",
+        "nome": "VIGT11"
+    },
+    {
+        "ticker": "UTLL11.SA",
+        "nome": "UTLL11"
+    },
+    {
+        "ticker": "VLID3F.SA",
+        "nome": "VALID SOLUÇÕES S.A."
+    },
+    {
+        "ticker": "BSLI4.SA",
+        "nome": "BRB BCO DE BRASILIA S.A."
+    },
+    {
+        "ticker": "MWET4.SA",
+        "nome": "WETZEL S.A."
+    },
+    {
+        "ticker": "W1DC34.SA",
+        "nome": "W1DC34"
+    },
+    {
+        "ticker": "SHUL4F.SA",
+        "nome": "SCHULZ S.A."
+    },
+    {
+        "ticker": "JGPX11.SA",
+        "nome": "JGPX11"
+    },
+    {
+        "ticker": "H1RL34.SA",
+        "nome": "H1RL34"
+    },
+    {
+        "ticker": "BITO39.SA",
+        "nome": "ISHARES CORE S&P TOTAL US STOCK MARKET ETF"
+    },
+    {
+        "ticker": "XPIN11.SA",
+        "nome": "XPIN11"
+    },
+    {
+        "ticker": "TRBL11.SA",
+        "nome": "TRBL11"
+    },
+    {
+        "ticker": "BMOB3F.SA",
+        "nome": "BEMOBI MOBILE TECH S.A."
+    },
+    {
+        "ticker": "BROF11.SA",
+        "nome": "BROF11"
+    },
+    {
+        "ticker": "RAPT4F.SA",
+        "nome": "RANDONCORP S.A."
+    },
+    {
+        "ticker": "KNDI11.SA",
+        "nome": "KNDI11"
+    },
+    {
+        "ticker": "MOTV3F.SA",
+        "nome": "MOTIVA INFRAESTRUTURA DE MOBILIDADE S.A."
+    },
+    {
+        "ticker": "RPRI11.SA",
+        "nome": "RPRI11"
+    },
+    {
+        "ticker": "NDIV11.SA",
+        "nome": "NDIV11"
+    },
+    {
+        "ticker": "YDUQ3F.SA",
+        "nome": "YDUQS PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "SIMH3F.SA",
+        "nome": "SIMPAR S.A."
+    },
+    {
+        "ticker": "RBIF11.SA",
+        "nome": "RBIF11"
+    },
+    {
+        "ticker": "QUAL3F.SA",
+        "nome": "QUALICORP CONSULTORIA E CORRETORA DE SEGUROS S.A."
+    },
+    {
+        "ticker": "CBAV3F.SA",
+        "nome": "COMPANHIA BRASILEIRA DE ALUMÍNIO"
+    },
+    {
+        "ticker": "SMFT3F.SA",
+        "nome": "SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A."
+    },
+    {
+        "ticker": "RIAA3F.SA",
+        "nome": "RIAA3F"
+    },
+    {
+        "ticker": "XPID11.SA",
+        "nome": "XPID11"
+    },
+    {
+        "ticker": "ONCO3F.SA",
+        "nome": "ONCOCLINICAS DO BRASIL SERVICOS MEDICOS  S.A."
+    },
+    {
+        "ticker": "COCE5F.SA",
+        "nome": "CIA ENERGETICA DO CEARA - COELCE"
+    },
+    {
+        "ticker": "QLBR11.SA",
+        "nome": "QLBR11"
+    },
+    {
+        "ticker": "BLAU3F.SA",
+        "nome": "BLAU FARMACÊUTICA S.A."
+    },
+    {
+        "ticker": "SEQL3F.SA",
+        "nome": "SEQUOIA LOGISTICA E TRANSPORTES S.A"
+    },
+    {
+        "ticker": "JPMC34.SA",
+        "nome": "JPMC34"
+    },
+    {
+        "ticker": "C1MG34.SA",
+        "nome": "C1MG34"
+    },
+    {
+        "ticker": "RCRB11.SA",
+        "nome": "RCRB11"
+    },
+    {
+        "ticker": "AFLT3.SA",
+        "nome": "AFLUENTE TRANSMISSÃO DE ENERGIA ELÉTRICA S/A"
+    },
+    {
+        "ticker": "DOTZ3.SA",
+        "nome": "DOTZ S.A."
+    },
+    {
+        "ticker": "SHOW3.SA",
+        "nome": "T4F ENTRETENIMENTO S.A."
+    },
+    {
+        "ticker": "U1BE34.SA",
+        "nome": "U1BE34"
+    },
+    {
+        "ticker": "MILS3F.SA",
+        "nome": "MILLS LOCAÇÃO. SERVIÇOS E LOGÍSTICA S.A"
+    },
+    {
+        "ticker": "PLPL3F.SA",
+        "nome": "PLANO & PLANO DESENVOLVIMENTO IMOBILIÁRIO S.A."
+    },
+    {
+        "ticker": "BSOX39.SA",
+        "nome": "ISHARES SEMICONDUCTOR ETF"
+    },
+    {
+        "ticker": "BURA39.SA",
+        "nome": "GLOBAL X URANIUM ETF"
+    },
+    {
+        "ticker": "LAVV3F.SA",
+        "nome": "LAVVI EMPREENDIMENTOS IMOBILIÁRIOS S.A."
+    },
+    {
+        "ticker": "PNVL3F.SA",
+        "nome": "DIMED S.A. DISTRIBUIDORA DE MEDICAMENTOS"
+    },
+    {
+        "ticker": "ZAVC11.SA",
+        "nome": "ZAVC11"
+    },
+    {
+        "ticker": "NATU3F.SA",
+        "nome": "NATURA COSMETICOS S.A."
+    },
+    {
+        "ticker": "SNID11.SA",
+        "nome": "SNID11"
+    },
+    {
+        "ticker": "A1PO34.SA",
+        "nome": "A1PO34"
+    },
+    {
+        "ticker": "BEWC39.SA",
+        "nome": "ISHARES MSCI CANADA ETF"
+    },
+    {
+        "ticker": "TUPY3F.SA",
+        "nome": "TUPY S.A."
+    },
+    {
+        "ticker": "BOVS11.SA",
+        "nome": "BOVS11"
+    },
+    {
+        "ticker": "GRUL11.SA",
+        "nome": "GRUL11"
+    },
+    {
+        "ticker": "RIOT34.SA",
+        "nome": "RIOT34"
+    },
+    {
+        "ticker": "BCHI39.SA",
+        "nome": "ISHARES MSCI CHINA ETF"
+    },
+    {
+        "ticker": "LWSA3F.SA",
+        "nome": "LWSA S.A."
+    },
+    {
+        "ticker": "BBOV11.SA",
+        "nome": "BBOV11"
+    },
+    {
+        "ticker": "SEER3F.SA",
+        "nome": "SER EDUCACIONAL S.A."
+    },
+    {
+        "ticker": "MNDL3.SA",
+        "nome": "MUNDIAL S.A. - PRODUTOS DE CONSUMO"
+    },
+    {
+        "ticker": "NGRD3.SA",
+        "nome": "NEOGRID PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "BRSR3.SA",
+        "nome": "BCO ESTADO DO RIO GRANDE DO SUL S.A."
+    },
+    {
+        "ticker": "O1DF34.SA",
+        "nome": "O1DF34"
+    },
+    {
+        "ticker": "INRD11.SA",
+        "nome": "INRD11"
+    },
+    {
+        "ticker": "SANB4F.SA",
+        "nome": "BCO SANTANDER (BRASIL) S.A."
+    },
+    {
+        "ticker": "VTRU3F.SA",
+        "nome": "VITRU EDUCAÇÃO S.A"
+    },
+    {
+        "ticker": "AIEC11.SA",
+        "nome": "AIEC11"
+    },
+    {
+        "ticker": "KNHY11.SA",
+        "nome": "KNHY11"
+    },
+    {
+        "ticker": "GTWR11.SA",
+        "nome": "GTWR11"
+    },
+    {
+        "ticker": "EGAF11.SA",
+        "nome": "EGAF11"
+    },
+    {
+        "ticker": "H1DB34.SA",
+        "nome": "H1DB34"
+    },
+    {
+        "ticker": "TGMA3F.SA",
+        "nome": "TEGMA GESTAO LOGISTICA S.A."
+    },
+    {
+        "ticker": "KFOF11.SA",
+        "nome": "KFOF11"
+    },
+    {
+        "ticker": "BDRI39.SA",
+        "nome": "GLOBAL X AUTONOMOUS & ELECTRIC VEHICLES ETF"
+    },
+    {
+        "ticker": "MYPK3F.SA",
+        "nome": "IOCHPE MAXION S.A."
+    },
+    {
+        "ticker": "BOAC34.SA",
+        "nome": "BOAC34"
+    },
+    {
+        "ticker": "OBTC3F.SA",
+        "nome": "ORANJEBTC S.A. - EDUCAÇÃO E INVESTIMENTO"
+    },
+    {
+        "ticker": "GGBR3F.SA",
+        "nome": "GERDAU S.A."
+    },
+    {
+        "ticker": "PNCS34.SA",
+        "nome": "PNCS34"
+    },
+    {
+        "ticker": "BTHD39.SA",
+        "nome": "ISHARES MSCI THAILAND ETF"
+    },
+    {
+        "ticker": "BPAC3F.SA",
+        "nome": "BCO BTG PACTUAL S.A."
+    },
+    {
+        "ticker": "LTMT11.SA",
+        "nome": "LTMT11"
+    },
+    {
+        "ticker": "INTB3F.SA",
+        "nome": "INTELBRAS S.A. IND DE TELEC ELETRONICA BRASILEIRA"
+    },
+    {
+        "ticker": "BTIP39.SA",
+        "nome": "ISHARES TIPS BOND ETF"
+    },
+    {
+        "ticker": "AZIN11.SA",
+        "nome": "AZIN11"
+    },
+    {
+        "ticker": "JDCO34.SA",
+        "nome": "JDCO34"
+    },
+    {
+        "ticker": "TBIL39.SA",
+        "nome": "GLOBAL X 1-3 MONTH T-BILL ETF"
+    },
+    {
+        "ticker": "KNOX11.SA",
+        "nome": "KNOX11"
+    },
+    {
+        "ticker": "S2EA34.SA",
+        "nome": "S2EA34"
+    },
+    {
+        "ticker": "S1OU34.SA",
+        "nome": "S1OU34"
+    },
+    {
+        "ticker": "TIRB11.SA",
+        "nome": "TIRB11"
+    },
+    {
+        "ticker": "D2AR34.SA",
+        "nome": "D2AR34"
+    },
+    {
+        "ticker": "BPAC5F.SA",
+        "nome": "BCO BTG PACTUAL S.A."
+    },
+    {
+        "ticker": "ARML3F.SA",
+        "nome": "ARMAC LOCAÇÃO. LOGÍSTICA E SERVIÇOS S.A."
+    },
+    {
+        "ticker": "CSUD3F.SA",
+        "nome": "CSU DIGITAL S.A."
+    },
+    {
+        "ticker": "DVFF11.SA",
+        "nome": "DVFF11"
+    },
+    {
+        "ticker": "XB3011.SA",
+        "nome": "XB3011"
+    },
+    {
+        "ticker": "XB4511.SA",
+        "nome": "XB4511"
+    },
+    {
+        "ticker": "LJQQ3F.SA",
+        "nome": "LOJAS QUERO-QUERO S/A"
+    },
+    {
+        "ticker": "XB6011.SA",
+        "nome": "XB6011"
+    },
+    {
+        "ticker": "CCME11.SA",
+        "nome": "CCME11"
+    },
+    {
+        "ticker": "M1KC34.SA",
+        "nome": "M1KC34"
+    },
+    {
+        "ticker": "E1DU34.SA",
+        "nome": "E1DU34"
+    },
+    {
+        "ticker": "AFHF11.SA",
+        "nome": "AFHF11"
+    },
+    {
+        "ticker": "EKTR4.SA",
+        "nome": "ELEKTRO REDES S.A."
+    },
+    {
+        "ticker": "JOPA3.SA",
+        "nome": "JOSAPAR-JOAQUIM OLIVEIRA S.A. - PARTICIP"
+    },
+    {
+        "ticker": "CTKA4.SA",
+        "nome": "KARSTEN S.A."
+    },
+    {
+        "ticker": "PEAB4.SA",
+        "nome": "CIA PARTICIPACOES ALIANCA DA BAHIA"
+    },
+    {
+        "ticker": "COCE5.SA",
+        "nome": "CIA ENERGETICA DO CEARA - COELCE"
+    },
+    {
+        "ticker": "TOPP11.SA",
+        "nome": "TOPP11"
+    },
+    {
+        "ticker": "EVEN3F.SA",
+        "nome": "EVEN CONSTRUTORA E INCORPORADORA S.A."
+    },
+    {
+        "ticker": "B1AM34.SA",
+        "nome": "B1AM34"
+    },
+    {
+        "ticker": "DEXP3F.SA",
+        "nome": "DEXXOS PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "L1RC34.SA",
+        "nome": "L1RC34"
+    },
+    {
+        "ticker": "H2UB34.SA",
+        "nome": "H2UB34"
+    },
+    {
+        "ticker": "GMCO34.SA",
+        "nome": "GMCO34"
+    },
+    {
+        "ticker": "HOFC11.SA",
+        "nome": "HOFC11"
+    },
+    {
+        "ticker": "UNHH34.SA",
+        "nome": "UNHH34"
+    },
+    {
+        "ticker": "F2NV34.SA",
+        "nome": "F2NV34"
+    },
+    {
+        "ticker": "AFHI11.SA",
+        "nome": "AFHI11"
+    },
+    {
+        "ticker": "HTMX11.SA",
+        "nome": "HTMX11"
+    },
+    {
+        "ticker": "TD6011.SA",
+        "nome": "TD6011"
+    },
+    {
+        "ticker": "K2RC34.SA",
+        "nome": "K2RC34"
+    },
+    {
+        "ticker": "AZEV3F.SA",
+        "nome": "AZEVEDO E TRAVASSOS S.A."
+    },
+    {
+        "ticker": "HSAF11.SA",
+        "nome": "HSAF11"
+    },
+    {
+        "ticker": "P1LD34.SA",
+        "nome": "P1LD34"
+    },
+    {
+        "ticker": "PRNR3F.SA",
+        "nome": "PRINER SERVIÇOS INDUSTRIAIS S.A."
+    },
+    {
+        "ticker": "ORVR3F.SA",
+        "nome": "ORIZON VALORIZACAO DE RESIDUOS S.A."
+    },
+    {
+        "ticker": "BRAP3F.SA",
+        "nome": "BRADESPAR S.A."
+    },
+    {
+        "ticker": "BTYU11.SA",
+        "nome": "BTYU11"
+    },
+    {
+        "ticker": "PRIF11.SA",
+        "nome": "PRIF11"
+    },
+    {
+        "ticker": "SBFG3F.SA",
+        "nome": "GRUPO SBF SA"
+    },
+    {
+        "ticker": "HBRE3F.SA",
+        "nome": "HBR REALTY EMPREENDIMENTOS IMOBILIARIOS S/A"
+    },
+    {
+        "ticker": "TECX11.SA",
+        "nome": "TECX11"
+    },
+    {
+        "ticker": "ANIM3F.SA",
+        "nome": "ANIMA HOLDING S.A."
+    },
+    {
+        "ticker": "B1FC34.SA",
+        "nome": "B1FC34"
+    },
+    {
+        "ticker": "CEBR3.SA",
+        "nome": "CIA ENERGETICA DE BRASILIA"
+    },
+    {
+        "ticker": "BAUH4.SA",
+        "nome": "EXCELSIOR ALIMENTOS S.A."
+    },
+    {
+        "ticker": "BRSR5.SA",
+        "nome": "BCO ESTADO DO RIO GRANDE DO SUL S.A."
+    },
+    {
+        "ticker": "PATI4.SA",
+        "nome": "PANATLANTICA S.A."
+    },
+    {
+        "ticker": "UNIP5.SA",
+        "nome": "UNIPAR CARBOCLORO S.A."
+    },
+    {
+        "ticker": "U1LT34.SA",
+        "nome": "U1LT34"
+    },
+    {
+        "ticker": "TELB4.SA",
+        "nome": "TELEC BRASILEIRAS S.A. TELEBRAS"
+    },
+    {
+        "ticker": "OFSA3.SA",
+        "nome": "OUROFINO S.A."
+    },
+    {
+        "ticker": "PINE3.SA",
+        "nome": "BCO PINE S.A."
+    },
+    {
+        "ticker": "S1NP34.SA",
+        "nome": "S1NP34"
+    },
+    {
+        "ticker": "MDIA3F.SA",
+        "nome": "M.DIAS BRANCO S.A. IND COM DE ALIMENTOS"
+    },
+    {
+        "ticker": "DASA3F.SA",
+        "nome": "DIAGNOSTICOS DA AMERICA S.A."
+    },
+    {
+        "ticker": "HIGH11.SA",
+        "nome": "HIGH11"
+    },
+    {
+        "ticker": "A1PP34.SA",
+        "nome": "A1PP34"
+    },
+    {
+        "ticker": "S1MF34.SA",
+        "nome": "S1MF34"
+    },
+    {
+        "ticker": "NGRD3F.SA",
+        "nome": "NEOGRID PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "TRIS3F.SA",
+        "nome": "TRISUL S.A."
+    },
+    {
+        "ticker": "JALL3F.SA",
+        "nome": "JALLES MACHADO S.A."
+    },
+    {
+        "ticker": "A1LL34.SA",
+        "nome": "A1LL34"
+    },
+    {
+        "ticker": "BRAX11.SA",
+        "nome": "BRAX11"
+    },
+    {
+        "ticker": "BMMT11.SA",
+        "nome": "BMMT11"
+    },
+    {
+        "ticker": "SNCI11.SA",
+        "nome": "SNCI11"
+    },
+    {
+        "ticker": "N1WS34.SA",
+        "nome": "N1WS34"
+    },
+    {
+        "ticker": "BSLI3F.SA",
+        "nome": "BRB BCO DE BRASILIA S.A."
+    },
+    {
+        "ticker": "BIVE39.SA",
+        "nome": "ISHARES S&P 500 VALUE ETF"
+    },
+    {
+        "ticker": "PYPL34.SA",
+        "nome": "PYPL34"
+    },
+    {
+        "ticker": "JSLG3F.SA",
+        "nome": "JSL S.A."
+    },
+    {
+        "ticker": "FICT3F.SA",
+        "nome": "FICTOR ALIMENTOS S.A"
+    },
+    {
+        "ticker": "ALUP3F.SA",
+        "nome": "ALUPAR INVESTIMENTO S/A"
+    },
+    {
+        "ticker": "VXXV11.SA",
+        "nome": "VXXV11"
+    },
+    {
+        "ticker": "S2NW34.SA",
+        "nome": "S2NW34"
+    },
+    {
+        "ticker": "LOGG3F.SA",
+        "nome": "LOG COMMERCIAL PROPERTIES"
+    },
+    {
+        "ticker": "GSGI34.SA",
+        "nome": "GSGI34"
+    },
+    {
+        "ticker": "HBOR3F.SA",
+        "nome": "HELBOR EMPREENDIMENTOS S.A."
+    },
+    {
+        "ticker": "BCOM39.SA",
+        "nome": "ISHARES GSCI COMMODITY DYNAMIC ROLL STRATEGY ETF"
+    },
+    {
+        "ticker": "XRPH11.SA",
+        "nome": "XRPH11"
+    },
+    {
+        "ticker": "EETH11.SA",
+        "nome": "EETH11"
+    },
+    {
+        "ticker": "GGPS3F.SA",
+        "nome": "GPS PARTICIPACOES E EMPREENDIMENTOS S.A."
+    },
+    {
+        "ticker": "PTBL3F.SA",
+        "nome": "PBG S/A"
+    },
+    {
+        "ticker": "N1VO34.SA",
+        "nome": "N1VO34"
+    },
+    {
+        "ticker": "BRAZ11.SA",
+        "nome": "BRAZ11"
+    },
+    {
+        "ticker": "FTCA11.SA",
+        "nome": "FTCA11"
+    },
+    {
+        "ticker": "WHRL3F.SA",
+        "nome": "WHIRLPOOL S.A."
+    },
+    {
+        "ticker": "MLAS3F.SA",
+        "nome": "GRUPO MULTI S.A."
+    },
+    {
+        "ticker": "BIXU39.SA",
+        "nome": "ISHARES CORE MSCI TOTAL INTERNATIONAL STOCK ETF"
+    },
+    {
+        "ticker": "TOKY3F.SA",
+        "nome": "TOKY3F"
+    },
+    {
+        "ticker": "TPIS3F.SA",
+        "nome": "TPI - TRIUNFO PARTICIP. E INVEST. S.A."
+    },
+    {
+        "ticker": "HYPE3F.SA",
+        "nome": "HYPERA S.A."
+    },
+    {
+        "ticker": "T1AM34.SA",
+        "nome": "T1AM34"
+    },
+    {
+        "ticker": "SNFF11.SA",
+        "nome": "SNFF11"
+    },
+    {
+        "ticker": "HSHY34.SA",
+        "nome": "HSHY34"
+    },
+    {
+        "ticker": "BIYE39.SA",
+        "nome": "ISHARES U.S. ENERGY ETF"
+    },
+    {
+        "ticker": "C1DN34.SA",
+        "nome": "C1DN34"
+    },
+    {
+        "ticker": "OSXB3.SA",
+        "nome": "OSX BRASIL S.A."
+    },
+    {
+        "ticker": "GSHP3.SA",
+        "nome": "GENERAL SHOPPING E OUTLETS DO BRASIL S.A."
+    },
+    {
+        "ticker": "CRPG6.SA",
+        "nome": "TRONOX PIGMENTOS DO BRASIL S.A."
+    },
+    {
+        "ticker": "BDLL4.SA",
+        "nome": "BARDELLA S.A. INDUSTRIAS MECANICAS"
+    },
+    {
+        "ticker": "CTSA4.SA",
+        "nome": "CIA TECIDOS SANTANENSE"
+    },
+    {
+        "ticker": "GEPA4.SA",
+        "nome": "RIO PARANAPANEMA ENERGIA S.A."
+    },
+    {
+        "ticker": "CATP34.SA",
+        "nome": "CATP34"
+    },
+    {
+        "ticker": "RSUL4.SA",
+        "nome": "METALURGICA RIOSULENSE S.A."
+    },
+    {
+        "ticker": "BICE11.SA",
+        "nome": "BICE11"
+    },
+    {
+        "ticker": "JOPA4.SA",
+        "nome": "JOSAPAR-JOAQUIM OLIVEIRA S.A. - PARTICIP"
+    },
+    {
+        "ticker": "CBEE3.SA",
+        "nome": "AMPLA ENERGIA E SERVICOS S.A."
+    },
+    {
+        "ticker": "EALT3.SA",
+        "nome": "ELECTRO ACO ALTONA S.A."
+    },
+    {
+        "ticker": "CGAS3.SA",
+        "nome": "CIA GAS DE SAO PAULO - COMGAS"
+    },
+    {
+        "ticker": "BMEB3.SA",
+        "nome": "BCO MERCANTIL DO BRASIL S.A."
+    },
+    {
+        "ticker": "SCAR3.SA",
+        "nome": "SAO CARLOS EMPREEND E PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "C2RW34.SA",
+        "nome": "C2RW34"
+    },
+    {
+        "ticker": "H1HH34.SA",
+        "nome": "H1HH34"
+    },
+    {
+        "ticker": "BRSR3F.SA",
+        "nome": "BCO ESTADO DO RIO GRANDE DO SUL S.A."
+    },
+    {
+        "ticker": "SPGI34.SA",
+        "nome": "SPGI34"
+    },
+    {
+        "ticker": "IFCM3F.SA",
+        "nome": "INFRACOMMERCE CXAAS S.A."
+    },
+    {
+        "ticker": "RBIR11.SA",
+        "nome": "RBIR11"
+    },
+    {
+        "ticker": "CASA11.SA",
+        "nome": "CASA11"
+    },
+    {
+        "ticker": "PFRM3F.SA",
+        "nome": "PROFARMA DISTRIB PROD FARMACEUTICOS S.A."
+    },
+    {
+        "ticker": "CEBR6F.SA",
+        "nome": "CIA ENERGETICA DE BRASILIA"
+    },
+    {
+        "ticker": "VVEO3F.SA",
+        "nome": "CM HOSPITALAR S.A."
+    },
+    {
+        "ticker": "ZAVI11.SA",
+        "nome": "ZAVI11"
+    },
+    {
+        "ticker": "CYRE4F.SA",
+        "nome": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART"
+    },
+    {
+        "ticker": "RENT4F.SA",
+        "nome": "LOCALIZA RENT A CAR S.A."
+    },
+    {
+        "ticker": "NVHO11.SA",
+        "nome": "NVHO11"
+    },
+    {
+        "ticker": "QQQQ11.SA",
+        "nome": "QQQQ11"
+    },
+    {
+        "ticker": "LPSB3F.SA",
+        "nome": "LPS BRASIL - CONSULTORIA DE IMOVEIS S.A."
+    },
+    {
+        "ticker": "NSDV11.SA",
+        "nome": "NSDV11"
+    },
+    {
+        "ticker": "E1CO34.SA",
+        "nome": "E1CO34"
+    },
+    {
+        "ticker": "INEP3F.SA",
+        "nome": "INEPAR S.A. INDUSTRIA E CONSTRUCOES"
+    },
+    {
+        "ticker": "PACL11.SA",
+        "nome": "PACL11"
+    },
+    {
+        "ticker": "B2MB34.SA",
+        "nome": "B2MB34"
+    },
+    {
+        "ticker": "CSED3F.SA",
+        "nome": "CRUZEIRO DO SUL EDUCACIONAL S.A."
+    },
+    {
+        "ticker": "BMLT11.SA",
+        "nome": "BMLT11"
+    },
+    {
+        "ticker": "A1PH34.SA",
+        "nome": "A1PH34"
+    },
+    {
+        "ticker": "BCIR39.SA",
+        "nome": "FIRST TRUST NASDAQ CYBERSECURITY ETF"
+    },
+    {
+        "ticker": "BUSR39.SA",
+        "nome": "ISHARES CORE US REIT ETF"
+    },
+    {
+        "ticker": "SVAL11.SA",
+        "nome": "SVAL11"
+    },
+    {
+        "ticker": "DIVS11.SA",
+        "nome": "DIVS11"
+    },
+    {
+        "ticker": "BRKM3F.SA",
+        "nome": "BRASKEM S.A."
+    },
+    {
+        "ticker": "BMEB4F.SA",
+        "nome": "BCO MERCANTIL DO BRASIL S.A."
+    },
+    {
+        "ticker": "GFSA3F.SA",
+        "nome": "GAFISA S.A."
+    },
+    {
+        "ticker": "HYEM39.SA",
+        "nome": "VANECK EMERGING MARKETS HIGH YIELD BOND ETF"
+    },
+    {
+        "ticker": "GOLB11.SA",
+        "nome": "GOLB11"
+    },
+    {
+        "ticker": "AERI3F.SA",
+        "nome": "AERIS IND. E COM. DE EQUIP. GERACAO DE ENERGIA S/A"
+    },
+    {
+        "ticker": "COPN11.SA",
+        "nome": "COPN11"
+    },
+    {
+        "ticker": "TMCO34.SA",
+        "nome": "TMCO34"
+    },
+    {
+        "ticker": "HBSA3F.SA",
+        "nome": "HIDROVIAS DO BRASIL S.A."
+    },
+    {
+        "ticker": "TRNT11.SA",
+        "nome": "TRNT11"
+    },
+    {
+        "ticker": "BITI11.SA",
+        "nome": "BITI11"
+    },
+    {
+        "ticker": "IFRI11.SA",
+        "nome": "IFRI11"
+    },
+    {
+        "ticker": "X1YZ34.SA",
+        "nome": "X1YZ34"
+    },
+    {
+        "ticker": "BIYK39.SA",
+        "nome": "ISHARES US CONSUMER STAPLES ETF"
+    },
+    {
+        "ticker": "AREA11.SA",
+        "nome": "AREA11"
+    },
+    {
+        "ticker": "TRXY11.SA",
+        "nome": "TRXY11"
+    },
+    {
+        "ticker": "BRZP11.SA",
+        "nome": "BRZP11"
+    },
+    {
+        "ticker": "INEP4F.SA",
+        "nome": "INEPAR S.A. INDUSTRIA E CONSTRUCOES"
+    },
+    {
+        "ticker": "N1TA34.SA",
+        "nome": "N1TA34"
+    },
+    {
+        "ticker": "IWMI11.SA",
+        "nome": "IWMI11"
+    },
+    {
+        "ticker": "N2LY34.SA",
+        "nome": "N2LY34"
+    },
+    {
+        "ticker": "ULEV34.SA",
+        "nome": "ULEV34"
+    },
+    {
+        "ticker": "BTAG11.SA",
+        "nome": "BTAG11"
+    },
+    {
+        "ticker": "GLDI11.SA",
+        "nome": "GLDI11"
+    },
+    {
+        "ticker": "IBIT39.SA",
+        "nome": "ISHARES BITCOIN TRUST"
+    },
+    {
+        "ticker": "WHRL4F.SA",
+        "nome": "WHIRLPOOL S.A."
+    },
+    {
+        "ticker": "AVLL3F.SA",
+        "nome": "ALPHAVILLE S.A."
+    },
+    {
+        "ticker": "SMAC11.SA",
+        "nome": "SMAC11"
+    },
+    {
+        "ticker": "BEWD39.SA",
+        "nome": "ISHARES MSCI SWEDEN ETF"
+    },
+    {
+        "ticker": "BINC11.SA",
+        "nome": "BINC11"
+    },
+    {
+        "ticker": "OURO11.SA",
+        "nome": "OURO11"
+    },
+    {
+        "ticker": "IB5M11.SA",
+        "nome": "IB5M11"
+    },
+    {
+        "ticker": "BGWH39.SA",
+        "nome": "ISHARES CORE DIVIDEND GROWTH ETF"
+    },
+    {
+        "ticker": "VVCO11.SA",
+        "nome": "VVCO11"
+    },
+    {
+        "ticker": "BCIA11.SA",
+        "nome": "BCIA11"
+    },
+    {
+        "ticker": "V1IP34.SA",
+        "nome": "V1IP34"
+    },
+    {
+        "ticker": "S1YM34.SA",
+        "nome": "S1YM34"
+    },
+    {
+        "ticker": "BIVB39.SA",
+        "nome": "ISHARES CORE S&P 500 ETF"
+    },
+    {
+        "ticker": "BEEM39.SA",
+        "nome": "ISHARES MSCI EMERGING MARKETS ETF"
+    },
+    {
+        "ticker": "BNDX11.SA",
+        "nome": "BNDX11"
+    },
+    {
+        "ticker": "HAGA3F.SA",
+        "nome": "HAGA S.A. INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "BUAE39.SA",
+        "nome": "ISHARES MSCI UAE ETF"
+    },
+    {
+        "ticker": "BSIL39.SA",
+        "nome": "GLOBAL X SILVER MINERS ETF"
+    },
+    {
+        "ticker": "BEST11.SA",
+        "nome": "BEST11"
+    },
+    {
+        "ticker": "F1TN34.SA",
+        "nome": "F1TN34"
+    },
+    {
+        "ticker": "S1TX34.SA",
+        "nome": "S1TX34"
+    },
+    {
+        "ticker": "OPCT3F.SA",
+        "nome": "OCEANPACT SERVICOS MARITIMOS S.A."
+    },
+    {
+        "ticker": "SOFF11.SA",
+        "nome": "SOFF11"
+    },
+    {
+        "ticker": "BHYG39.SA",
+        "nome": "ISHARES IBOXX HIGH YIELD CORPORATE BOND ETF"
+    },
+    {
+        "ticker": "S1YK34.SA",
+        "nome": "S1YK34"
+    },
+    {
+        "ticker": "TASA3F.SA",
+        "nome": "TAURUS ARMAS S.A."
+    },
+    {
+        "ticker": "RPMG3F.SA",
+        "nome": "REFINARIA DE PETROLEOS MANGUINHOS S.A."
+    },
+    {
+        "ticker": "PHIP11.SA",
+        "nome": "PHIP11"
+    },
+    {
+        "ticker": "DXCO3F.SA",
+        "nome": "DEXCO S.A."
+    },
+    {
+        "ticker": "RNGO11.SA",
+        "nome": "RNGO11"
+    },
+    {
+        "ticker": "HTEK11.SA",
+        "nome": "HTEK11"
+    },
+    {
+        "ticker": "L1WH34.SA",
+        "nome": "L1WH34"
+    },
+    {
+        "ticker": "BSHY39.SA",
+        "nome": "ISHARES 1-3 YEAR TREASURY BOND ETF"
+    },
+    {
+        "ticker": "TMOS34.SA",
+        "nome": "TMOS34"
+    },
+    {
+        "ticker": "HOMS11.SA",
+        "nome": "HOMS11"
+    },
+    {
+        "ticker": "NUIF11.SA",
+        "nome": "NUIF11"
+    },
+    {
+        "ticker": "SCVB11.SA",
+        "nome": "SCVB11"
+    },
+    {
+        "ticker": "JNJB34.SA",
+        "nome": "JNJB34"
+    },
+    {
+        "ticker": "TECK11.SA",
+        "nome": "TECK11"
+    },
+    {
+        "ticker": "CEBR3F.SA",
+        "nome": "CIA ENERGETICA DE BRASILIA"
+    },
+    {
+        "ticker": "SPUB11.SA",
+        "nome": "SPUB11"
+    },
+    {
+        "ticker": "O2LE34.SA",
+        "nome": "O2LE34"
+    },
+    {
+        "ticker": "CXCE11.SA",
+        "nome": "CXCE11"
+    },
+    {
+        "ticker": "ESTR4.SA",
+        "nome": "MANUFATURA DE BRINQUEDOS ESTRELA S.A."
+    },
+    {
+        "ticker": "ADMF3.SA",
+        "nome": "CIABRASF CIA BRASILEIRA DE SERVIÇOS FINANCEIROS SA"
+    },
+    {
+        "ticker": "P1KG34.SA",
+        "nome": "P1KG34"
+    },
+    {
+        "ticker": "MRSA3B.SA",
+        "nome": "MRS LOGISTICA S.A."
+    },
+    {
+        "ticker": "GICP11.SA",
+        "nome": "GICP11"
+    },
+    {
+        "ticker": "MTSA4.SA",
+        "nome": "METISA METALURGICA TIMBOENSE S.A."
+    },
+    {
+        "ticker": "BMRE39.SA",
+        "nome": "ISHARES MORTGAGE REAL ESTATE ETF"
+    },
+    {
+        "ticker": "TKNO4.SA",
+        "nome": "TEKNO S.A. - INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "EALT4.SA",
+        "nome": "ELECTRO ACO ALTONA S.A."
+    },
+    {
+        "ticker": "EKTR3.SA",
+        "nome": "ELEKTRO REDES S.A."
+    },
+    {
+        "ticker": "RPAD6.SA",
+        "nome": "ALFA HOLDINGS S.A."
+    },
+    {
+        "ticker": "AHEB3.SA",
+        "nome": "SAO PAULO TURISMO S.A."
+    },
+    {
+        "ticker": "PLAS3.SA",
+        "nome": "PLASCAR PARTICIPACOES INDUSTRIAIS S.A."
+    },
+    {
+        "ticker": "NUTR3.SA",
+        "nome": "NUTRIPLANT INDUSTRIA E COMERCIO S.A."
+    },
+    {
+        "ticker": "SNSY3.SA",
+        "nome": "SANSUY S.A. INDUSTRIA DE PLASTICOS"
+    },
+    {
+        "ticker": "HIRE11.SA",
+        "nome": "HIRE11"
+    },
+    {
+        "ticker": "VSTE3.SA",
+        "nome": "VESTE S.A. ESTILO"
+    },
+    {
+        "ticker": "CRPG5.SA",
+        "nome": "TRONOX PIGMENTOS DO BRASIL S.A."
+    },
+    {
+        "ticker": "P1AC34.SA",
+        "nome": "P1AC34"
+    },
+    {
+        "ticker": "RVEE3.SA",
+        "nome": "REVEE S.A."
+    },
+    {
+        "ticker": "VITT3F.SA",
+        "nome": "VITTIA S.A."
+    },
+    {
+        "ticker": "STYI11.SA",
+        "nome": "STYI11"
+    },
+    {
+        "ticker": "QDFI11.SA",
+        "nome": "QDFI11"
+    },
+    {
+        "ticker": "ETER3F.SA",
+        "nome": "ETERNIT S.A."
+    },
+    {
+        "ticker": "SPTW11.SA",
+        "nome": "SPTW11"
+    },
+    {
+        "ticker": "APTO11.SA",
+        "nome": "APTO11"
+    },
+    {
+        "ticker": "N1DA34.SA",
+        "nome": "N1DA34"
+    },
+    {
+        "ticker": "BEWQ39.SA",
+        "nome": "ISHARES MSCI FRANCE ETF"
+    },
+    {
+        "ticker": "CTAX3F.SA",
+        "nome": "CTAX3F"
+    },
+    {
+        "ticker": "INLG11.SA",
+        "nome": "INLG11"
+    },
+    {
+        "ticker": "S1JM34.SA",
+        "nome": "S1JM34"
+    },
+    {
+        "ticker": "E2PA34.SA",
+        "nome": "E2PA34"
+    },
+    {
+        "ticker": "KMBB34.SA",
+        "nome": "KMBB34"
+    },
+    {
+        "ticker": "BIXC39.SA",
+        "nome": "ISHARES GLOBAL ENERGY ETF"
+    },
+    {
+        "ticker": "ISAE3F.SA",
+        "nome": "ISA ENERGIA BRASIL S.A"
+    },
+    {
+        "ticker": "EALT4F.SA",
+        "nome": "ELECTRO ACO ALTONA S.A."
+    },
+    {
+        "ticker": "BLFT11.SA",
+        "nome": "BLFT11"
+    },
+    {
+        "ticker": "ENGI3F.SA",
+        "nome": "ENERGISA S.A."
+    },
+    {
+        "ticker": "MTSA4F.SA",
+        "nome": "METISA METALURGICA TIMBOENSE S.A."
+    },
+    {
+        "ticker": "BTLT39.SA",
+        "nome": "ISHARES 20 YEAR TREASURY BOND ETF"
+    },
+    {
+        "ticker": "LVOL11.SA",
+        "nome": "LVOL11"
+    },
+    {
+        "ticker": "XBCI11.SA",
+        "nome": "XBCI11"
+    },
+    {
+        "ticker": "BSLI4F.SA",
+        "nome": "BRB BCO DE BRASILIA S.A."
+    },
+    {
+        "ticker": "AURO11.SA",
+        "nome": "AURO11"
+    },
+    {
+        "ticker": "BBOI11.SA",
+        "nome": "BBOI11"
+    },
+    {
+        "ticker": "SFIX11.SA",
+        "nome": "SFIX11"
+    },
+    {
+        "ticker": "HOOT4F.SA",
+        "nome": "HOTEIS OTHON S.A."
+    },
+    {
+        "ticker": "COPH34.SA",
+        "nome": "COPH34"
+    },
+    {
+        "ticker": "K1LA34.SA",
+        "nome": "K1LA34"
+    },
+    {
+        "ticker": "EQPA3F.SA",
+        "nome": "EQUATORIAL PARA DISTRIBUIDORA DE ENERGIA S.A."
+    },
+    {
+        "ticker": "ENJU3F.SA",
+        "nome": "ENJOEI S.A."
+    },
+    {
+        "ticker": "IBCR11.SA",
+        "nome": "IBCR11"
+    },
+    {
+        "ticker": "PLRI11.SA",
+        "nome": "PLRI11"
+    },
+    {
+        "ticker": "BIXJ39.SA",
+        "nome": "ISHARES GLOBAL HEALTHCARE ETF"
+    },
+    {
+        "ticker": "HLOG11.SA",
+        "nome": "HLOG11"
+    },
+    {
+        "ticker": "EDGA11.SA",
+        "nome": "EDGA11"
+    },
+    {
+        "ticker": "D1VN34.SA",
+        "nome": "D1VN34"
+    },
+    {
+        "ticker": "S1NA34.SA",
+        "nome": "S1NA34"
+    },
+    {
+        "ticker": "RCSL3F.SA",
+        "nome": "RECRUSUL S.A."
+    },
+    {
+        "ticker": "GOLX11.SA",
+        "nome": "GOLX11"
+    },
+    {
+        "ticker": "B2HI34.SA",
+        "nome": "B2HI34"
+    },
+    {
+        "ticker": "U2ST34.SA",
+        "nome": "U2ST34"
+    },
+    {
+        "ticker": "GBTC11.SA",
+        "nome": "GBTC11"
+    },
+    {
+        "ticker": "WUNI34.SA",
+        "nome": "WUNI34"
+    },
+    {
+        "ticker": "HGBL11.SA",
+        "nome": "HGBL11"
+    },
+    {
+        "ticker": "BCLO39.SA",
+        "nome": "GLOBAL X CLOUD COMPUTING ETF"
+    },
+    {
+        "ticker": "VPPR11.SA",
+        "nome": "VPPR11"
+    },
+    {
+        "ticker": "NEWL11.SA",
+        "nome": "NEWL11"
+    },
+    {
+        "ticker": "XBOV11.SA",
+        "nome": "XBOV11"
+    },
+    {
+        "ticker": "CXCO11.SA",
+        "nome": "CXCO11"
+    },
+    {
+        "ticker": "COWC34.SA",
+        "nome": "COWC34"
+    },
+    {
+        "ticker": "AFLT3F.SA",
+        "nome": "AFLUENTE TRANSMISSÃO DE ENERGIA ELÉTRICA S/A"
+    },
+    {
+        "ticker": "SCAR3F.SA",
+        "nome": "SAO CARLOS EMPREEND E PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "DOLL39.SA",
+        "nome": "ISHARES 0-3 MONTH TREASURY BOND ETF"
+    },
+    {
+        "ticker": "MCDC34.SA",
+        "nome": "MCDC34"
+    },
+    {
+        "ticker": "ACNB34.SA",
+        "nome": "ACNB34"
+    },
+    {
+        "ticker": "SHPH11.SA",
+        "nome": "SHPH11"
+    },
+    {
+        "ticker": "PLCA11.SA",
+        "nome": "PLCA11"
+    },
+    {
+        "ticker": "BIEV39.SA",
+        "nome": "ISHARES EUROPE ETF"
+    },
+    {
+        "ticker": "LLFT11.SA",
+        "nome": "LLFT11"
+    },
+    {
+        "ticker": "TRAD3F.SA",
+        "nome": "TC S.A."
+    },
+    {
+        "ticker": "LSAG11.SA",
+        "nome": "LSAG11"
+    },
+    {
+        "ticker": "ATED3F.SA",
+        "nome": "ATOM EDUCAÇÃO E EDITORA S.A."
+    },
+    {
+        "ticker": "QCOM34.SA",
+        "nome": "QCOM34"
+    },
+    {
+        "ticker": "BULZ11.SA",
+        "nome": "BULZ11"
+    },
+    {
+        "ticker": "SHOW3F.SA",
+        "nome": "T4F ENTRETENIMENTO S.A."
+    },
+    {
+        "ticker": "BIYG39.SA",
+        "nome": "ISHARES U.S. FINANCIAL SERVICES ETF"
+    },
+    {
+        "ticker": "TELB3F.SA",
+        "nome": "TELEC BRASILEIRAS S.A. TELEBRAS"
+    },
+    {
+        "ticker": "EMAE4F.SA",
+        "nome": "EMAE - EMPRESA METROP.AGUAS ENERGIA S.A."
+    },
+    {
+        "ticker": "V2RN34.SA",
+        "nome": "V2RN34"
+    },
+    {
+        "ticker": "ELAS11.SA",
+        "nome": "ELAS11"
+    },
+    {
+        "ticker": "VIVR3F.SA",
+        "nome": "VIVER INCORPORADORA E CONSTRUTORA S.A."
+    },
+    {
+        "ticker": "GLPF11.SA",
+        "nome": "GLPF11"
+    },
+    {
+        "ticker": "TFCO4F.SA",
+        "nome": "TRACK & FIELD CO S.A."
+    },
+    {
+        "ticker": "REDE3F.SA",
+        "nome": "REDE ENERGIA PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "PFIZ34.SA",
+        "nome": "PFIZ34"
+    },
+    {
+        "ticker": "BOEI34.SA",
+        "nome": "BOEI34"
+    },
+    {
+        "ticker": "BREW11.SA",
+        "nome": "BREW11"
+    },
+    {
+        "ticker": "E1RI34.SA",
+        "nome": "E1RI34"
+    },
+    {
+        "ticker": "GLOG11.SA",
+        "nome": "GLOG11"
+    },
+    {
+        "ticker": "BFIW39.SA",
+        "nome": "FIRST TRUST WATER ETF"
+    },
+    {
+        "ticker": "ENGI4F.SA",
+        "nome": "ENERGISA S.A."
+    },
+    {
+        "ticker": "A2MB34.SA",
+        "nome": "A2MB34"
+    },
+    {
+        "ticker": "BAIQ39.SA",
+        "nome": "GLOBAL X ARTIFICIAL INTELLIGENCE & TECHNOLOGY ETF"
+    },
+    {
+        "ticker": "MEAL3F.SA",
+        "nome": "INTERNATIONAL MEAL COMPANY ALIMENTACAO S.A."
+    },
+    {
+        "ticker": "I1BN34.SA",
+        "nome": "I1BN34"
+    },
+    {
+        "ticker": "XPCM11.SA",
+        "nome": "XPCM11"
+    },
+    {
+        "ticker": "EQIX34.SA",
+        "nome": "EQIX34"
+    },
+    {
+        "ticker": "BEES4F.SA",
+        "nome": "BANESTES S.A. - BCO EST ESPIRITO SANTO"
+    },
+    {
+        "ticker": "BGOV39.SA",
+        "nome": "ISHARES US TREASURY BOND ETF"
+    },
+    {
+        "ticker": "PIBB11.SA",
+        "nome": "PIBB11"
+    },
+    {
+        "ticker": "HOME34.SA",
+        "nome": "HOME34"
+    },
+    {
+        "ticker": "W1PP34.SA",
+        "nome": "W1PP34"
+    },
+    {
+        "ticker": "G2EV34.SA",
+        "nome": "G2EV34"
+    },
+    {
+        "ticker": "D1EL34.SA",
+        "nome": "D1EL34"
+    },
+    {
+        "ticker": "D2KN34.SA",
+        "nome": "D2KN34"
+    },
+    {
+        "ticker": "MWET4F.SA",
+        "nome": "WETZEL S.A."
+    },
+    {
+        "ticker": "BQUA39.SA",
+        "nome": "ISHARES MSCI USA QUALITY FACTOR ETF"
+    },
+    {
+        "ticker": "BUSM39.SA",
+        "nome": "ISHARES MSCI USA MIN VOL FACTOR ETF"
+    },
+    {
+        "ticker": "B1BW34.SA",
+        "nome": "B1BW34"
+    },
+    {
+        "ticker": "N1BI34.SA",
+        "nome": "N1BI34"
+    },
+    {
+        "ticker": "DEOP34.SA",
+        "nome": "DEOP34"
+    },
+    {
+        "ticker": "E2NP34.SA",
+        "nome": "E2NP34"
+    },
+    {
+        "ticker": "BDEF11.SA",
+        "nome": "BDEF11"
+    },
+    {
+        "ticker": "BIWM39.SA",
+        "nome": "ISHARES RUSSELL 2000 ETF"
+    },
+    {
+        "ticker": "CAMB3F.SA",
+        "nome": "CAMBUCI S.A."
+    },
+    {
+        "ticker": "BOTZ39.SA",
+        "nome": "GLOBAL X ROBOTICS & ARTIFICIAL INTELLIGENCE ETF"
+    },
+    {
+        "ticker": "LAND3F.SA",
+        "nome": "TERRA SANTA PROPRIEDADES AGRICOLAS S.A."
+    },
+    {
+        "ticker": "WEST3F.SA",
+        "nome": "WESTWING COMERCIO VAREJISTA S.A."
+    },
+    {
+        "ticker": "BILB34.SA",
+        "nome": "BILB34"
+    },
+    {
+        "ticker": "N1WL34.SA",
+        "nome": "N1WL34"
+    },
+    {
+        "ticker": "TXRX3F.SA",
+        "nome": "TEXTIL RENAUXVIEW S.A."
+    },
+    {
+        "ticker": "W1BO34.SA",
+        "nome": "W1BO34"
+    },
+    {
+        "ticker": "INTU34.SA",
+        "nome": "INTU34"
+    },
+    {
+        "ticker": "BMEB3F.SA",
+        "nome": "BCO MERCANTIL DO BRASIL S.A."
+    },
+    {
+        "ticker": "DOHL4.SA",
+        "nome": "DOHLER S.A."
+    },
+    {
+        "ticker": "BCIC11.SA",
+        "nome": "BCIC11"
+    },
+    {
+        "ticker": "MRSA5B.SA",
+        "nome": "MRS LOGISTICA S.A."
+    },
+    {
+        "ticker": "CLSC4.SA",
+        "nome": "CENTRAIS ELET DE SANTA CATARINA S.A."
+    },
+    {
+        "ticker": "BCWV39.SA",
+        "nome": "ISHARES MSCI GLOBAL MIN VOL FACTOR ETF"
+    },
+    {
+        "ticker": "IGTI4.SA",
+        "nome": "IGUATEMI S.A."
+    },
+    {
+        "ticker": "FISC11.SA",
+        "nome": "FISC11"
+    },
+    {
+        "ticker": "PEAB3.SA",
+        "nome": "CIA PARTICIPACOES ALIANCA DA BAHIA"
+    },
+    {
+        "ticker": "HOOT4.SA",
+        "nome": "HOTEIS OTHON S.A."
+    },
+    {
+        "ticker": "TXRX4.SA",
+        "nome": "TEXTIL RENAUXVIEW S.A."
+    },
+    {
+        "ticker": "A2FY34.SA",
+        "nome": "A2FY34"
+    },
+    {
+        "ticker": "BRKM6.SA",
+        "nome": "BRASKEM S.A."
+    },
+    {
+        "ticker": "ENMT4.SA",
+        "nome": "ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A"
+    },
+    {
+        "ticker": "CEEB5.SA",
+        "nome": "CIA ELETRICIDADE EST. DA BAHIA - COELBA"
+    },
+    {
+        "ticker": "FICT3.SA",
+        "nome": "FICTOR ALIMENTOS S.A"
+    },
+    {
+        "ticker": "BMIN4.SA",
+        "nome": "BCO MERCANTIL DE INVESTIMENTOS S.A."
+    },
+    {
+        "ticker": "PDGR3.SA",
+        "nome": "PDG REALTY S.A. EMPREEND E PARTICIPACOES"
+    },
+    {
+        "ticker": "HBTS5.SA",
+        "nome": "CIA HABITASUL DE PARTICIPACOES"
+    },
+    {
+        "ticker": "GCDL11.SA",
+        "nome": "GCDL11"
+    },
+    {
+        "ticker": "WEST3.SA",
+        "nome": "WESTWING COMERCIO VAREJISTA S.A."
+    },
+    {
+        "ticker": "CEBR6.SA",
+        "nome": "CIA ENERGETICA DE BRASILIA"
+    },
+    {
+        "ticker": "RPAD5.SA",
+        "nome": "ALFA HOLDINGS S.A."
+    },
+    {
+        "ticker": "TXRX3.SA",
+        "nome": "TEXTIL RENAUXVIEW S.A."
+    },
+    {
+        "ticker": "MRSA6B.SA",
+        "nome": "MRS LOGISTICA S.A."
+    },
+    {
+        "ticker": "WLMM4.SA",
+        "nome": "WLM PART. E COMÉRCIO DE MÁQUINAS E VEÍCULOS S.A."
+    },
+    {
+        "ticker": "P1HC34.SA",
+        "nome": "P1HC34"
+    },
+    {
+        "ticker": "CRPG3.SA",
+        "nome": "TRONOX PIGMENTOS DO BRASIL S.A."
+    },
+    {
+        "ticker": "BALM3.SA",
+        "nome": "BAUMER S.A."
+    },
+    {
+        "ticker": "DEXP4.SA",
+        "nome": "DEXXOS PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "CGAS5.SA",
+        "nome": "CIA GAS DE SAO PAULO - COMGAS"
+    },
+    {
+        "ticker": "CTEM11.SA",
+        "nome": "CTEM11"
+    },
+    {
+        "ticker": "CALI3.SA",
+        "nome": "CONSTRUTORA ADOLPHO LINDENBERG S.A."
+    },
+    {
+        "ticker": "LUXM4.SA",
+        "nome": "TREVISA INVESTIMENTOS S.A."
+    },
+    {
+        "ticker": "ENMT3.SA",
+        "nome": "ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A"
+    },
+    {
+        "ticker": "RPMG3.SA",
+        "nome": "REFINARIA DE PETROLEOS MANGUINHOS S.A."
+    },
+    {
+        "ticker": "BNBR3.SA",
+        "nome": "BCO NORDESTE DO BRASIL S.A."
+    },
+    {
+        "ticker": "TKNO3.SA",
+        "nome": "TEKNO S.A. - INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "MAPT3.SA",
+        "nome": "CEMEPE INVESTIMENTOS S.A."
+    },
+    {
+        "ticker": "SPVT11.SA",
+        "nome": "SPVT11"
+    },
+    {
+        "ticker": "SOND5.SA",
+        "nome": "SONDOTECNICA ENGENHARIA SOLOS S.A."
+    },
+    {
+        "ticker": "SOND6.SA",
+        "nome": "SONDOTECNICA ENGENHARIA SOLOS S.A."
+    },
+    {
+        "ticker": "RPAD3.SA",
+        "nome": "ALFA HOLDINGS S.A."
+    },
+    {
+        "ticker": "BGIP4.SA",
+        "nome": "BCO ESTADO DE SERGIPE S.A. - BANESE"
+    },
+    {
+        "ticker": "FESA3.SA",
+        "nome": "CIA FERRO LIGAS DA BAHIA - FERBASA"
+    },
+    {
+        "ticker": "CTKA3.SA",
+        "nome": "KARSTEN S.A."
+    },
+    {
+        "ticker": "UCAS3.SA",
+        "nome": "UNICASA INDÚSTRIA DE MÓVEIS S.A."
+    },
+    {
+        "ticker": "B1003.SA",
+        "nome": "B1003"
+    },
+    {
+        "ticker": "WDCN3.SA",
+        "nome": "WDCN3"
+    },
+    {
+        "ticker": "CCTY3.SA",
+        "nome": "BELORA RDVC CITY DESENVOLVIMENTO  IMOBILIÁRIO S.A."
+    },
+    {
+        "ticker": "RBRD11.SA",
+        "nome": "RBRD11"
+    },
+    {
+        "ticker": "AMAR3F.SA",
+        "nome": "MARISA LOJAS S.A."
+    },
+    {
+        "ticker": "GSRF11.SA",
+        "nome": "GSRF11"
+    },
+    {
+        "ticker": "PDGR3F.SA",
+        "nome": "PDG REALTY S.A. EMPREEND E PARTICIPACOES"
+    },
+    {
+        "ticker": "CXCI11.SA",
+        "nome": "CXCI11"
+    },
+    {
+        "ticker": "ABCP11.SA",
+        "nome": "ABCP11"
+    },
+    {
+        "ticker": "A1ZN34.SA",
+        "nome": "A1ZN34"
+    },
+    {
+        "ticker": "TECN3F.SA",
+        "nome": "TECHNOS S.A."
+    },
+    {
+        "ticker": "FESA3F.SA",
+        "nome": "CIA FERRO LIGAS DA BAHIA - FERBASA"
+    },
+    {
+        "ticker": "RNEW3F.SA",
+        "nome": "RENOVA ENERGIA S.A."
+    },
+    {
+        "ticker": "BRST3F.SA",
+        "nome": "BRISANET SERVIÇOS DE TELECOMUNICAÇÕES S.A."
+    },
+    {
+        "ticker": "T1TW34.SA",
+        "nome": "T1TW34"
+    },
+    {
+        "ticker": "BDAP11.SA",
+        "nome": "BDAP11"
+    },
+    {
+        "ticker": "PMIS11.SA",
+        "nome": "PMIS11"
+    },
+    {
+        "ticker": "BEMV39.SA",
+        "nome": "ISHARES MSCI EMERGING MARKETS MIN VOL FACTOR ETF"
+    },
+    {
+        "ticker": "FRAS3F.SA",
+        "nome": "FRASLE MOBILITY S.A."
+    },
+    {
+        "ticker": "CARE11.SA",
+        "nome": "CARE11"
+    },
+    {
+        "ticker": "VCRR11.SA",
+        "nome": "VCRR11"
+    },
+    {
+        "ticker": "W1IX34.SA",
+        "nome": "W1IX34"
+    },
+    {
+        "ticker": "MATD3F.SA",
+        "nome": "HOSPITAL MATER DEI S/A"
+    },
+    {
+        "ticker": "N1VS34.SA",
+        "nome": "N1VS34"
+    },
+    {
+        "ticker": "K2CG34.SA",
+        "nome": "K2CG34"
+    },
+    {
+        "ticker": "J1BH34.SA",
+        "nome": "J1BH34"
+    },
+    {
+        "ticker": "PLAG11.SA",
+        "nome": "PLAG11"
+    },
+    {
+        "ticker": "N1IC34.SA",
+        "nome": "N1IC34"
+    },
+    {
+        "ticker": "BOBR4F.SA",
+        "nome": "BOMBRIL S.A."
+    },
+    {
+        "ticker": "EIRA11.SA",
+        "nome": "EIRA11"
+    },
+    {
+        "ticker": "G1WW34.SA",
+        "nome": "G1WW34"
+    },
+    {
+        "ticker": "FCFL11.SA",
+        "nome": "FCFL11"
+    },
+    {
+        "ticker": "L1YB34.SA",
+        "nome": "L1YB34"
+    },
+    {
+        "ticker": "CTSA4F.SA",
+        "nome": "CIA TECIDOS SANTANENSE"
+    },
+    {
+        "ticker": "T2ND34.SA",
+        "nome": "T2ND34"
+    },
+    {
+        "ticker": "BPVE39.SA",
+        "nome": "GLOBAL X US INFRASTRUCTURE DEVELOPMENT ETF"
+    },
+    {
+        "ticker": "DAYM11.SA",
+        "nome": "DAYM11"
+    },
+    {
+        "ticker": "DESK3F.SA",
+        "nome": "DESKTOP S.A."
+    },
+    {
+        "ticker": "AJFI11.SA",
+        "nome": "AJFI11"
+    },
+    {
+        "ticker": "BLCA11.SA",
+        "nome": "BLCA11"
+    },
+    {
+        "ticker": "VCRA11.SA",
+        "nome": "VCRA11"
+    },
+    {
+        "ticker": "BNFS11.SA",
+        "nome": "BNFS11"
+    },
+    {
+        "ticker": "BILF39.SA",
+        "nome": "ISHARES LATIN AMERICA 40 ETF"
+    },
+    {
+        "ticker": "BTRA11.SA",
+        "nome": "BTRA11"
+    },
+    {
+        "ticker": "EUCA4F.SA",
+        "nome": "EUCATEX S.A. INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "BIVW39.SA",
+        "nome": "ISHARES S&P 500 GROWTH ETF"
+    },
+    {
+        "ticker": "PACC11.SA",
+        "nome": "PACC11"
+    },
+    {
+        "ticker": "G1FI34.SA",
+        "nome": "G1FI34"
+    },
+    {
+        "ticker": "BNBR3F.SA",
+        "nome": "BCO NORDESTE DO BRASIL S.A."
+    },
+    {
+        "ticker": "SCHW34.SA",
+        "nome": "SCHW34"
+    },
+    {
+        "ticker": "PHGN34.SA",
+        "nome": "PHGN34"
+    },
+    {
+        "ticker": "RGTI34.SA",
+        "nome": "RGTI34"
+    },
+    {
+        "ticker": "PMRL11.SA",
+        "nome": "PMRL11"
+    },
+    {
+        "ticker": "BQCL39.SA",
+        "nome": "FIRST TRUST NASDAQ CLEAN EDGE GREEN ENERGY INDEX"
+    },
+    {
+        "ticker": "D2TC34.SA",
+        "nome": "D2TC34"
+    },
+    {
+        "ticker": "NBIT11.SA",
+        "nome": "NBIT11"
+    },
+    {
+        "ticker": "MRCK34.SA",
+        "nome": "MRCK34"
+    },
+    {
+        "ticker": "CRPT11.SA",
+        "nome": "CRPT11"
+    },
+    {
+        "ticker": "BIDB11.SA",
+        "nome": "BIDB11"
+    },
+    {
+        "ticker": "OGIN11.SA",
+        "nome": "OGIN11"
+    },
+    {
+        "ticker": "RECD11.SA",
+        "nome": "RECD11"
+    },
+    {
+        "ticker": "SCPF11.SA",
+        "nome": "SCPF11"
+    },
+    {
+        "ticker": "I2NV34.SA",
+        "nome": "I2NV34"
+    },
+    {
+        "ticker": "BIWF39.SA",
+        "nome": "ISHARES RUSSELL 1000 GROWTH ETF"
+    },
+    {
+        "ticker": "T1DG34.SA",
+        "nome": "T1DG34"
+    },
+    {
+        "ticker": "TCSA3F.SA",
+        "nome": "TECNISA S.A."
+    },
+    {
+        "ticker": "FIGS11.SA",
+        "nome": "FIGS11"
+    },
+    {
+        "ticker": "S1KM34.SA",
+        "nome": "S1KM34"
+    },
+    {
+        "ticker": "BIEM39.SA",
+        "nome": "ISHARES CORE MSCI EMERGING MARKETS ETF"
+    },
+    {
+        "ticker": "CEDO3F.SA",
+        "nome": "CIA FIACAO TECIDOS CEDRO CACHOEIRA"
+    },
+    {
+        "ticker": "BIAU39.SA",
+        "nome": "ISHARES GOLD TRUST"
+    },
+    {
+        "ticker": "MILL11.SA",
+        "nome": "MILL11"
+    },
+    {
+        "ticker": "BBGO11.SA",
+        "nome": "BBGO11"
+    },
+    {
+        "ticker": "DBAG34.SA",
+        "nome": "DBAG34"
+    },
+    {
+        "ticker": "BFAV39.SA",
+        "nome": "ISHARES MSCI EAFE MIN VOL FACTOR ETF"
+    },
+    {
+        "ticker": "FDMO34.SA",
+        "nome": "FDMO34"
+    },
+    {
+        "ticker": "FVPQ11.SA",
+        "nome": "FVPQ11"
+    },
+    {
+        "ticker": "ARND3F.SA",
+        "nome": "ARND3F"
+    },
+    {
+        "ticker": "M1DB34.SA",
+        "nome": "M1DB34"
+    },
+    {
+        "ticker": "CGRA4F.SA",
+        "nome": "GRAZZIOTIN S.A."
+    },
+    {
+        "ticker": "EURO11.SA",
+        "nome": "EURO11"
+    },
+    {
+        "ticker": "I1SR34.SA",
+        "nome": "I1SR34"
+    },
+    {
+        "ticker": "P1DD34.SA",
+        "nome": "P1DD34"
+    },
+    {
+        "ticker": "BDIV11.SA",
+        "nome": "BDIV11"
+    },
+    {
+        "ticker": "AALR3F.SA",
+        "nome": "ALLIANÇA SAÚDE E PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "BEUW39.SA",
+        "nome": "ISHARES MSCI USA EQUAL WEIGHTED ETF"
+    },
+    {
+        "ticker": "ISTT11.SA",
+        "nome": "ISTT11"
+    },
+    {
+        "ticker": "RBFY11.SA",
+        "nome": "RBFY11"
+    },
+    {
+        "ticker": "HGBR11.SA",
+        "nome": "HGBR11"
+    },
+    {
+        "ticker": "E1QN34.SA",
+        "nome": "E1QN34"
+    },
+    {
+        "ticker": "ADMF3F.SA",
+        "nome": "CIABRASF CIA BRASILEIRA DE SERVIÇOS FINANCEIROS SA"
+    },
+    {
+        "ticker": "VVMR11.SA",
+        "nome": "VVMR11"
+    },
+    {
+        "ticker": "S2TW34.SA",
+        "nome": "S2TW34"
+    },
+    {
+        "ticker": "BBRC11.SA",
+        "nome": "BBRC11"
+    },
+    {
+        "ticker": "DOLX11.SA",
+        "nome": "DOLX11"
+    },
+    {
+        "ticker": "NEWU11.SA",
+        "nome": "NEWU11"
+    },
+    {
+        "ticker": "FCXO34.SA",
+        "nome": "FCXO34"
+    },
+    {
+        "ticker": "BRKM6F.SA",
+        "nome": "BRASKEM S.A."
+    },
+    {
+        "ticker": "RELG11.SA",
+        "nome": "RELG11"
+    },
+    {
+        "ticker": "ESPA3F.SA",
+        "nome": "MPM CORPÓREOS S.A."
+    },
+    {
+        "ticker": "ISNN11.SA",
+        "nome": "ISNN11"
+    },
+    {
+        "ticker": "E2XE34.SA",
+        "nome": "E2XE34"
+    },
+    {
+        "ticker": "E1WL34.SA",
+        "nome": "E1WL34"
+    },
+    {
+        "ticker": "EGGY3F.SA",
+        "nome": "GRANJA FARIA S.A."
+    },
+    {
+        "ticker": "BITC11.SA",
+        "nome": "BITC11"
+    },
+    {
+        "ticker": "CRPG5F.SA",
+        "nome": "TRONOX PIGMENTOS DO BRASIL S.A."
+    },
+    {
+        "ticker": "REVE11.SA",
+        "nome": "REVE11"
+    },
+    {
+        "ticker": "PDTC3F.SA",
+        "nome": "PADTEC HOLDING S.A."
+    },
+    {
+        "ticker": "KOPA11.SA",
+        "nome": "KOPA11"
+    },
+    {
+        "ticker": "REGN34.SA",
+        "nome": "REGN34"
+    },
+    {
+        "ticker": "GLDX11.SA",
+        "nome": "GLDX11"
+    },
+    {
+        "ticker": "DEFT31.SA",
+        "nome": "DEFI TECHNOLOGIES INC"
+    },
+    {
+        "ticker": "L1OE34.SA",
+        "nome": "L1OE34"
+    },
+    {
+        "ticker": "L2RN34.SA",
+        "nome": "L2RN34"
+    },
+    {
+        "ticker": "BQYL39.SA",
+        "nome": "GLOBAL X NASDAQ 100 COVERED CALL ETF"
+    },
+    {
+        "ticker": "RIGG34.SA",
+        "nome": "RIGG34"
+    },
+    {
+        "ticker": "BEFV39.SA",
+        "nome": "ISHARES MSCI EAFE VALUE ETF"
+    },
+    {
+        "ticker": "OUJP11.SA",
+        "nome": "OUJP11"
+    },
+    {
+        "ticker": "ONDA11.SA",
+        "nome": "ONDA11"
+    },
+    {
+        "ticker": "DPRO11.SA",
+        "nome": "DPRO11"
+    },
+    {
+        "ticker": "MCEM11.SA",
+        "nome": "MCEM11"
+    },
+    {
+        "ticker": "GOGL35.SA",
+        "nome": "GOGL35"
+    },
+    {
+        "ticker": "MKLC34.SA",
+        "nome": "MKLC34"
+    },
+    {
+        "ticker": "OIBR4F.SA",
+        "nome": "OI S.A."
+    },
+    {
+        "ticker": "RAPT3F.SA",
+        "nome": "RANDONCORP S.A."
+    },
+    {
+        "ticker": "I1XC34.SA",
+        "nome": "I1XC34"
+    },
+    {
+        "ticker": "P1HM34.SA",
+        "nome": "P1HM34"
+    },
+    {
+        "ticker": "G1LW34.SA",
+        "nome": "G1LW34"
+    },
+    {
+        "ticker": "BURT39.SA",
+        "nome": "ISHARES MSCI WORLD ETF"
+    },
+    {
+        "ticker": "ZAGH11.SA",
+        "nome": "ZAGH11"
+    },
+    {
+        "ticker": "LUXM4F.SA",
+        "nome": "TREVISA INVESTIMENTOS S.A."
+    },
+    {
+        "ticker": "BBFO11.SA",
+        "nome": "BBFO11"
+    },
+    {
+        "ticker": "WEB311.SA",
+        "nome": "WEB311"
+    },
+    {
+        "ticker": "RMBS11.SA",
+        "nome": "RMBS11"
+    },
+    {
+        "ticker": "NEXT34.SA",
+        "nome": "NEXT34"
+    },
+    {
+        "ticker": "R1DY34.SA",
+        "nome": "R1DY34"
+    },
+    {
+        "ticker": "RVEE3F.SA",
+        "nome": "REVEE S.A."
+    },
+    {
+        "ticker": "BUTL39.SA",
+        "nome": "ISHARES US UTILITIES ETF"
+    },
+    {
+        "ticker": "BIJH39.SA",
+        "nome": "ISHARES CORE S&P MID-CAP ETF"
+    },
+    {
+        "ticker": "ALPA3F.SA",
+        "nome": "ALPARGATAS S.A."
+    },
+    {
+        "ticker": "B1SA34.SA",
+        "nome": "B1SA34"
+    },
+    {
+        "ticker": "C1HK34.SA",
+        "nome": "C1HK34"
+    },
+    {
+        "ticker": "LFTI11.SA",
+        "nome": "LFTI11"
+    },
+    {
+        "ticker": "K1BF34.SA",
+        "nome": "K1BF34"
+    },
+    {
+        "ticker": "BSDV39.SA",
+        "nome": "GLOBAL X SUPERDIVIDEND ETF"
+    },
+    {
+        "ticker": "O1KE34.SA",
+        "nome": "O1KE34"
+    },
+    {
+        "ticker": "VHFA11.SA",
+        "nome": "VHFA11"
+    },
+    {
+        "ticker": "BXPO11.SA",
+        "nome": "BXPO11"
+    },
+    {
+        "ticker": "UTEC11.SA",
+        "nome": "UTEC11"
+    },
+    {
+        "ticker": "NSLU11.SA",
+        "nome": "NSLU11"
+    },
+    {
+        "ticker": "R2BL34.SA",
+        "nome": "R2BL34"
+    },
+    {
+        "ticker": "BIYZ39.SA",
+        "nome": "ISHARES U.S. TELECOMMUNICATIONS ETF"
+    },
+    {
+        "ticker": "AZOI34.SA",
+        "nome": "AZOI34"
+    },
+    {
+        "ticker": "C1FI34.SA",
+        "nome": "C1FI34"
+    },
+    {
+        "ticker": "JOPA3F.SA",
+        "nome": "JOSAPAR-JOAQUIM OLIVEIRA S.A. - PARTICIP"
+    },
+    {
+        "ticker": "BKCH39.SA",
+        "nome": "GLOBAL X BLOCKCHAIN ETF"
+    },
+    {
+        "ticker": "UCAS3F.SA",
+        "nome": "UNICASA INDÚSTRIA DE MÓVEIS S.A."
+    },
+    {
+        "ticker": "A2RE34.SA",
+        "nome": "A2RE34"
+    },
+    {
+        "ticker": "BCSA34.SA",
+        "nome": "BCSA34"
+    },
+    {
+        "ticker": "FIIB11.SA",
+        "nome": "FIIB11"
+    },
+    {
+        "ticker": "BIHE39.SA",
+        "nome": "ISHARES US PHARMACEUTICALS ETF"
+    },
+    {
+        "ticker": "CVSH34.SA",
+        "nome": "CVSH34"
+    },
+    {
+        "ticker": "BIZD11.SA",
+        "nome": "BIZD11"
+    },
+    {
+        "ticker": "BLQD39.SA",
+        "nome": "ISHARES IBOXX INVESTMENT GRADE CORPORATE BOND ETF"
+    },
+    {
+        "ticker": "CLOB11.SA",
+        "nome": "CLOB11"
+    },
+    {
+        "ticker": "A1IV34.SA",
+        "nome": "A1IV34"
+    },
+    {
+        "ticker": "HPQB34.SA",
+        "nome": "HPQB34"
+    },
+    {
+        "ticker": "NBOV11.SA",
+        "nome": "NBOV11"
+    },
+    {
+        "ticker": "CEOC11.SA",
+        "nome": "CEOC11"
+    },
+    {
+        "ticker": "EUCA3F.SA",
+        "nome": "EUCATEX S.A. INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "KDOL11.SA",
+        "nome": "KDOL11"
+    },
+    {
+        "ticker": "GPRK34.SA",
+        "nome": "GPRK34"
+    },
+    {
+        "ticker": "APTV34.SA",
+        "nome": "APTV34"
+    },
+    {
+        "ticker": "MAPT3F.SA",
+        "nome": "CEMEPE INVESTIMENTOS S.A."
+    },
+    {
+        "ticker": "M2RV34.SA",
+        "nome": "M2RV34"
+    },
+    {
+        "ticker": "LUPA3F.SA",
+        "nome": "LUPATECH S.A."
+    },
+    {
+        "ticker": "OSXB3F.SA",
+        "nome": "OSX BRASIL S.A."
+    },
+    {
+        "ticker": "IGTI3F.SA",
+        "nome": "IGUATEMI S.A."
+    },
+    {
+        "ticker": "BLOG11.SA",
+        "nome": "BLOG11"
+    },
+    {
+        "ticker": "E2EF34.SA",
+        "nome": "E2EF34"
+    },
+    {
+        "ticker": "L1DO34.SA",
+        "nome": "L1DO34"
+    },
+    {
+        "ticker": "FLRP11.SA",
+        "nome": "FLRP11"
+    },
+    {
+        "ticker": "ITIT11.SA",
+        "nome": "ITIT11"
+    },
+    {
+        "ticker": "BIDV39.SA",
+        "nome": "ISHARES INTERNATIONAL SELECT DIVIDEND ETF"
+    },
+    {
+        "ticker": "CHCM34.SA",
+        "nome": "CHCM34"
+    },
+    {
+        "ticker": "IAGR11.SA",
+        "nome": "IAGR11"
+    },
+    {
+        "ticker": "P2AT34.SA",
+        "nome": "P2AT34"
+    },
+    {
+        "ticker": "T1SS34.SA",
+        "nome": "T1SS34"
+    },
+    {
+        "ticker": "BEWZ39.SA",
+        "nome": "ISHARES MSCI BRAZIL ETF"
+    },
+    {
+        "ticker": "L1EN34.SA",
+        "nome": "L1EN34"
+    },
+    {
+        "ticker": "BLAK34.SA",
+        "nome": "BLAK34"
+    },
+    {
+        "ticker": "PGCO34.SA",
+        "nome": "PGCO34"
+    },
+    {
+        "ticker": "MGEL4F.SA",
+        "nome": "MANGELS INDUSTRIAL S.A."
+    },
+    {
+        "ticker": "BIOM3F.SA",
+        "nome": "BIOMM S.A."
+    },
+    {
+        "ticker": "BLMO11.SA",
+        "nome": "BLMO11"
+    },
+    {
+        "ticker": "BALM3F.SA",
+        "nome": "BAUMER S.A."
+    },
+    {
+        "ticker": "MAXR11.SA",
+        "nome": "MAXR11"
+    },
+    {
+        "ticker": "P1GR34.SA",
+        "nome": "P1GR34"
+    },
+    {
+        "ticker": "ALPK3F.SA",
+        "nome": "ALLPARK EMPREENDIMENTOS PARTICIPACOES SERVICOS S.A"
+    },
+    {
+        "ticker": "E1OG34.SA",
+        "nome": "E1OG34"
+    },
+    {
+        "ticker": "VINF11.SA",
+        "nome": "VINF11"
+    },
+    {
+        "ticker": "SAPP34.SA",
+        "nome": "SAPP34"
+    },
+    {
+        "ticker": "DEEC34.SA",
+        "nome": "DEEC34"
+    },
+    {
+        "ticker": "PIPE11.SA",
+        "nome": "PIPE11"
+    },
+    {
+        "ticker": "PPLA11.SA",
+        "nome": "PPLA PARTICIPATIONS LTD."
+    },
+    {
+        "ticker": "BRIM11.SA",
+        "nome": "BRIM11"
+    },
+    {
+        "ticker": "BRXC11.SA",
+        "nome": "BRXC11"
+    },
+    {
+        "ticker": "MNDL3F.SA",
+        "nome": "MUNDIAL S.A. - PRODUTOS DE CONSUMO"
+    },
+    {
+        "ticker": "E1QR34.SA",
+        "nome": "E1QR34"
+    },
+    {
+        "ticker": "B1CS34.SA",
+        "nome": "B1CS34"
+    },
+    {
+        "ticker": "GLCR11.SA",
+        "nome": "GLCR11"
+    },
+    {
+        "ticker": "EXIF11.SA",
+        "nome": "EXIF11"
+    },
+    {
+        "ticker": "RZLC11.SA",
+        "nome": "RZLC11"
+    },
+    {
+        "ticker": "FLMA11.SA",
+        "nome": "FLMA11"
+    },
+    {
+        "ticker": "W2YF34.SA",
+        "nome": "W2YF34"
+    },
+    {
+        "ticker": "BIUS39.SA",
+        "nome": "ISHARES CORE UNIVERSAL USD BOND ETF"
+    },
+    {
+        "ticker": "P2NB34.SA",
+        "nome": "P2NB34"
+    },
+    {
+        "ticker": "BASK39.SA",
+        "nome": "21SHARES CRYPTO BASKET INDEX ETP"
+    },
+    {
+        "ticker": "BIDN39.SA",
+        "nome": "ISHARES GENOMICS IMMUNOLOGY AND HEALTHCARE ETF"
+    },
+    {
+        "ticker": "V2TX34.SA",
+        "nome": "V2TX34"
+    },
+    {
+        "ticker": "A1LB34.SA",
+        "nome": "A1LB34"
+    },
+    {
+        "ticker": "INGG34.SA",
+        "nome": "INGG34"
+    },
+    {
+        "ticker": "PRSV11.SA",
+        "nome": "PRSV11"
+    },
+    {
+        "ticker": "BEFA39.SA",
+        "nome": "ISHARES MSCI EAFE ETF"
+    },
+    {
+        "ticker": "FIXX11.SA",
+        "nome": "FIXX11"
+    },
+    {
+        "ticker": "TRXB11.SA",
+        "nome": "TRXB11"
+    },
+    {
+        "ticker": "JOGO11.SA",
+        "nome": "JOGO11"
+    },
+    {
+        "ticker": "S1RE34.SA",
+        "nome": "S1RE34"
+    },
+    {
+        "ticker": "ECOO11.SA",
+        "nome": "ECOO11"
+    },
+    {
+        "ticker": "TD5011.SA",
+        "nome": "TD5011"
+    },
+    {
+        "ticker": "MNPR3F.SA",
+        "nome": "MINUPAR PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "BIEU39.SA",
+        "nome": "ISHARES CORE MSCI EUROPE ETF"
+    },
+    {
+        "ticker": "V1OD34.SA",
+        "nome": "V1OD34"
+    },
+    {
+        "ticker": "ORLY34.SA",
+        "nome": "ORLY34"
+    },
+    {
+        "ticker": "A1NE34.SA",
+        "nome": "A1NE34"
+    },
+    {
+        "ticker": "U2PW34.SA",
+        "nome": "U2PW34"
+    },
+    {
+        "ticker": "H1SB34.SA",
+        "nome": "H1SB34"
+    },
+    {
+        "ticker": "CEGR3F.SA",
+        "nome": "CIA DISTRIB DE GAS DO RIO DE JANEIRO-CEG"
+    },
+    {
+        "ticker": "HRDF11.SA",
+        "nome": "HRDF11"
+    },
+    {
+        "ticker": "BTHI11.SA",
+        "nome": "BTHI11"
+    },
+    {
+        "ticker": "JSCR11.SA",
+        "nome": "JSCR11"
+    },
+    {
+        "ticker": "NCRI11.SA",
+        "nome": "NCRI11"
+    },
+    {
+        "ticker": "A1ME34.SA",
+        "nome": "A1ME34"
+    },
+    {
+        "ticker": "HAGA4F.SA",
+        "nome": "HAGA S.A. INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "AAGR11.SA",
+        "nome": "AAGR11"
+    },
+    {
+        "ticker": "CRPG3F.SA",
+        "nome": "TRONOX PIGMENTOS DO BRASIL S.A."
+    },
+    {
+        "ticker": "BDVD39.SA",
+        "nome": "GLOBAL X SUPERDIVIDEND US ETF"
+    },
+    {
+        "ticker": "M1GM34.SA",
+        "nome": "M1GM34"
+    },
+    {
+        "ticker": "DHER34.SA",
+        "nome": "DHER34"
+    },
+    {
+        "ticker": "FOMO11.SA",
+        "nome": "FOMO11"
+    },
+    {
+        "ticker": "EAIN34.SA",
+        "nome": "EAIN34"
+    },
+    {
+        "ticker": "GCRI11.SA",
+        "nome": "GCRI11"
+    },
+    {
+        "ticker": "RCFF11.SA",
+        "nome": "RCFF11"
+    },
+    {
+        "ticker": "T10R11.SA",
+        "nome": "T10R11"
+    },
+    {
+        "ticker": "STMN34.SA",
+        "nome": "STMN34"
+    },
+    {
+        "ticker": "FDXB34.SA",
+        "nome": "FDXB34"
+    },
+    {
+        "ticker": "FAED11.SA",
+        "nome": "FAED11"
+    },
+    {
+        "ticker": "A1PA34.SA",
+        "nome": "A1PA34"
+    },
+    {
+        "ticker": "S2CH34.SA",
+        "nome": "S2CH34"
+    },
+    {
+        "ticker": "BNDA39.SA",
+        "nome": "ISHARES MSCI INDIA ETF"
+    },
+    {
+        "ticker": "BIEI39.SA",
+        "nome": "ISHARES 3-7 YEAR TREASURY BOND ETF"
+    },
+    {
+        "ticker": "AXIA5F.SA",
+        "nome": "AXIA5F"
+    },
+    {
+        "ticker": "MGHT11.SA",
+        "nome": "MGHT11"
+    },
+    {
+        "ticker": "CLSC4F.SA",
+        "nome": "CENTRAIS ELET DE SANTA CATARINA S.A."
+    },
+    {
+        "ticker": "EPAR3F.SA",
+        "nome": "EMBPAR PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "R2PD34.SA",
+        "nome": "R2PD34"
+    },
+    {
+        "ticker": "SEQR11.SA",
+        "nome": "SEQR11"
+    },
+    {
+        "ticker": "D1OM34.SA",
+        "nome": "D1OM34"
+    },
+    {
+        "ticker": "E1DI34.SA",
+        "nome": "E1DI34"
+    },
+    {
+        "ticker": "CEDO4F.SA",
+        "nome": "CIA FIACAO TECIDOS CEDRO CACHOEIRA"
+    },
+    {
+        "ticker": "EBIT11.SA",
+        "nome": "EBIT11"
+    },
+    {
+        "ticker": "USIM6F.SA",
+        "nome": "USINAS SID DE MINAS GERAIS S.A.-USIMINAS"
+    },
+    {
+        "ticker": "A1GI34.SA",
+        "nome": "A1GI34"
+    },
+    {
+        "ticker": "NOCG34.SA",
+        "nome": "NOCG34"
+    },
+    {
+        "ticker": "PKIN11.SA",
+        "nome": "PKIN11"
+    },
+    {
+        "ticker": "U2TH34.SA",
+        "nome": "U2TH34"
+    },
+    {
+        "ticker": "L2PL34.SA",
+        "nome": "L2PL34"
+    },
+    {
+        "ticker": "WPLZ11.SA",
+        "nome": "WPLZ11"
+    },
+    {
+        "ticker": "H1AS34.SA",
+        "nome": "H1AS34"
+    },
+    {
+        "ticker": "GSHP3F.SA",
+        "nome": "GENERAL SHOPPING E OUTLETS DO BRASIL S.A."
+    },
+    {
+        "ticker": "PTNT3F.SA",
+        "nome": "PETTENATI S.A. INDUSTRIA TEXTIL"
+    },
+    {
+        "ticker": "M1NS34.SA",
+        "nome": "M1NS34"
+    },
+    {
+        "ticker": "FHER3F.SA",
+        "nome": "FERTILIZANTES HERINGER S.A."
+    },
+    {
+        "ticker": "BSRE39.SA",
+        "nome": "GLOBAL X SUPERDIVIDEND REIT ETF"
+    },
+    {
+        "ticker": "U1HS34.SA",
+        "nome": "U1HS34"
+    },
+    {
+        "ticker": "M2PT34.SA",
+        "nome": "M2PT34"
+    },
+    {
+        "ticker": "B2LN34.SA",
+        "nome": "B2LN34"
+    },
+    {
+        "ticker": "CPAY34.SA",
+        "nome": "CPAY34"
+    },
+    {
+        "ticker": "G1LP34.SA",
+        "nome": "G1LP34"
+    },
+    {
+        "ticker": "HGIC11.SA",
+        "nome": "HGIC11"
+    },
+    {
+        "ticker": "RBDS11.SA",
+        "nome": "RBDS11"
+    },
+    {
+        "ticker": "W1DA34.SA",
+        "nome": "W1DA34"
+    },
+    {
+        "ticker": "CLSC3F.SA",
+        "nome": "CENTRAIS ELET DE SANTA CATARINA S.A."
+    },
+    {
+        "ticker": "A1DI34.SA",
+        "nome": "A1DI34"
+    },
+    {
+        "ticker": "BHER39.SA",
+        "nome": "GLOBAL X VIDEO GAMES & ESPORTS ETF"
+    },
+    {
+        "ticker": "C1NC34.SA",
+        "nome": "C1NC34"
+    },
+    {
+        "ticker": "COTY34.SA",
+        "nome": "COTY34"
+    },
+    {
+        "ticker": "V1NO34.SA",
+        "nome": "V1NO34"
+    },
+    {
+        "ticker": "H1II34.SA",
+        "nome": "H1II34"
+    },
+    {
+        "ticker": "V1ST34.SA",
+        "nome": "V1ST34"
+    },
+    {
+        "ticker": "HERT11.SA",
+        "nome": "HERT11"
+    },
+    {
+        "ticker": "BQQW39.SA",
+        "nome": "FIRST TRUST NASDAQ-100 SELECT EQUAL WEIGHT ETF"
+    },
+    {
+        "ticker": "A1AP34.SA",
+        "nome": "A1AP34"
+    },
+    {
+        "ticker": "RSID3F.SA",
+        "nome": "ROSSI RESIDENCIAL S.A."
+    },
+    {
+        "ticker": "BTLH39.SA",
+        "nome": "ISHARES 10-20 YEAR TREASURY BOND ETF"
+    },
+    {
+        "ticker": "HGPO11.SA",
+        "nome": "HGPO11"
+    },
+    {
+        "ticker": "BIGF39.SA",
+        "nome": "ISHARES GLOBAL INFRASTRUCTURE ETF"
+    },
+    {
+        "ticker": "ABBV34.SA",
+        "nome": "ABBV34"
+    },
+    {
+        "ticker": "NETE34.SA",
+        "nome": "NETE34"
+    },
+    {
+        "ticker": "A1MT34.SA",
+        "nome": "A1MT34"
+    },
+    {
+        "ticker": "VALO11.SA",
+        "nome": "VALO11"
+    },
+    {
+        "ticker": "RNEW4F.SA",
+        "nome": "RENOVA ENERGIA S.A."
+    },
+    {
+        "ticker": "BEGU39.SA",
+        "nome": "ISHARES ESG AWARE MSCI USA ETF"
+    },
+    {
+        "ticker": "OFSA3F.SA",
+        "nome": "OUROFINO S.A."
+    },
+    {
+        "ticker": "CEED3F.SA",
+        "nome": "CIA ESTADUAL DE DISTRIB ENER ELET-CEEE-D"
+    },
+    {
+        "ticker": "W1MB34.SA",
+        "nome": "W1MB34"
+    },
+    {
+        "ticker": "I1EX34.SA",
+        "nome": "I1EX34"
+    },
+    {
+        "ticker": "XSPI11.SA",
+        "nome": "XSPI11"
+    },
+    {
+        "ticker": "A1LG34.SA",
+        "nome": "A1LG34"
+    },
+    {
+        "ticker": "HCRI11.SA",
+        "nome": "HCRI11"
+    },
+    {
+        "ticker": "WDCN3F.SA",
+        "nome": "WDCN3F"
+    },
+    {
+        "ticker": "C1PR34.SA",
+        "nome": "C1PR34"
+    },
+    {
+        "ticker": "TEXA34.SA",
+        "nome": "TEXA34"
+    },
+    {
+        "ticker": "KHCB34.SA",
+        "nome": "KHCB34"
+    },
+    {
+        "ticker": "BHEF39.SA",
+        "nome": "ISHARES CURRENCY HEDGED MSCI EAFE ETF"
+    },
+    {
+        "ticker": "FIVN11.SA",
+        "nome": "FIVN11"
+    },
+    {
+        "ticker": "R1MD34.SA",
+        "nome": "R1MD34"
+    },
+    {
+        "ticker": "CTXT11.SA",
+        "nome": "CTXT11"
+    },
+    {
+        "ticker": "N1UE34.SA",
+        "nome": "N1UE34"
+    },
+    {
+        "ticker": "ITIP11.SA",
+        "nome": "ITIP11"
+    },
+    {
+        "ticker": "SNEC34.SA",
+        "nome": "SNEC34"
+    },
+    {
+        "ticker": "CMCS34.SA",
+        "nome": "CMCS34"
+    },
+    {
+        "ticker": "CJCT11.SA",
+        "nome": "CJCT11"
+    },
+    {
+        "ticker": "PABY11.SA",
+        "nome": "PABY11"
+    },
+    {
+        "ticker": "BEWY39.SA",
+        "nome": "ISHARES MSCI SOUTH KOREA ETF"
+    },
+    {
+        "ticker": "PACG11.SA",
+        "nome": "PACG11"
+    },
+    {
+        "ticker": "J2BL34.SA",
+        "nome": "J2BL34"
+    },
+    {
+        "ticker": "FZDB11.SA",
+        "nome": "FZDB11"
+    },
+    {
+        "ticker": "LMAI11.SA",
+        "nome": "LMAI11"
+    },
+    {
+        "ticker": "CGAS5F.SA",
+        "nome": "CIA GAS DE SAO PAULO - COMGAS"
+    },
+    {
+        "ticker": "P2EG34.SA",
+        "nome": "P2EG34"
+    },
+    {
+        "ticker": "TELM11.SA",
+        "nome": "TELM11"
+    },
+    {
+        "ticker": "FLCR11.SA",
+        "nome": "FLCR11"
+    },
+    {
+        "ticker": "A1DM34.SA",
+        "nome": "A1DM34"
+    },
+    {
+        "ticker": "BDVY39.SA",
+        "nome": "ISHARES SELECT DIVIDEND ETF"
+    },
+    {
+        "ticker": "S1PO34.SA",
+        "nome": "S1PO34"
+    },
+    {
+        "ticker": "TJKB11.SA",
+        "nome": "TJKB11"
+    },
+    {
+        "ticker": "BPIC39.SA",
+        "nome": "ISHARES MSCI GLOBAL METALS & MINING PRODUCERS ETF"
+    },
+    {
+        "ticker": "T1FX34.SA",
+        "nome": "T1FX34"
+    },
+    {
+        "ticker": "LOGN3F.SA",
+        "nome": "LOG-IN LOGISTICA INTERMODAL S.A."
+    },
+    {
+        "ticker": "PINE3F.SA",
+        "nome": "BCO PINE S.A."
+    },
+    {
+        "ticker": "ISET11.SA",
+        "nome": "ISET11"
+    },
+    {
+        "ticker": "BMBB39.SA",
+        "nome": "ISHARES MBS ETF"
+    },
+    {
+        "ticker": "BKYY39.SA",
+        "nome": "FIRST TRUST CLOUD COMPUTING ETF"
+    },
+    {
+        "ticker": "J1CI34.SA",
+        "nome": "J1CI34"
+    },
+    {
+        "ticker": "BGIP3F.SA",
+        "nome": "BCO ESTADO DE SERGIPE S.A. - BANESE"
+    },
+    {
+        "ticker": "C1RR34.SA",
+        "nome": "C1RR34"
+    },
+    {
+        "ticker": "SPBZ11.SA",
+        "nome": "SPBZ11"
+    },
+    {
+        "ticker": "C1AB34.SA",
+        "nome": "C1AB34"
+    },
+    {
+        "ticker": "F2IC34.SA",
+        "nome": "F2IC34"
+    },
+    {
+        "ticker": "C2AC34.SA",
+        "nome": "C2AC34"
+    },
+    {
+        "ticker": "D2OC34.SA",
+        "nome": "D2OC34"
+    },
+    {
+        "ticker": "MCLO11.SA",
+        "nome": "MCLO11"
+    },
+    {
+        "ticker": "EGDB11.SA",
+        "nome": "EGDB11"
+    },
+    {
+        "ticker": "ANCR11.SA",
+        "nome": "ANCR11"
+    },
+    {
+        "ticker": "P2CY34.SA",
+        "nome": "P2CY34"
+    },
+    {
+        "ticker": "T2RM34.SA",
+        "nome": "T2RM34"
+    },
+    {
+        "ticker": "M1CH34.SA",
+        "nome": "M1CH34"
+    },
+    {
+        "ticker": "RBOP11.SA",
+        "nome": "RBOP11"
+    },
+    {
+        "ticker": "DEXP4F.SA",
+        "nome": "DEXXOS PARTICIPACOES S.A."
+    },
+    {
+        "ticker": "WLMM3F.SA",
+        "nome": "WLM PART. E COMÉRCIO DE MÁQUINAS E VEÍCULOS S.A."
+    },
+    {
+        "ticker": "HOND34.SA",
+        "nome": "HOND34"
+    },
+    {
+        "ticker": "BMLC11.SA",
+        "nome": "BMLC11"
+    },
+    {
+        "ticker": "LFTX11.SA",
+        "nome": "LFTX11"
+    },
+    {
+        "ticker": "U2PS34.SA",
+        "nome": "U2PS34"
+    },
+    {
+        "ticker": "HSRE11.SA",
+        "nome": "HSRE11"
+    },
+    {
+        "ticker": "N1EM34.SA",
+        "nome": "N1EM34"
+    },
+    {
+        "ticker": "COLG34.SA",
+        "nome": "COLG34"
+    },
+    {
+        "ticker": "FAMB11.SA",
+        "nome": "FAMB11"
+    },
+    {
+        "ticker": "CXRI11.SA",
+        "nome": "CXRI11"
+    },
+    {
+        "ticker": "CTSA3F.SA",
+        "nome": "CIA TECIDOS SANTANENSE"
+    },
+    {
+        "ticker": "F1IS34.SA",
+        "nome": "F1IS34"
+    },
+    {
+        "ticker": "BGIP4F.SA",
+        "nome": "BCO ESTADO DE SERGIPE S.A. - BANESE"
+    },
+    {
+        "ticker": "D1OC34.SA",
+        "nome": "D1OC34"
+    },
+    {
+        "ticker": "LASC11.SA",
+        "nome": "LASC11"
+    },
+    {
+        "ticker": "H1EI34.SA",
+        "nome": "H1EI34"
+    },
+    {
+        "ticker": "BSLT11.SA",
+        "nome": "BSLT11"
+    },
+    {
+        "ticker": "T1SO34.SA",
+        "nome": "T1SO34"
+    },
+    {
+        "ticker": "A1ES34.SA",
+        "nome": "A1ES34"
+    },
+    {
+        "ticker": "MDLZ34.SA",
+        "nome": "MDLZ34"
+    },
+    {
+        "ticker": "MMMC34.SA",
+        "nome": "MMMC34"
+    },
+    {
+        "ticker": "STZB34.SA",
+        "nome": "STZB34"
+    },
+    {
+        "ticker": "MOSC34.SA",
+        "nome": "MOSC34"
+    },
+    {
+        "ticker": "CPUR11.SA",
+        "nome": "CPUR11"
+    },
+    {
+        "ticker": "ENMT4F.SA",
+        "nome": "ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A"
+    },
+    {
+        "ticker": "DAMA11.SA",
+        "nome": "DAMA11"
+    },
+    {
+        "ticker": "R2RX34.SA",
+        "nome": "R2RX34"
+    },
+    {
+        "ticker": "BFXI39.SA",
+        "nome": "ISHARES CHINA LARGE-CAP ETF"
+    },
+    {
+        "ticker": "MOOO34.SA",
+        "nome": "MOOO34"
+    },
+    {
+        "ticker": "BARY39.SA",
+        "nome": "ISHARES FUTURE AI & TECH ETF"
+    },
+    {
+        "ticker": "ARNC34.SA",
+        "nome": "ARNC34"
+    },
+    {
+        "ticker": "T1RO34.SA",
+        "nome": "T1RO34"
+    },
+    {
+        "ticker": "FZDA11.SA",
+        "nome": "FZDA11"
+    },
+    {
+        "ticker": "Z1TS34.SA",
+        "nome": "Z1TS34"
+    },
+    {
+        "ticker": "TRUE11.SA",
+        "nome": "TRUE11"
+    },
+    {
+        "ticker": "UNIP5F.SA",
+        "nome": "UNIPAR CARBOCLORO S.A."
+    },
+    {
+        "ticker": "GRWA11.SA",
+        "nome": "GRWA11"
+    },
+    {
+        "ticker": "FIIP11.SA",
+        "nome": "FIIP11"
+    },
+    {
+        "ticker": "A1EG34.SA",
+        "nome": "A1EG34"
+    },
+    {
+        "ticker": "BOXP34.SA",
+        "nome": "BOXP34"
+    },
+    {
+        "ticker": "ALMI11.SA",
+        "nome": "ALMI11"
+    },
+    {
+        "ticker": "RPAD5F.SA",
+        "nome": "ALFA HOLDINGS S.A."
+    },
+    {
+        "ticker": "JFEN3F.SA",
+        "nome": "JOAO FORTES ENGENHARIA S.A."
+    },
+    {
+        "ticker": "EQPA5F.SA",
+        "nome": "EQUATORIAL PARA DISTRIBUIDORA DE ENERGIA S.A."
+    },
+    {
+        "ticker": "A2ZT34.SA",
+        "nome": "A2ZT34"
+    },
+    {
+        "ticker": "BMKS3.SA",
+        "nome": "BICICLETAS MONARK S.A."
+    },
+    {
+        "ticker": "ABTT34.SA",
+        "nome": "ABTT34"
+    },
+    {
+        "ticker": "C1OO34.SA",
+        "nome": "C1OO34"
+    },
+    {
+        "ticker": "SBUB34.SA",
+        "nome": "SBUB34"
+    },
+    {
+        "ticker": "M1HK34.SA",
+        "nome": "M1HK34"
+    },
+    {
+        "ticker": "BVLU39.SA",
+        "nome": "ISHARES MSCI USA VALUE FACTOR ETF"
+    },
+    {
+        "ticker": "R2HH34.SA",
+        "nome": "R2HH34"
+    },
+    {
+        "ticker": "HUCG11.SA",
+        "nome": "HUCG11"
+    },
+    {
+        "ticker": "BHVN34.SA",
+        "nome": "BHVN34"
+    },
+    {
+        "ticker": "L1EG34.SA",
+        "nome": "L1EG34"
+    },
+    {
+        "ticker": "E1LV34.SA",
+        "nome": "E1LV34"
+    },
+    {
+        "ticker": "NMRH34.SA",
+        "nome": "NMRH34"
+    },
+    {
+        "ticker": "PSKY34.SA",
+        "nome": "PSKY34"
+    },
+    {
+        "ticker": "VERZ34.SA",
+        "nome": "VERZ34"
+    },
+    {
+        "ticker": "SMRE11.SA",
+        "nome": "SMRE11"
+    },
+    {
+        "ticker": "PQAG11.SA",
+        "nome": "PQAG11"
+    },
+    {
+        "ticker": "R1KU34.SA",
+        "nome": "R1KU34"
+    },
+    {
+        "ticker": "O2NS34.SA",
+        "nome": "O2NS34"
+    },
+    {
+        "ticker": "P1AY34.SA",
+        "nome": "P1AY34"
+    },
+    {
+        "ticker": "EKTR4F.SA",
+        "nome": "ELEKTRO REDES S.A."
+    },
+    {
+        "ticker": "RINV11.SA",
+        "nome": "RINV11"
+    },
+    {
+        "ticker": "CTKA4F.SA",
+        "nome": "KARSTEN S.A."
+    },
+    {
+        "ticker": "SOLN39.SA",
+        "nome": "21SHARES SOLANA STAKING ETP"
+    },
+    {
+        "ticker": "TRVC34.SA",
+        "nome": "TRVC34"
+    },
+    {
+        "ticker": "H1TH34.SA",
+        "nome": "H1TH34"
+    },
+    {
+        "ticker": "E1MR34.SA",
+        "nome": "E1MR34"
+    },
+    {
+        "ticker": "C2RN34.SA",
+        "nome": "C2RN34"
+    },
+    {
+        "ticker": "BEWS39.SA",
+        "nome": "ISHARES MSCI SINGAPORE ETF"
+    },
+    {
+        "ticker": "L1NE34.SA",
+        "nome": "L1NE34"
+    },
+    {
+        "ticker": "E1XR34.SA",
+        "nome": "E1XR34"
+    },
+    {
+        "ticker": "BMTU39.SA",
+        "nome": "ISHARES MSCI USA MOMENTUM FACTOR ETF"
+    },
+    {
+        "ticker": "JPPA11.SA",
+        "nome": "JPPA11"
+    },
+    {
+        "ticker": "BKWB39.SA",
+        "nome": "KRANESHARES CSI CHINA INTERNET ETF"
+    },
+    {
+        "ticker": "Q1RV34.SA",
+        "nome": "Q1RV34"
+    },
+    {
+        "ticker": "GFDL11.SA",
+        "nome": "GFDL11"
+    },
+    {
+        "ticker": "BAOR39.SA",
+        "nome": "ISHARES CORE 60/40 BALANCED ALLOCATION ETF"
+    },
+    {
+        "ticker": "F2VR34.SA",
+        "nome": "F2VR34"
+    },
+    {
+        "ticker": "BLPA39.SA",
+        "nome": "GLOBAL X MLP ETF"
+    },
+    {
+        "ticker": "EIDO39.SA",
+        "nome": "ISHARES MSCI INDONESIA ETF"
+    },
+    {
+        "ticker": "BEWG39.SA",
+        "nome": "ISHARES MSCI GERMANY ETF"
+    },
+    {
+        "ticker": "C1IC34.SA",
+        "nome": "C1IC34"
+    },
+    {
+        "ticker": "UBSG34.SA",
+        "nome": "UBSG34"
+    },
+    {
+        "ticker": "BIXG39.SA",
+        "nome": "ISHARES GLOBAL FINANCIALS ETF"
+    },
+    {
+        "ticker": "M1RN34.SA",
+        "nome": "M1RN34"
+    },
+    {
+        "ticker": "RYTT34.SA",
+        "nome": "RYTT34"
+    },
+    {
+        "ticker": "CCTY3F.SA",
+        "nome": "BELORA RDVC CITY DESENVOLVIMENTO  IMOBILIÁRIO S.A."
+    },
+    {
+        "ticker": "BCHQ39.SA",
+        "nome": "GLOBAL X MSCI CHINA CONSUMER DISCRETIONARY ETF"
+    },
+    {
+        "ticker": "BRSR5F.SA",
+        "nome": "BCO ESTADO DO RIO GRANDE DO SUL S.A."
+    },
+    {
+        "ticker": "BGNO39.SA",
+        "nome": "GLOBAL X GENOMICS & BIOTECHNOLOGY ETF"
+    },
+    {
+        "ticker": "EVEB31.SA",
+        "nome": "EVE HOLDING. INC."
+    },
+    {
+        "ticker": "GDIV11.SA",
+        "nome": "GDIV11"
+    },
+    {
+        "ticker": "M1UF34.SA",
+        "nome": "M1UF34"
+    },
+    {
+        "ticker": "BEWW39.SA",
+        "nome": "ISHARES MSCI MEXICO ETF"
+    },
+    {
+        "ticker": "C1NS34.SA",
+        "nome": "C1NS34"
+    },
+    {
+        "ticker": "A1DC34.SA",
+        "nome": "A1DC34"
+    },
+    {
+        "ticker": "K1TC34.SA",
+        "nome": "K1TC34"
+    },
+    {
+        "ticker": "XLPR11.SA",
+        "nome": "XLPR11"
+    },
+    {
+        "ticker": "USBC34.SA",
+        "nome": "USBC34"
+    },
+    {
+        "ticker": "BAZA3F.SA",
+        "nome": "BCO AMAZONIA S.A."
+    },
+    {
+        "ticker": "RSUL4F.SA",
+        "nome": "METALURGICA RIOSULENSE S.A."
+    },
+    {
+        "ticker": "B3BR11.SA",
+        "nome": "B3BR11"
+    },
+    {
+        "ticker": "HYBR11.SA",
+        "nome": "HYBR11"
+    },
+    {
+        "ticker": "BGLC39.SA",
+        "nome": "ISHARES GLOBAL 100 ETF"
+    },
+    {
+        "ticker": "SJAU11.SA",
+        "nome": "SJAU11"
+    },
+    {
+        "ticker": "TKNO4F.SA",
+        "nome": "TEKNO S.A. - INDUSTRIA E COMERCIO"
+    },
+    {
+        "ticker": "C1TV34.SA",
+        "nome": "C1TV34"
+    },
+    {
+        "ticker": "W1RB34.SA",
+        "nome": "W1RB34"
+    },
+    {
+        "ticker": "BIYC39.SA",
+        "nome": "ISHARES US CONSUMER DISCRETIONARY ETF"
+    },
+    {
+        "ticker": "CTKA3F.SA",
+        "nome": "KARSTEN S.A."
+    },
+    {
+        "ticker": "Z2IT34.SA",
+        "nome": "Z2IT34"
+    },
+    {
+        "ticker": "GEPA3F.SA",
+        "nome": "RIO PARANAPANEMA ENERGIA S.A."
+    },
+    {
+        "ticker": "CEEB3F.SA",
+        "nome": "CIA ELETRICIDADE EST. DA BAHIA - COELBA"
+    },
+    {
+        "ticker": "W1MG34.SA",
+        "nome": "W1MG34"
+    },
+    {
+        "ticker": "S2TA34.SA",
+        "nome": "S2TA34"
+    },
+    {
+        "ticker": "BMIN4F.SA",
+        "nome": "BCO MERCANTIL DE INVESTIMENTOS S.A."
+    },
+    {
+        "ticker": "BIED3F.SA",
+        "nome": "BIOMA EDUCAÇÃO S.A."
+    },
+    {
+        "ticker": "BIPE11.SA",
+        "nome": "BIPE11"
+    },
+    {
+        "ticker": "TELB4F.SA",
+        "nome": "TELEC BRASILEIRAS S.A. TELEBRAS"
+    },
+    {
+        "ticker": "HCST11.SA",
+        "nome": "HCST11"
+    },
+    {
+        "ticker": "CGAS3F.SA",
+        "nome": "CIA GAS DE SAO PAULO - COMGAS"
+    },
+    {
+        "ticker": "U1RI34.SA",
+        "nome": "U1RI34"
+    },
+    {
+        "ticker": "BACW39.SA",
+        "nome": "ISHARES MSCI ACWI ETF"
+    },
+    {
+        "ticker": "GXUS11.SA",
+        "nome": "GXUS11"
+    },
+    {
+        "ticker": "BLPX39.SA",
+        "nome": "GLOBAL X MLP & ENERGY INFRASTRUCTURE ETF"
+    },
+    {
+        "ticker": "GEHC34.SA",
+        "nome": "GEHC34"
+    },
+    {
+        "ticker": "OCRE11.SA",
+        "nome": "OCRE11"
+    },
+    {
+        "ticker": "EMET11.SA",
+        "nome": "EMET11"
+    },
+    {
+        "ticker": "I1QV34.SA",
+        "nome": "I1QV34"
+    },
+    {
+        "ticker": "RBRS11.SA",
+        "nome": "RBRS11"
+    },
+    {
+        "ticker": "APXM11.SA",
+        "nome": "APXM11"
+    },
+    {
+        "ticker": "B1PP34.SA",
+        "nome": "B1PP34"
+    },
+    {
+        "ticker": "WLMM4F.SA",
+        "nome": "WLM PART. E COMÉRCIO DE MÁQUINAS E VEÍCULOS S.A."
+    },
+    {
+        "ticker": "BIYT39.SA",
+        "nome": "ISHARES 7-10 YEAR TREASURY BOND ETF"
+    },
+    {
+        "ticker": "GROP31.SA",
+        "nome": "BRAZIL POTASH CORP."
+    },
+    {
+        "ticker": "A1EP34.SA",
+        "nome": "A1EP34"
+    },
+    {
+        "ticker": "ESGB11.SA",
+        "nome": "ESGB11"
+    },
+    {
+        "ticker": "BKSA39.SA",
+        "nome": "ISHARES MSCI SAUDI ARABIA ETF"
+    },
+    {
+        "ticker": "B2AH34.SA",
+        "nome": "B2AH34"
+    },
+    {
+        "ticker": "HBTS5F.SA",
+        "nome": "CIA HABITASUL DE PARTICIPACOES"
+    },
+    {
+        "ticker": "VVCR11.SA",
+        "nome": "VVCR11"
+    },
+    {
+        "ticker": "HONB34.SA",
+        "nome": "HONB34"
+    },
+    {
+        "ticker": "X1YL34.SA",
+        "nome": "X1YL34"
+    },
+    {
+        "ticker": "RCFA11.SA",
+        "nome": "RCFA11"
+    },
+    {
+        "ticker": "C2PR34.SA",
+        "nome": "C2PR34"
+    },
+    {
+        "ticker": "O2HI34.SA",
+        "nome": "O2HI34"
+    },
+    {
+        "ticker": "ELCI34.SA",
+        "nome": "ELCI34"
+    },
+    {
+        "ticker": "BDLL4F.SA",
+        "nome": "BARDELLA S.A. INDUSTRIAS MECANICAS"
+    },
+    {
+        "ticker": "E1XC34.SA",
+        "nome": "E1XC34"
+    },
+    {
+        "ticker": "B1KR34.SA",
+        "nome": "B1KR34"
+    },
+    {
+        "ticker": "AALL34.SA",
+        "nome": "AALL34"
+    },
+    {
+        "ticker": "A1LN34.SA",
+        "nome": "A1LN34"
+    },
+    {
+        "ticker": "MIDW11.SA",
+        "nome": "MIDW11"
+    },
+    {
+        "ticker": "PTNT4F.SA",
+        "nome": "PETTENATI S.A. INDUSTRIA TEXTIL"
+    },
+    {
+        "ticker": "CTSH34.SA",
+        "nome": "CTSH34"
+    },
+    {
+        "ticker": "RSSL39.SA",
+        "nome": "GLOBAL X RUSSELL 2000 ETF"
+    },
+    {
+        "ticker": "VRTX34.SA",
+        "nome": "VRTX34"
+    },
+    {
+        "ticker": "A1WK34.SA",
+        "nome": "A1WK34"
+    },
+    {
+        "ticker": "SNSY3F.SA",
+        "nome": "SANSUY S.A. INDUSTRIA DE PLASTICOS"
+    },
+    {
+        "ticker": "P2CF34.SA",
+        "nome": "P2CF34"
+    },
+    {
+        "ticker": "CAON34.SA",
+        "nome": "CAON34"
+    },
+    {
+        "ticker": "BPRE11.SA",
+        "nome": "BPRE11"
+    },
+    {
+        "ticker": "A1UT34.SA",
+        "nome": "A1UT34"
+    },
+    {
+        "ticker": "ABGD39.SA",
+        "nome": "ABRDN PHYSICAL GOLD SHARES ETF"
+    },
+    {
+        "ticker": "A2XO34.SA",
+        "nome": "A2XO34"
+    },
+    {
+        "ticker": "AIGB34.SA",
+        "nome": "AIGB34"
+    },
+    {
+        "ticker": "JEPI39.SA",
+        "nome": "JPMORGAN EQUITY PREMIUM INCOME ETF"
+    },
+    {
+        "ticker": "ACWX39.SA",
+        "nome": "ISHARES MSCI ACWI EX U.S. ETF"
+    },
+    {
+        "ticker": "PHMO34.SA",
+        "nome": "PHMO34"
+    },
+    {
+        "ticker": "MAPT4F.SA",
+        "nome": "CEMEPE INVESTIMENTOS S.A."
+    },
+    {
+        "ticker": "LRDI11.SA",
+        "nome": "LRDI11"
+    },
+    {
+        "ticker": "S2MP34.SA",
+        "nome": "S2MP34"
+    },
+    {
+        "ticker": "CORN11.SA",
+        "nome": "CORN11"
+    },
+    {
+        "ticker": "SLBG34.SA",
+        "nome": "SLBG34"
+    },
+    {
+        "ticker": "BONY34.SA",
+        "nome": "BONY34"
+    },
+    {
+        "ticker": "H1OG34.SA",
+        "nome": "H1OG34"
+    },
+    {
+        "ticker": "SIMN34.SA",
+        "nome": "SIMN34"
+    },
+    {
+        "ticker": "DGCO34.SA",
+        "nome": "DGCO34"
+    },
+    {
+        "ticker": "FIEI3F.SA",
+        "nome": "FICA EMPREENDIMENTOS IMOBILIÁRIOS S.A"
+    },
+    {
+        "ticker": "ARTE11.SA",
+        "nome": "ARTE11"
+    },
+    {
+        "ticker": "AMGN34.SA",
+        "nome": "AMGN34"
+    },
+    {
+        "ticker": "L2IV34.SA",
+        "nome": "L2IV34"
+    },
+    {
+        "ticker": "T1WL34.SA",
+        "nome": "T1WL34"
+    },
+    {
+        "ticker": "BTFL39.SA",
+        "nome": "ISHARES TREASURY FLOATING RATE BOND ETF"
+    },
+    {
+        "ticker": "T2DH34.SA",
+        "nome": "T2DH34"
+    },
+    {
+        "ticker": "BLUE11.SA",
+        "nome": "BLUE11"
+    },
+    {
+        "ticker": "LTNB11.SA",
+        "nome": "LTNB11"
+    },
+    {
+        "ticker": "M2AS34.SA",
+        "nome": "M2AS34"
+    },
+    {
+        "ticker": "SMIN39.SA",
+        "nome": "ISHARES MSCI INDIA SMALL-CAP ETF"
+    },
+    {
+        "ticker": "P1SA34.SA",
+        "nome": "P1SA34"
+    },
+    {
+        "ticker": "R1IN34.SA",
+        "nome": "R1IN34"
+    },
+    {
+        "ticker": "NEXP3F.SA",
+        "nome": "NEXPE PARTICIPAÇÕES S.A"
+    },
+    {
+        "ticker": "BRIP11.SA",
+        "nome": "BRIP11"
+    },
+    {
+        "ticker": "BIAG39.SA",
+        "nome": "ISHARES CORE INTERNATIONAL AGGREGATE BOND ETF"
+    },
+    {
+        "ticker": "CRPG6F.SA",
+        "nome": "TRONOX PIGMENTOS DO BRASIL S.A."
+    },
+    {
+        "ticker": "PEVC11.SA",
+        "nome": "PEVC11"
+    },
+    {
+        "ticker": "W1MC34.SA",
+        "nome": "W1MC34"
+    },
+    {
+        "ticker": "DEAI34.SA",
+        "nome": "DEAI34"
+    },
+    {
+        "ticker": "I1AC34.SA",
+        "nome": "I1AC34"
+    },
+    {
+        "ticker": "R1OP34.SA",
+        "nome": "R1OP34"
+    },
+    {
+        "ticker": "R2AR34.SA",
+        "nome": "R2AR34"
+    },
+    {
+        "ticker": "ENMT3F.SA",
+        "nome": "ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A"
+    },
+    {
+        "ticker": "USAL11.SA",
+        "nome": "USAL11"
+    },
+    {
+        "ticker": "BAOK39.SA",
+        "nome": "ISHARES CORE 30/70 CONSERVATIVE ALLOCATION ETF"
+    },
+    {
+        "ticker": "KMIC34.SA",
+        "nome": "KMIC34"
+    },
+    {
+        "ticker": "REIT11.SA",
+        "nome": "REIT11"
+    },
+    {
+        "ticker": "BEWL39.SA",
+        "nome": "ISHARES MSCI SWITZERLAND ETF"
+    },
+    {
+        "ticker": "BIJS39.SA",
+        "nome": "ISHARES S&P SMALL-CAP 600 VALUE ETF"
+    },
+    {
+        "ticker": "S1BA34.SA",
+        "nome": "S1BA34"
+    },
+    {
+        "ticker": "BFCG39.SA",
+        "nome": "FIRST TRUST NATURAL GAS ETF"
+    },
+    {
+        "ticker": "QTOP39.SA",
+        "nome": "ISHARES NASDAQ TOP 30 STOCKS ETF"
+    },
+    {
+        "ticker": "F1SL34.SA",
+        "nome": "F1SL34"
+    },
+    {
+        "ticker": "BEWU39.SA",
+        "nome": "ISHARES MSCI UNITED KINGDOM ETF"
+    },
+    {
+        "ticker": "BICL39.SA",
+        "nome": "ISHARES GLOBAL CLEAN ENERGY ETF"
+    },
+    {
+        "ticker": "I1DX34.SA",
+        "nome": "I1DX34"
+    },
+    {
+        "ticker": "A1LK34.SA",
+        "nome": "A1LK34"
+    },
+    {
+        "ticker": "I1HG34.SA",
+        "nome": "I1HG34"
+    },
+    {
+        "ticker": "AXPB34.SA",
+        "nome": "AXPB34"
+    },
+    {
+        "ticker": "M1TT34.SA",
+        "nome": "M1TT34"
+    },
+    {
+        "ticker": "F1AN34.SA",
+        "nome": "F1AN34"
+    },
+    {
+        "ticker": "PQDP11.SA",
+        "nome": "PQDP11"
+    },
+    {
+        "ticker": "RZZR11.SA",
+        "nome": "RZZR11"
+    },
+    {
+        "ticker": "N1RG34.SA",
+        "nome": "N1RG34"
+    },
+    {
+        "ticker": "AIRB34.SA",
+        "nome": "AIRB34"
+    },
+    {
+        "ticker": "BIBB39.SA",
+        "nome": "ISHARES BIOTECHNOLOGY ETF"
+    },
+    {
+        "ticker": "BODI11.SA",
+        "nome": "BODI11"
+    },
+    {
+        "ticker": "C2EM34.SA",
+        "nome": "C2EM34"
+    },
+    {
+        "ticker": "VLYB34.SA",
+        "nome": "VLYB34"
+    },
+    {
+        "ticker": "LFIX11.SA",
+        "nome": "LFIX11"
+    },
+    {
+        "ticker": "CRIP34.SA",
+        "nome": "CRIP34"
+    },
+    {
+        "ticker": "GEPA4F.SA",
+        "nome": "RIO PARANAPANEMA ENERGIA S.A."
+    },
+    {
+        "ticker": "A1TH34.SA",
+        "nome": "A1TH34"
+    },
+    {
+        "ticker": "GPSI34.SA",
+        "nome": "GPSI34"
+    },
+    {
+        "ticker": "IBOB11.SA",
+        "nome": "IBOB11"
+    },
+    {
+        "ticker": "KEVE11.SA",
+        "nome": "KEVE11"
+    },
+    {
+        "ticker": "BIGO39.SA",
+        "nome": "ISHARES INTERNATIONAL TREASURY BOND ETF"
+    },
+    {
+        "ticker": "G1LO34.SA",
+        "nome": "G1LO34"
+    },
+    {
+        "ticker": "RENV11.SA",
+        "nome": "RENV11"
+    },
+    {
+        "ticker": "E2ST34.SA",
+        "nome": "E2ST34"
+    },
+    {
+        "ticker": "F2RS34.SA",
+        "nome": "F2RS34"
+    },
+    {
+        "ticker": "M1LC34.SA",
+        "nome": "M1LC34"
+    },
+    {
+        "ticker": "CALI3F.SA",
+        "nome": "CONSTRUTORA ADOLPHO LINDENBERG S.A."
+    },
+    {
+        "ticker": "VLOE34.SA",
+        "nome": "VLOE34"
+    },
+    {
+        "ticker": "T1MU34.SA",
+        "nome": "T1MU34"
+    },
+    {
+        "ticker": "BIEZ39.SA",
+        "nome": "ISHARES U.S. OIL EQUIPMENT & SERVICES ETF"
+    },
+    {
+        "ticker": "A1VB34.SA",
+        "nome": "A1VB34"
+    },
+    {
+        "ticker": "DOLB11.SA",
+        "nome": "DOLB11"
+    },
+    {
+        "ticker": "T1SC34.SA",
+        "nome": "T1SC34"
+    },
+    {
+        "ticker": "EVTC31.SA",
+        "nome": "EVERTEC INC"
+    },
+    {
+        "ticker": "ERPA11.SA",
+        "nome": "ERPA11"
+    },
+    {
+        "ticker": "I1FO34.SA",
+        "nome": "I1FO34"
+    },
+    {
+        "ticker": "G1LL34.SA",
+        "nome": "G1LL34"
+    },
+    {
+        "ticker": "B1RF34.SA",
+        "nome": "B1RF34"
+    },
+    {
+        "ticker": "I2ND34.SA",
+        "nome": "I2ND34"
+    },
+    {
+        "ticker": "ISNT11.SA",
+        "nome": "ISNT11"
+    },
+    {
+        "ticker": "URHF11.SA",
+        "nome": "URHF11"
+    },
+    {
+        "ticker": "BEIS39.SA",
+        "nome": "ISHARES MSCI ISRAEL ETF"
+    },
+    {
+        "ticker": "BIHI39.SA",
+        "nome": "ISHARES U.S. MEDICAL DEVICES ETF"
+    },
+    {
+        "ticker": "I1RP34.SA",
+        "nome": "I1RP34"
+    },
+    {
+        "ticker": "B1SX34.SA",
+        "nome": "B1SX34"
+    },
+    {
+        "ticker": "C1BR34.SA",
+        "nome": "C1BR34"
+    },
+    {
+        "ticker": "W1BD34.SA",
+        "nome": "W1BD34"
+    },
+    {
+        "ticker": "GBIT11.SA",
+        "nome": "GBIT11"
+    },
+    {
+        "ticker": "V1MC34.SA",
+        "nome": "V1MC34"
+    },
+    {
+        "ticker": "C1BL34.SA",
+        "nome": "C1BL34"
+    },
+    {
+        "ticker": "FRIO3F.SA",
+        "nome": "METALFRIO SOLUTIONS S.A."
+    },
+    {
+        "ticker": "ISUS11.SA",
+        "nome": "ISUS11"
+    },
+    {
+        "ticker": "MAGM11.SA",
+        "nome": "MAGM11"
+    },
+    {
+        "ticker": "BEMC39.SA",
+        "nome": "ISHARES MSCI EMERGING MARKETS EX CHINA ETF"
+    },
+    {
+        "ticker": "L1YG34.SA",
+        "nome": "L1YG34"
+    },
+    {
+        "ticker": "S2ED34.SA",
+        "nome": "S2ED34"
+    },
+    {
+        "ticker": "M1TC34.SA",
+        "nome": "M1TC34"
+    },
+    {
+        "ticker": "TMPS11.SA",
+        "nome": "TMPS11"
+    },
+    {
+        "ticker": "RCRI11.SA",
+        "nome": "RCRI11"
+    },
+    {
+        "ticker": "A1CR34.SA",
+        "nome": "A1CR34"
+    },
+    {
+        "ticker": "Z1BR34.SA",
+        "nome": "Z1BR34"
+    },
+    {
+        "ticker": "PATC11.SA",
+        "nome": "PATC11"
+    },
+    {
+        "ticker": "DMVF3F.SA",
+        "nome": "D1000 VAREJO FARMA PARTICIPAÇÕES S.A."
+    },
+    {
+        "ticker": "B1IL34.SA",
+        "nome": "B1IL34"
+    },
+    {
+        "ticker": "ARGE11.SA",
+        "nome": "ARGE11"
+    },
+    {
+        "ticker": "DOHL4F.SA",
+        "nome": "DOHLER S.A."
+    },
+    {
+        "ticker": "P2AN34.SA",
+        "nome": "P2AN34"
+    },
+    {
+        "ticker": "J2WA34.SA",
+        "nome": "J2WA34"
+    },
+    {
+        "ticker": "BMYB34.SA",
+        "nome": "BMYB34"
+    },
+    {
+        "ticker": "HUSI11.SA",
+        "nome": "HUSI11"
+    },
+    {
+        "ticker": "CHDC34.SA",
+        "nome": "CHDC34"
+    },
+    {
+        "ticker": "BQLT39.SA",
+        "nome": "ISHARES AAA - A RATED CORPORATE BOND ETF"
+    },
+    {
+        "ticker": "CHME34.SA",
+        "nome": "CHME34"
+    },
+    {
+        "ticker": "BGRT39.SA",
+        "nome": "ISHARES GLOBAL REIT ETF"
+    },
+    {
+        "ticker": "P1PG34.SA",
+        "nome": "P1PG34"
+    },
+    {
+        "ticker": "HAAA11.SA",
+        "nome": "HAAA11"
+    },
+    {
+        "ticker": "L1UL34.SA",
+        "nome": "L1UL34"
+    },
+    {
+        "ticker": "BAOM39.SA",
+        "nome": "ISHARES CORE 40/60 MODERATE ALLOCATION ETF"
+    },
+    {
+        "ticker": "C1AG34.SA",
+        "nome": "C1AG34"
+    },
+    {
+        "ticker": "ATSA11.SA",
+        "nome": "ATSA11"
+    },
+    {
+        "ticker": "N1OV34.SA",
+        "nome": "N1OV34"
+    },
+    {
+        "ticker": "MACY34.SA",
+        "nome": "MACY34"
+    },
+    {
+        "ticker": "S1TE34.SA",
+        "nome": "S1TE34"
+    },
+    {
+        "ticker": "CASN3F.SA",
+        "nome": "CIA CATARINENSE DE AGUAS E SANEAM.-CASAN"
+    },
+    {
+        "ticker": "R1EL34.SA",
+        "nome": "R1EL34"
+    },
+    {
+        "ticker": "T1LK34.SA",
+        "nome": "T1LK34"
+    },
+    {
+        "ticker": "M1SC34.SA",
+        "nome": "M1SC34"
+    },
+    {
+        "ticker": "H1CA34.SA",
+        "nome": "H1CA34"
+    },
+    {
+        "ticker": "WTSP11.SA",
+        "nome": "WTSP11"
+    },
+    {
+        "ticker": "J1EF34.SA",
+        "nome": "J1EF34"
+    },
+    {
+        "ticker": "N1XP34.SA",
+        "nome": "N1XP34"
+    },
+    {
+        "ticker": "BRFT11.SA",
+        "nome": "BRFT11"
+    },
+    {
+        "ticker": "P1VH34.SA",
+        "nome": "P1VH34"
+    }
+]

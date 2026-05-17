@@ -1,0 +1,184 @@
+:root {
+    --bg-main: #0b0e11;
+    --bg-card: #151921;
+    --bg-navbar: #181d23;
+    --text-primary: #eaecef;
+    --text-secondary: #848e9c;
+    --accent-blue: #3b82f6;
+    --accent-green: #0ecb81;
+    --accent-red: #f6465d;
+    --border-color: #2b3139;
+    --font-mono: 'Roboto Mono', monospace;
+    --glow-blue: rgba(59, 130, 246, 0.4);
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding-top: 80px;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 70px;
+    background: var(--bg-navbar);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    fill: var(--accent-blue);
+    filter: drop-shadow(0 0 5px var(--glow-blue));
+}
+
+.logo-text {
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+/* BUSCA ESTILIZADA */
+.nav-search {
+    display: flex;
+    align-items: center;
+    background: #0b0e11;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 4px 4px 4px 15px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-search:focus-within {
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 15px var(--glow-blue);
+    width: 380px;
+}
+
+.search-input-small {
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-size: 14px;
+    outline: none;
+    width: 220px;
+}
+
+.btn-search-styled {
+    background: var(--accent-blue);
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* STATUS DO MERCADO */
+.market-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0,0,0,0.4);
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 1px solid var(--border-color);
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.dot-open { background: var(--accent-green); box-shadow: 0 0 10px var(--accent-green); }
+.dot-closed { background: var(--accent-red); box-shadow: 0 0 10px var(--accent-red); }
+
+/* SCANNER BUTTON */
+.btn-scanner-pro {
+    background: linear-gradient(135deg, #151921 0%, #2b3139 100%);
+    color: var(--accent-green);
+    border: 1px solid var(--accent-green);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.btn-scanner-pro:hover {
+    background: var(--accent-green);
+    color: #0b0e11;
+    box-shadow: 0 0 20px rgba(14, 203, 129, 0.3);
+}
+
+/* LAYOUT & TABLES */
+.container { max-width: 1240px; margin: 0 auto; padding: 20px; }
+
+.dashboard-header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 35px;
+    padding: 20px;
+    background: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.table-card { 
+    background: var(--bg-card); 
+    border: 1px solid var(--border-color); 
+    border-radius: 12px; 
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+table { width: 100%; border-collapse: collapse; }
+th { background: #1e232d; color: var(--text-secondary); font-size: 11px; padding: 15px 20px; text-align: left; text-transform: uppercase; }
+td { padding: 14px 20px; border-bottom: 1px solid var(--border-color); font-size: 14px; }
+tr:hover { background: #1e232d; }
+
+.ticker-link { color: var(--accent-blue); text-decoration: none; font-weight: 700; font-family: var(--font-mono); }
+.price-mono { font-family: var(--font-mono); text-align: right; }
+.trend-positive { color: var(--accent-green); font-weight: 600; text-align: right; }
+
+.section-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}

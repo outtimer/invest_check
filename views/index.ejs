@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Terminal B3 | Radar Profissional</title>
+    <link rel="stylesheet" href="/css/style_global.css">
+    <link rel="stylesheet" href="/css/style_index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="sidebar">
+        <div style="padding: 22px 20px; color: var(--accent-blue); border-bottom: 1px solid var(--border); margin-bottom: 10px;">
+             <i class="fa-solid fa-wave-square fa-xl"></i>
+        </div>
+        <a href="/" class="nav-item">
+            <i class="fa-solid fa-chart-line"></i>
+            <span class="nav-text">Radar de Mercado</span>
+        </a>
+        <a href="/watchlist" class="nav-item">
+            <i class="fa-solid fa-star"></i>
+            <span class="nav-text">Minha Watchlist</span>
+        </a>
+        <div style="margin-top: auto;">
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-gear"></i>
+                <span class="nav-text">Configurações</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="main-layout">
+        <nav class="navbar" style="position: sticky; top: 0; left: 0; width: auto; margin-left: 0;">
+            <a href="/" class="logo-container">
+                <svg class="logo-icon" viewBox="0 0 24 24">
+                    <path d="M3.5,18.5L9.5,12.5L13.5,16.5L22,6.92L20.59,5.5L13.5,13.5L9.5,9.5L2,17L3.5,18.5Z" />
+                </svg>
+                <span class="logo-text">TERMINAL<span style="color:var(--accent-blue)">RADAR</span></span>
+            </a>
+
+            <% 
+                const agora = new Date();
+                const hora = agora.getHours();
+                const diaSemana = agora.getDay();
+                const estaAberto = (diaSemana >= 1 && diaSemana <= 5 && hora >= 10 && hora < 18);
+            %>
+            <div class="market-status">
+                <div class="status-dot <%= estaAberto ? 'dot-open' : 'dot-closed' %>"></div>
+                <span>B3: <%= estaAberto ? 'OPEN' : 'CLOSED' %></span>
+                <span style="color: var(--text-secondary); font-weight: 400; margin-left: 5px;">(10:00 - 18:00)</span>
+            </div>
+
+            <div class="nav-search">
+                <input type="text" id="gSearch" class="search-input-small" placeholder="Analisar ticker..." list="l-global">
+                <datalist id="l-global">
+                    <% if (locals.listaGlobal) { listaGlobal.forEach(t => { %> <option value="<%= t %>"></option> <% }) } %>
+                </datalist>
+                <button class="btn-search-styled" onclick="buscar()">Explorar</button>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="dashboard-header">
+                <div>
+                    <h2 style="margin: 0; font-size: 1.4rem; letter-spacing: -0.5px;">Market Watchlist</h2>
+                    <p style="color: var(--text-secondary); margin: 5px 0 0 0; font-size: 11px;">
+                        Sincronização: <%= (locals.dados && dados.ultima_atualizacao) ? dados.ultima_atualizacao : 'Pendente' %>
+                    </p>
+                </div>
+                
+                <button class="btn-scanner-pro" onclick="executarScanner('tendencia')">
+                    <i class="fa-solid fa-satellite-dish" style="margin-right: 8px;"></i>
+                    Iniciar Scanner
+                </button>
+            </div>
+
+            <section>
+                <div class="section-label">Ações em Tendência (Elite)</div>
+                <div class="table-card">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ticker</th>
+                                <th style="text-align:right">Preço</th>
+                                <th style="text-align:right">Graham</th>
+                                <th style="text-align:right">Margem</th>
+                                <th style="text-align:right">Força</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% (dados.acoes || []).forEach(a => { %>
+                                <tr>
+                                    <td><a href="/ticker/<%= a.ticker %>" class="ticker-link"><%= a.ticker %></a></td>
+                                    <td class="price-mono">R$ <%= a.preco.toFixed(2) %></td>
+                                    <td class="price-mono" style="color: <%= a.preco < a.graham ? 'var(--accent-green)' : 'var(--text-secondary)' %>">
+                                        R$ <%= a.graham %>
+                                    </td>
+                                    <td class="price-mono"><%= a.margem %>%</td>
+                                    <td class="trend-positive">+<%= a.forca %>%</td>
+                                </tr>
+                            <% }) %>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section style="margin-top: 40px;">
+                <div class="section-label">BDRs em Tendência Global</div>
+                <div class="table-card">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ticker</th>
+                                <th style="text-align:right">Preço</th>
+                                <th style="text-align:right">Graham</th>
+                                <th style="text-align:right">Margem</th>
+                                <th style="text-align:right">Força</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% (dados.bdrs || []).forEach(b => { %>
+                                <tr>
+                                    <td><a href="/ticker/<%= b.ticker %>" class="ticker-link"><%= b.ticker %></a></td>
+                                    <td class="price-mono">R$ <%= b.preco.toFixed(2) %></td>
+                                    <td class="price-mono" style="color: <%= b.preco < b.graham ? 'var(--accent-green)' : 'var(--text-secondary)' %>">
+                                        R$ <%= b.graham %>
+                                    </td>
+                                    <td class="price-mono"><%= b.margem %>%</td>
+                                    <td class="trend-positive">+<%= b.forca %>%</td>
+                                </tr>
+                            <% }) %>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        function buscar() {
+            const t = document.getElementById('gSearch').value.toUpperCase().trim();
+            if (t) window.location.href = `/ticker/${t}`;
+        }
+        async function executarScanner(tipo) {
+            const btn = document.querySelector('.btn-scanner-pro');
+            btn.innerHTML = 'Processando...';
+            btn.disabled = true;
+            try {
+                const res = await fetch(`/api/update-${tipo}`);
+                if (res.ok) window.location.reload();
+            } catch (e) {
+                btn.innerHTML = 'Iniciar Scanner';
+                btn.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title><%= ativo.ticker %> | Análise Completa</title>
+    <link rel="stylesheet" href="/css/style_detalhes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="/" class="logo-container">
+            <svg class="logo-icon" viewBox="0 0 24 24"><path d="M3.5,18.5L9.5,12.5L13.5,16.5L22,6.92L20.59,5.5L13.5,13.5L9.5,9.5L2,17L3.5,18.5Z" /></svg>
+            <span class="logo-text">TERMINAL<span style="color:var(--accent-blue)">RADAR</span></span>
+        </a>
+
+        <% 
+            const agora = new Date();
+            const hora = agora.getHours();
+            const diaSemana = agora.getDay();
+            const estaAberto = (diaSemana >= 1 && diaSemana <= 5 && hora >= 10 && hora < 18);
+        %>
+        <div style="display: flex; align-items: center; gap: 10px; background: rgba(0,0,0,0.4); padding: 8px 16px; border-radius: 50px; border: 1px solid var(--border-color); font-size: 11px; font-weight: 700;">
+            <div style="width: 8px; height: 8px; border-radius: 50%; background: <%= estaAberto ? '#0ecb81' : '#f6465d' %>; box-shadow: 0 0 10px <%= estaAberto ? '#0ecb81' : '#f6465d' %>"></div>
+            <span>B3: <%= estaAberto ? 'OPEN' : 'CLOSED' %></span>
+        </div>
+
+        <div style="display: flex; align-items: center; background: #0b0e11; border: 1px solid var(--border-color); border-radius: 8px; padding: 4px 15px;">
+            <input type="text" id="gSearch" style="background:transparent; border:none; color:white; font-size:14px; outline:none; width:180px;" placeholder="Ticker...">
+            <button onclick="buscar()" style="background:var(--accent-blue); color:white; border:none; padding:6px 12px; border-radius:4px; font-size:11px; font-weight:700; cursor:pointer;">BUSCAR</button>
+        </div>
+    </nav>
+
+    <div class="detail-wrapper">
+        <aside class="sidebar">
+            <a href="/" class="btn-back">← Voltar</a>
+            
+            <div class="asset-header">
+                <h1><%= ativo.ticker %></h1>
+                <p class="asset-name"><%= ativo.nome %></p>
+            </div>
+
+            <div class="stat-card" style="border-left: 4px solid var(--accent-green);">
+                <span class="stat-label">Preço Atual</span>
+                <span class="stat-value" style="color:var(--accent-green)">R$ <%= (ativo.preco || 0).toFixed(2) %></span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px;">
+                <div class="stat-card"><span class="stat-label">Máxima 200d</span><span class="stat-value" style="font-size: 0.95rem;">R$ <%= ativo.max_200 %></span></div>
+                <div class="stat-card"><span class="stat-label">Mínima 200d</span><span class="stat-value" style="font-size: 0.95rem;">R$ <%= ativo.min_200 %></span></div>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-label">Preço Justo (Graham)</span>
+                <span class="stat-value" style="color: var(--accent-blue);">R$ <%= (ativo.graham || 0).toFixed(2) %></span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px;">
+                <div class="stat-card"><span class="stat-label">Beta</span><span class="stat-value" style="font-size: 1rem;"><%= ativo.beta %></span></div>
+                <div class="stat-card"><span class="stat-label">Margem</span><span class="stat-value" style="font-size: 1rem;"><%= ativo.margem_liquida %>%</span></div>
+            </div>
+
+            <div class="stat-card" style="border-left: 4px solid #f6465d;">
+                <span class="stat-label">Stop Técnico (7%)</span>
+                <span class="stat-value" style="color:#f6465d;">R$ <%= ativo.stop %></span>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-label">Média 200d</span>
+                <span class="stat-value">R$ <%= ativo.m200 %></span>
+            </div>
+
+            <% 
+                const emTendencia = ativo.preco > ativo.m200;
+                const estaBarata = ativo.preco < ativo.graham;
+            %>
+            <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-color); padding: 15px; border-radius: 8px; margin-top: 20px;">
+                <span class="stat-label">Rating de Confluência</span>
+                <div style="font-size: 11px; font-weight: bold; margin-top: 8px;">
+                    <%= emTendencia ? '✅ TENDÊNCIA DE ALTA' : '❌ ABAIXO DA MÉDIA' %><br>
+                    <%= estaBarata ? '✅ PREÇO DESCONTADO' : '❌ ACIMA DO VALOR JUSTO' %>
+                </div>
+                <% if(emTendencia && estaBarata) { %>
+                    <div style="margin-top: 10px; background: var(--accent-green); color: black; font-size: 10px; font-weight: 800; text-align: center; padding: 4px; border-radius: 4px;">COMPRA DE ALTA PRECISÃO</div>
+                <% } %>
+            </div>
+        </aside>
+
+        <main class="content-area">
+            <div class="chart-container">
+                <div id="tv_widget" style="height: 100%;"></div>
+                <script src="https://s3.tradingview.com/tv.js"></script>
+                <script>
+                    new TradingView.widget({
+                        "autosize": true, "symbol": "BMFBOVESPA:<%= ativo.ticker.split('.')[0] %>",
+                        "interval": "D", "theme": "dark", "style": "1", "locale": "br", "container_id": "tv_widget"
+                    });
+                </script>
+            </div>
+
+            <div class="info-grid">
+                <section class="profile-section">
+                    <h3>Perfil Corporativo</h3>
+                    <p class="resumo-texto"><%= ativo.resumo %></p>
+                </section>
+
+                <section class="profile-section">
+                    <h3>Histórico de Dividendos (Yield: <%= ativo.dy %>%)</h3>
+                    <table>
+                        <thead><tr><th>Data COM</th><th>Valor Bruto</th></tr></thead>
+                        <tbody>
+                            <% if (ativo.lista_proventos && ativo.lista_proventos.length > 0) { %>
+                                <% ativo.lista_proventos.forEach(p => { %>
+                                    <tr>
+                                        <td><%= p.data_com %></td>
+                                        <td style="color:var(--accent-green); font-family:var(--font-mono);">R$ <%= p.valor.toFixed(4) %></td>
+                                    </tr>
+                                <% }) %>
+                            <% } else { %>
+                                <tr><td colspan="2">Nenhum provento registrado nos últimos 12 meses.</td></tr>
+                            <% } %>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+
+            <div style="padding: 0 30px 40px 30px;">
+                <section class="profile-section" style="background: rgba(255,255,255,0.02);">
+                    <h3 style="color: var(--text-secondary); margin-bottom: 20px;">Metodologia de Cálculo</h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; font-size: 12px; color: var(--text-secondary);">
+                        <div>
+                            <strong style="color: var(--accent-blue);">Preço Justo (Graham):</strong><br>
+                            Calculado via fórmula $\sqrt{22.5 \times LPA \times VPA}$. Define o teto de valor aceitável por fundamentos.
+                        </div>
+                        <div>
+                            <strong style="color: var(--accent-orange);">Beta:</strong><br>
+                            Mede a volatilidade em relação ao Ibovespa. Seu valor de <%= ativo.beta %> indica o nível de risco sistêmico.
+                        </div>
+                        <div>
+                            <strong style="color: var(--accent-green);">Margem Líquida:</strong><br>
+                            Indica que a empresa retém <%= ativo.margem_liquida %>% de lucro sobre tudo o que fatura.
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        function buscar() {
+            const t = document.getElementById('gSearch').value.toUpperCase().trim();
+            if (t) window.location.href = `/ticker/${t}`;
+        }
+    </script>
+</body>
+</html>
