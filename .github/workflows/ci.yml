@@ -37,5 +37,5 @@ jobs:
 
       - name: Verificar sintaxe dos scripts Python
         run: |
-          python -m py_compile consulta_ticker.py
-          python -m py_compile scanner_tendencia.py
+          python -m py_compile src/python/consulta_ticker.py
+          python -m py_compile src/python/scanner_tendencia.py
