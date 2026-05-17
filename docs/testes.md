@@ -42,7 +42,7 @@ O repositório já possui um workflow GitHub Actions em `.github/workflows/ci.ym
 - checkout do código
 - instalação de dependências Node
 - configuração do Python
-- verificação de sintaxe de `server.js`
+- verificação de sintaxe de `src/backend/server.js`
 - verificação de sintaxe de `consulta_ticker.py` e `scanner_tendencia.py`
 
 Também existe um workflow de Playwright em `.github/workflows/playwright.yml` que:

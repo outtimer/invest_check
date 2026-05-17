@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Verificar sintaxe do backend Node
-        run: node --check server.js
+        run: node --check src/backend/server.js
 
       - name: Configurar Python
         uses: actions/setup-python@v5
