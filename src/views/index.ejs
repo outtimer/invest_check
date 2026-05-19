@@ -84,7 +84,10 @@
                                 <th>Ticker</th>
                                 <th style="text-align:right">Preço</th>
                                 <th style="text-align:right">Graham</th>
-                                <th style="text-align:right">Margem</th>
+                                <th style="text-align:right">Score</th>
+                                <th style="text-align:right">ROE</th>
+                                <th style="text-align:right">P/L</th>
+                                <th style="text-align:right">P/VPA</th>
                                 <th style="text-align:right">Força</th>
                             </tr>
                         </thead>
@@ -96,7 +99,10 @@
                                     <td class="price-mono" style="color: <%= a.preco < a.graham ? 'var(--accent-green)' : 'var(--text-secondary)' %>">
                                         R$ <%= a.graham %>
                                     </td>
-                                    <td class="price-mono"><%= a.margem %>%</td>
+                                    <td class="price-mono"><%= a.score_qualidade %></td>
+                                    <td class="price-mono"><%= typeof a.roe === 'number' ? a.roe.toFixed(1) : 'N/A' %>%</td>
+                                    <td class="price-mono"><%= typeof a.pl === 'number' ? a.pl.toFixed(1) : 'N/A' %></td>
+                                    <td class="price-mono"><%= typeof a.pvpa === 'number' ? a.pvpa.toFixed(2) : 'N/A' %></td>
                                     <td class="trend-positive">+<%= a.forca %>%</td>
                                 </tr>
                             <% }) %>
@@ -114,7 +120,10 @@
                                 <th>Ticker</th>
                                 <th style="text-align:right">Preço</th>
                                 <th style="text-align:right">Graham</th>
-                                <th style="text-align:right">Margem</th>
+                                <th style="text-align:right">Score</th>
+                                <th style="text-align:right">ROE</th>
+                                <th style="text-align:right">P/L</th>
+                                <th style="text-align:right">P/VPA</th>
                                 <th style="text-align:right">Força</th>
                             </tr>
                         </thead>
@@ -126,7 +135,10 @@
                                     <td class="price-mono" style="color: <%= b.preco < b.graham ? 'var(--accent-green)' : 'var(--text-secondary)' %>">
                                         R$ <%= b.graham %>
                                     </td>
-                                    <td class="price-mono"><%= b.margem %>%</td>
+                                    <td class="price-mono"><%= b.score_qualidade %></td>
+                                    <td class="price-mono"><%= typeof b.roe === 'number' ? b.roe.toFixed(1) : 'N/A' %>%</td>
+                                    <td class="price-mono"><%= typeof b.pl === 'number' ? b.pl.toFixed(1) : 'N/A' %></td>
+                                    <td class="price-mono"><%= typeof b.pvpa === 'number' ? b.pvpa.toFixed(2) : 'N/A' %></td>
                                     <td class="trend-positive">+<%= b.forca %>%</td>
                                 </tr>
                             <% }) %>

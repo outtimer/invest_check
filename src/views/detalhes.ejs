@@ -70,6 +70,18 @@
                 <span class="stat-value">R$ <%= ativo.m200 %></span>
             </div>
 
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 15px;">
+                <div class="stat-card"><span class="stat-label">Score Qualidade</span><span class="stat-value"><%= ativo.score_qualidade || 0 %></span></div>
+                <div class="stat-card"><span class="stat-label">ROE</span><span class="stat-value"><%= typeof ativo.roe === 'number' ? ativo.roe.toFixed(1) : 'N/A' %>%</span></div>
+                <div class="stat-card"><span class="stat-label">P/L</span><span class="stat-value"><%= typeof ativo.pl === 'number' ? ativo.pl.toFixed(1) : 'N/A' %></span></div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px;">
+                <div class="stat-card"><span class="stat-label">P/VPA</span><span class="stat-value"><%= typeof ativo.pvpa === 'number' ? ativo.pvpa.toFixed(2) : 'N/A' %></span></div>
+                <div class="stat-card"><span class="stat-label">Dívida / Patrimônio</span><span class="stat-value"><%= typeof ativo.divida_equity === 'number' ? ativo.divida_equity.toFixed(2) : 'N/A' %></span></div>
+                <div class="stat-card"><span class="stat-label">Crescimento LPA</span><span class="stat-value"><%= typeof ativo.eps_growth_yoy === 'number' ? ativo.eps_growth_yoy.toFixed(1) : 'N/A' %>%</span></div>
+            </div>
+
             <% 
                 const emTendencia = ativo.preco > ativo.m200;
                 const estaBarata = ativo.preco < ativo.graham;
