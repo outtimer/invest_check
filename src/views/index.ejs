@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <title>Terminal Radar B3 | Radar Profissional</title>
     <link rel="stylesheet" href="/css/tailwind.output.css">
-    <link rel="stylesheet" href="/css/style_global.css">
-    <link rel="stylesheet" href="/css/style_index.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -92,92 +90,98 @@
                 </div>
             </header>
 
-        <div class="container">
-            <div class="dashboard-header">
+        <div class="flex-1 overflow-y-auto px-4 py-8 md:px-8">
+            <div class="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
                 <div>
-                    <h2 style="margin: 0; font-size: 1.4rem; letter-spacing: -0.5px;">Market Watchlist</h2>
-                    <p style="color: var(--text-secondary); margin: 5px 0 0 0; font-size: 11px;">
+                    <h2 class="text-2xl font-bold tracking-tight text-slate-100">Terminal Radar</h2>
+                    <p class="mt-1 text-xs font-medium text-slate-400">
                         Sincronização: <%= (locals.dados && dados.ultima_atualizacao) ? dados.ultima_atualizacao : 'Pendente' %>
                     </p>
                 </div>
                 
-                <button class="btn-scanner-pro" onclick="executarScanner('tendencia')">
-                    <i class="fa-solid fa-satellite-dish" style="margin-right: 8px;"></i>
+                <button class="flex items-center gap-2 rounded-2xl bg-brand-blue px-6 py-3 font-semibold text-white shadow-lg shadow-brand-blue/20 transition-all hover:bg-blue-600 active:scale-95" onclick="executarScanner('tendencia')">
+                    <i class="fa-solid fa-satellite-dish"></i>
                     Iniciar Scanner
                 </button>
             </div>
 
-            <section>
-                <div class="section-label">Ações em Tendência (Elite)</div>
-                <div class="table-card">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ticker</th>
-                                <th style="text-align:right">Preço</th>
-                                <th style="text-align:right">Graham</th>
-                                <th style="text-align:right">Score</th>
-                                <th style="text-align:right">ROE</th>
-                                <th style="text-align:right">P/L</th>
-                                <th style="text-align:right">P/VPA</th>
-                                <th style="text-align:right">Força</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <% (dados.acoes || []).forEach(a => { %>
+            <div class="space-y-8">
+                <section>
+                    <div class="mb-4 flex items-center gap-2">
+                        <span class="h-1 w-1 rounded-full bg-brand-blue"></span>
+                        <h3 class="text-lg font-semibold text-slate-100">Ações em Tendência (Elite)</h3>
+                        <span class="ml-auto rounded-full bg-slate-800 px-3 py-1 text-xs font-bold text-slate-300"><%= (dados.acoes || []).length %> ativos</span>
+                    </div>
+                    <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/50 shadow-lg">
+                        <table class="w-full text-sm">
+                            <thead class="border-b border-slate-800 bg-slate-950/50">
                                 <tr>
-                                    <td><a href="/ticker/<%= a.ticker %>" class="ticker-link"><%= a.ticker %></a></td>
-                                    <td class="price-mono">R$ <%= a.preco.toFixed(2) %></td>
-                                    <td class="price-mono" style="color: <%= a.preco < a.graham ? 'var(--accent-green)' : 'var(--text-secondary)' %>">
-                                        R$ <%= a.graham %>
-                                    </td>
-                                    <td class="price-mono"><%= a.score_qualidade %></td>
-                                    <td class="price-mono"><%= typeof a.roe === 'number' ? a.roe.toFixed(1) : 'N/A' %>%</td>
-                                    <td class="price-mono"><%= typeof a.pl === 'number' ? a.pl.toFixed(1) : 'N/A' %></td>
-                                    <td class="price-mono"><%= typeof a.pvpa === 'number' ? a.pvpa.toFixed(2) : 'N/A' %></td>
-                                    <td class="trend-positive">+<%= a.forca %>%</td>
+                                    <th class="px-6 py-3 text-left font-semibold text-slate-300">Ticker</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Preço</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Graham</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Score</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">ROE</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/L</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/VPA</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Força</th>
                                 </tr>
-                            <% }) %>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
+                            </thead>
+                            <tbody class="divide-y divide-slate-800/50">
+                                <% (dados.acoes || []).forEach(a => { %>
+                                    <tr class="transition-colors hover:bg-slate-800/30">
+                                        <td class="px-6 py-3"><a href="/ticker/<%= a.ticker %>" class="font-bold text-brand-blue hover:underline"><%= a.ticker %></a></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200">R$ <%= a.preco.toFixed(2) %></td>
+                                        <td class="px-6 py-3 text-right font-mono <%= a.preco < a.graham ? 'text-emerald-400' : 'text-slate-400' %>">R$ <%= a.graham %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= a.score_qualidade %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof a.roe === 'number' ? a.roe.toFixed(1) : 'N/A' %>%</td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof a.pl === 'number' ? a.pl.toFixed(1) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof a.pvpa === 'number' ? a.pvpa.toFixed(2) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono font-bold text-emerald-400">+<%= a.forca %>%</td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
 
-            <section style="margin-top: 40px;">
-                <div class="section-label">BDRs em Tendência Global</div>
-                <div class="table-card">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Ticker</th>
-                                <th style="text-align:right">Preço</th>
-                                <th style="text-align:right">Graham</th>
-                                <th style="text-align:right">Score</th>
-                                <th style="text-align:right">ROE</th>
-                                <th style="text-align:right">P/L</th>
-                                <th style="text-align:right">P/VPA</th>
-                                <th style="text-align:right">Força</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <% (dados.bdrs || []).forEach(b => { %>
+                <section>
+                    <div class="mb-4 flex items-center gap-2">
+                        <span class="h-1 w-1 rounded-full bg-brand-blue"></span>
+                        <h3 class="text-lg font-semibold text-slate-100">BDRs em Tendência Global</h3>
+                        <span class="ml-auto rounded-full bg-slate-800 px-3 py-1 text-xs font-bold text-slate-300"><%= (dados.bdrs || []).length %> ativos</span>
+                    </div>
+                    <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/50 shadow-lg">
+                        <table class="w-full text-sm">
+                            <thead class="border-b border-slate-800 bg-slate-950/50">
                                 <tr>
-                                    <td><a href="/ticker/<%= b.ticker %>" class="ticker-link"><%= b.ticker %></a></td>
-                                    <td class="price-mono">R$ <%= b.preco.toFixed(2) %></td>
-                                    <td class="price-mono" style="color: <%= b.preco < b.graham ? 'var(--accent-green)' : 'var(--text-secondary)' %>">
-                                        R$ <%= b.graham %>
-                                    </td>
-                                    <td class="price-mono"><%= b.score_qualidade %></td>
-                                    <td class="price-mono"><%= typeof b.roe === 'number' ? b.roe.toFixed(1) : 'N/A' %>%</td>
-                                    <td class="price-mono"><%= typeof b.pl === 'number' ? b.pl.toFixed(1) : 'N/A' %></td>
-                                    <td class="price-mono"><%= typeof b.pvpa === 'number' ? b.pvpa.toFixed(2) : 'N/A' %></td>
-                                    <td class="trend-positive">+<%= b.forca %>%</td>
+                                    <th class="px-6 py-3 text-left font-semibold text-slate-300">Ticker</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Preço</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Graham</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Score</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">ROE</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/L</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/VPA</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Força</th>
                                 </tr>
-                            <% }) %>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
+                            </thead>
+                            <tbody class="divide-y divide-slate-800/50">
+                                <% (dados.bdrs || []).forEach(b => { %>
+                                    <tr class="transition-colors hover:bg-slate-800/30">
+                                        <td class="px-6 py-3"><a href="/ticker/<%= b.ticker %>" class="font-bold text-brand-blue hover:underline"><%= b.ticker %></a></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200">R$ <%= b.preco.toFixed(2) %></td>
+                                        <td class="px-6 py-3 text-right font-mono <%= b.preco < b.graham ? 'text-emerald-400' : 'text-slate-400' %>">R$ <%= b.graham %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= b.score_qualidade %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.roe === 'number' ? b.roe.toFixed(1) : 'N/A' %>%</td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.pl === 'number' ? b.pl.toFixed(1) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.pvpa === 'number' ? b.pvpa.toFixed(2) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono font-bold text-emerald-400">+<%= b.forca %>%</td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
 
