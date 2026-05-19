@@ -159,14 +159,17 @@ body {
     background: var(--bg-card); 
     border: 1px solid var(--border-color); 
     border-radius: 12px; 
-    overflow: hidden;
+    overflow-x: auto;
     margin-bottom: 40px;
 }
+.table-card::-webkit-scrollbar { height: 8px; }
+.table-card::-webkit-scrollbar-track { background: transparent; }
+.table-card::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 10px; }
 
-table { width: 100%; border-collapse: collapse; }
-th { background: #1e232d; color: var(--text-secondary); font-size: 11px; padding: 15px 20px; text-align: left; text-transform: uppercase; }
-td { padding: 14px 20px; border-bottom: 1px solid var(--border-color); font-size: 14px; }
-tr:hover { background: #1e232d; }
+table { width: 100%; min-width: 880px; border-collapse: collapse; font-size: 13px; }
+th { background: #1e232d; color: var(--text-secondary); font-size: 10px; padding: 10px 12px; text-align: left; text-transform: uppercase; letter-spacing: 0.04em; }
+td { padding: 10px 12px; border-bottom: 1px solid var(--border-color); font-size: 13px; }
+tr:hover { background: #1b2027; }
 
 .ticker-link { color: var(--accent-blue); text-decoration: none; font-weight: 700; font-family: var(--font-mono); }
 .price-mono { font-family: var(--font-mono); text-align: right; }
