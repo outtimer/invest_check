@@ -1,8 +1,7 @@
-export default {
+module.exports = {
   content: [
-    './src/**/*.{js,ts,ejs}',
-    './views/**/*.{ejs}',
-    './tests/**/*.{ts}'
+    './src/views/*.ejs',
+    './src/public/**/*.js'
   ],
   theme: {
     extend: {
