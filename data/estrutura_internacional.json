@@ -1,0 +1,18 @@
+{
+    "internacionais": {
+        "Tecnologia": [
+            { "ticker": "AAPL", "nome": "Apple Inc." },
+            { "ticker": "MSFT", "nome": "Microsoft Corporation" },
+            { "ticker": "NVDA", "nome": "NVIDIA Corporation" },
+            { "ticker": "AMZN", "nome": "Amazon.com, Inc." },
+            { "ticker": "GOOGL", "nome": "Alphabet Inc." },
+            { "ticker": "META", "nome": "Meta Platforms, Inc." }
+        ],
+        "ETFs": [
+            { "ticker": "SPY", "nome": "SPDR S&P 500 ETF Trust" },
+            { "ticker": "QQQ", "nome": "Invesco QQQ Trust" },
+            { "ticker": "VOO", "nome": "Vanguard S&P 500 ETF" },
+            { "ticker": "DIA", "nome": "SPDR Dow Jones Industrial Average ETF Trust" }
+        ]
+    }
+}

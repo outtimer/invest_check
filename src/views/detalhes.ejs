@@ -23,7 +23,7 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-slate-950 text-slate-100">
-    <div class="md:flex">
+    <div class="min-h-screen">
         <header class="sticky top-0 z-20 border-b border-slate-800 bg-slate-950/95 backdrop-blur-lg px-4 py-4 shadow-sm shadow-black/20 md:px-8">
             <div class="flex items-center justify-between gap-4">
                 <a href="/" class="flex items-center gap-3 text-slate-100 no-underline">
@@ -38,6 +38,9 @@
                     const hora = agora.getHours();
                     const diaSemana = agora.getDay();
                     const estaAberto = (diaSemana >= 1 && diaSemana <= 5 && hora >= 10 && hora < 18);
+                    const isLocal = ativo.ticker.includes('.SA');
+                    const moeda = isLocal ? 'R$' : '$';
+                    const tradingSymbol = isLocal ? `BMFBOVESPA:${ativo.ticker.split('.')[0]}` : `NASDAQ:${ativo.ticker.replace('.', '')}`;
                 %>
                 <div class="flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-xs font-bold">
                     <span class="h-2 w-2 rounded-full <%= estaAberto ? 'bg-emerald-500' : 'bg-rose-500' %>"></span>
@@ -69,7 +72,7 @@
                     <div class="mb-4 space-y-3">
                         <div class="rounded-xl border border-slate-800 bg-slate-950 p-4">
                             <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Preço Atual</div>
-                            <div class="mt-1 text-2xl font-bold text-emerald-400">R$ <%= (ativo.preco || 0).toFixed(2) %></div>
+                            <div class="mt-1 text-2xl font-bold text-emerald-400"><%= moeda %> <%= (ativo.preco || 0).toFixed(2) %></div>
                         </div>
 
                         <div class="grid grid-cols-2 gap-3">
@@ -85,7 +88,7 @@
 
                         <div class="rounded-xl border border-slate-800 bg-slate-950 p-4">
                             <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Preço Justo (Graham)</div>
-                            <div class="mt-1 font-mono text-xl font-bold text-brand-blue">R$ <%= (ativo.graham || 0).toFixed(2) %></div>
+                            <div class="mt-1 font-mono text-xl font-bold text-brand-blue"><%= moeda %> <%= (ativo.graham || 0).toFixed(2) %></div>
                         </div>
 
                         <div class="grid grid-cols-2 gap-3">
@@ -169,7 +172,7 @@
                         <script src="https://s3.tradingview.com/tv.js"></script>
                         <script>
                             new TradingView.widget({
-                                "autosize": false, "width": "100%", "height": "500", "symbol": "BMFBOVESPA:<%= ativo.ticker.split('.')[0] %>",
+                                "autosize": false, "width": "100%", "height": "500", "symbol": "<%= tradingSymbol %>",
                                 "interval": "D", "theme": "dark", "style": "1", "locale": "br", "container_id": "tv_widget"
                             });
                         </script>

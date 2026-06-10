@@ -25,19 +25,77 @@ function readJson(fileName) {
     }
 }
 
+function collectTickerStructures() {
+    const estruturaB3 = readJson('estrutura_b3_completa.json') || {};
+    const estruturaIntl = readJson('estrutura_internacional.json') || {};
+    const listaGlobal = [];
+    const domesticTickers = new Set();
+    const internationalTickers = new Set();
+    const seen = new Set();
+
+    Object.values(estruturaB3).forEach(subcats => {
+        Object.values(subcats).forEach(list => {
+            list.forEach(a => {
+                const ticker = (a.ticker || '').toUpperCase();
+                if (!ticker) return;
+                if (!seen.has(ticker)) {
+                    listaGlobal.push(ticker);
+                    seen.add(ticker);
+                }
+                domesticTickers.add(ticker);
+                domesticTickers.add(ticker.replace(/\.SA$/, ''));
+            });
+        });
+    });
+
+    Object.values(estruturaIntl).forEach(subcats => {
+        Object.values(subcats).forEach(list => {
+            list.forEach(a => {
+                const ticker = (a.ticker || '').toUpperCase();
+                if (!ticker) return;
+                if (!seen.has(ticker)) {
+                    listaGlobal.push(ticker);
+                    seen.add(ticker);
+                }
+                internationalTickers.add(ticker);
+                internationalTickers.add(ticker.replace(/\.SA$/, ''));
+            });
+        });
+    });
+
+    return { listaGlobal, domesticTickers, internationalTickers };
+}
+
+function normalizeTicker(symbol) {
+    let ticker = symbol.toUpperCase().trim();
+    if (ticker.includes('.')) return ticker;
+
+    const { domesticTickers, internationalTickers } = collectTickerStructures();
+    if (internationalTickers.has(ticker)) return ticker;
+    if (domesticTickers.has(`${ticker}.SA`) || domesticTickers.has(ticker)) return `${ticker}.SA`;
+    return ticker;
+}
+
+function loadTrendData() {
+    const dadosNacional = readJson('dados_tendencia_nacional.json') || { acoes: [], ultima_atualizacao: 'Pendente' };
+    const dadosBdr = readJson('dados_tendencia_bdr.json') || { bdrs: [], ultima_atualizacao: 'Pendente' };
+    const dadosInternacional = readJson('dados_tendencia_internacional.json') || { internacionais: [], ultima_atualizacao: 'Pendente' };
+    const ultima = dadosNacional.ultima_atualizacao || dadosBdr.ultima_atualizacao || dadosInternacional.ultima_atualizacao || 'Pendente';
+
+    return {
+        acoes: dadosNacional.acoes,
+        bdrs: dadosBdr.bdrs,
+        internacionais: dadosInternacional.internacionais,
+        ultima_atualizacao: ultima
+    };
+}
+
 // ==========================================================
 // ROTA: HOME (Radar de Tendência)
 // ==========================================================
 app.get('/', (req, res) => {
-    const dados = readJson('dados_tendencia.json') || { acoes: [], bdrs: [], ultima_atualizacao: 'N/A' };
-    const estrutura = readJson('estrutura_b3_completa.json') || {};
-    const listaGlobal = [];
-
-    Object.values(estrutura).forEach(subcats => {
-        Object.values(subcats).forEach(list => {
-            listaGlobal.push(...list.map(a => a.ticker));
-        });
-    });
+    const dados = loadTrendData();
+    const { listaGlobal } = collectTickerStructures();
 
     res.render('index', { dados, listaGlobal });
 });
@@ -46,27 +104,20 @@ app.get('/', (req, res) => {
 // ROTA: MINHA CARTEIRA (Watchlist)
 // ==========================================================
 app.get('/watchlist', (req, res) => {
-    const estrutura = readJson('estrutura_b3_completa.json') || {};
-    const listaGlobal = [];
-
-    Object.values(estrutura).forEach(subcats => {
-        Object.values(subcats).forEach(list => {
-            list.forEach(a => listaGlobal.push({ t: a.ticker, n: a.nome }));
-        });
-    });
-
-    res.render('watchlist', { listaGlobal });
+    const { listaGlobal } = collectTickerStructures();
+    const listaComNomes = listaGlobal.map(t => ({ t, n: t }));
+    res.render('watchlist', { listaGlobal: listaComNomes });
 });
 
 // ==========================================================
 // ROTA: DETALHES TÉCNICOS DO ATIVO
 // ==========================================================
 app.get('/ticker/:simbolo', (req, res) => {
-    let simbolo = req.params.simbolo.toUpperCase().trim();
-    if (!simbolo.includes('.') && simbolo.length <= 6) simbolo += '.SA';
+    const simbolo = req.params.simbolo.toUpperCase().trim();
+    const ticker = normalizeTicker(simbolo);
 
     const scriptPath = path.join(pythonPath, 'consulta_ticker.py');
-    exec(`python "${scriptPath}" "${simbolo}"`, (err, stdout) => {
+    exec(`python "${scriptPath}" "${ticker}"`, (err, stdout) => {
         if (err) return res.status(404).send('Erro ao consultar ativo.');
         try {
             res.render('detalhes', { ativo: JSON.parse(stdout) });
@@ -82,8 +133,7 @@ app.get('/ticker/:simbolo', (req, res) => {
 
 // Preço atual para a tabela consolidada
 app.get('/api/preco/:ticker', (req, res) => {
-    let ticker = req.params.ticker.toUpperCase().trim();
-    if (!ticker.includes('.') && ticker.length <= 6) ticker += '.SA';
+    const ticker = normalizeTicker(req.params.ticker);
     exec(`python -c "import yfinance as yf; print(yf.Ticker('${ticker}').history(period='1d')['Close'].iloc[-1])"`, (err, stdout) => {
         if (err || !stdout.trim()) return res.json({ preco: 0 });
         res.json({ preco: Number(parseFloat(stdout).toFixed(2)) });
@@ -94,8 +144,7 @@ app.get('/api/preco/:ticker', (req, res) => {
 app.get('/api/preco-historico', (req, res) => {
     let { ticker, data } = req.query;
     if (!ticker || !data) return res.json({ preco: 0 });
-    let t = ticker.toUpperCase().trim();
-    if (!t.includes('.') && t.length <= 6) t += '.SA';
+    const t = normalizeTicker(ticker);
     const cmd = `python -c "import yfinance as yf; d=yf.download('${t}', start='${data}', period='1d', progress=False); print(d['Close'].iloc[0] if not d.empty else 0)"`;
     exec(cmd, (err, stdout) => {
         if (err || !stdout.trim()) return res.json({ preco: 0 });
@@ -103,21 +152,25 @@ app.get('/api/preco-historico', (req, res) => {
     });
 });
 
+function runScanner(scriptName, res) {
+    const scriptPath = path.join(pythonPath, scriptName);
+    console.log(`Iniciando scanner ${scriptName} via Python...`);
+    exec(`python "${scriptPath}"`, (err, stdout, stderr) => {
+        if (err) {
+            console.error(`Erro no scanner ${scriptName}:`, stderr || err.message);
+            return res.status(500).json({ success: false, error: stderr || err.message });
+        }
+        console.log(`Scanner ${scriptName} finalizado com sucesso.`);
+        res.json({ success: true });
+    });
+}
+
 // ==========================================================
 // ROTA DE ATUALIZAÇÃO (SCANNER DE TENDÊNCIA)
 // ==========================================================
-app.get('/api/update-tendencia', (req, res) => {
-    console.log('Iniciando scanner de tendência via Python...');
-    const scriptPath = path.join(pythonPath, 'scanner_tendencia.py');
-    exec(`python "${scriptPath}"`, (err, stdout, stderr) => {
-        if (err) {
-            console.error('Erro no Scanner:', stderr);
-            return res.status(500).json({ success: false, error: err.message });
-        }
-        console.log('Scanner finalizado com sucesso.');
-        res.json({ success: true });
-    });
-});
+app.get('/api/update-tendencia', (req, res) => runScanner('scanner_tendencia.py', res));
+app.get('/api/update-tendencia-bdr', (req, res) => runScanner('scanner_tendencia_bdr.py', res));
+app.get('/api/update-tendencia-internacional', (req, res) => runScanner('scanner_tendencia_internacional.py', res));
 
 // ==========================================================
 // INICIALIZAÇÃO

@@ -113,10 +113,23 @@
                     </p>
                 </div>
                 
-                <button class="flex items-center gap-2 rounded-2xl bg-brand-blue px-6 py-3 font-semibold text-white shadow-lg shadow-brand-blue/20 transition-all hover:bg-blue-600 active:scale-95" onclick="executarScanner('tendencia')">
-                    <i class="fa-solid fa-satellite-dish"></i>
-                    Iniciar Scanner
-                </button>
+                <div class="space-y-3">
+                    <div class="grid gap-2 sm:grid-cols-3">
+                        <button class="btn-scanner-pro flex items-center justify-center gap-2 rounded-2xl bg-brand-blue px-4 py-3 font-semibold text-white shadow-lg shadow-brand-blue/20 transition-all hover:bg-blue-600 active:scale-95" onclick="executarScanner('tendencia', this)">
+                            <i class="fa-solid fa-flag"></i>
+                            Scanner Nacional
+                        </button>
+                        <button class="btn-scanner-pro flex items-center justify-center gap-2 rounded-2xl bg-slate-700 px-4 py-3 font-semibold text-white shadow-lg shadow-slate-950/20 transition-all hover:bg-slate-600 active:scale-95" onclick="executarScanner('bdr', this)">
+                            <i class="fa-solid fa-globe"></i>
+                            Scanner BDR
+                        </button>
+                        <button class="btn-scanner-pro flex items-center justify-center gap-2 rounded-2xl bg-emerald-500 px-4 py-3 font-semibold text-slate-950 shadow-lg shadow-emerald-500/20 transition-all hover:bg-emerald-400 active:scale-95" onclick="executarScanner('internacional', this)">
+                            <i class="fa-solid fa-plane"></i>
+                            Scanner Internacional
+                        </button>
+                    </div>
+                    <div id="scannerStatus" class="text-sm text-slate-300"></div>
+                </div>
             </div>
 
             <div class="space-y-8">
@@ -195,6 +208,44 @@
                         </table>
                     </div>
                 </section>
+
+                <section>
+                    <div class="mb-4 flex items-center gap-2">
+                        <span class="h-1 w-1 rounded-full bg-brand-blue"></span>
+                        <h3 class="text-lg font-semibold text-slate-100">Internacional em Tendência</h3>
+                        <span class="ml-auto rounded-full bg-slate-800 px-3 py-1 text-xs font-bold text-slate-300"><%= (dados.internacionais || []).length %> ativos</span>
+                    </div>
+                    <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/50 shadow-lg">
+                        <table class="w-full text-sm">
+                            <thead class="border-b border-slate-800 bg-slate-950/50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left font-semibold text-slate-300">Ticker</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Preço</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Graham</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Score</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">ROE</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/L</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/VPA</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Força</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-800/50">
+                                <% (dados.internacionais || []).forEach(b => { %>
+                                    <tr class="transition-colors hover:bg-slate-800/30">
+                                        <td class="px-6 py-3"><a href="/ticker/<%= b.ticker %>" class="font-bold text-brand-blue hover:underline"><%= b.ticker %></a></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= b.ticker.includes('.SA') ? 'R$' : '$' %> <%= b.preco.toFixed(2) %></td>
+                                        <td class="px-6 py-3 text-right font-mono <%= b.preco < b.graham ? 'text-emerald-400' : 'text-slate-400' %>"><%= b.ticker.includes('.SA') ? 'R$' : '$' %> <%= b.graham %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= b.score_qualidade %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.roe === 'number' ? b.roe.toFixed(1) : 'N/A' %>%</td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.pl === 'number' ? b.pl.toFixed(1) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.pvpa === 'number' ? b.pvpa.toFixed(2) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono font-bold text-emerald-400">+<%= b.forca %>%</td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
@@ -204,15 +255,35 @@
             const t = document.getElementById('gSearch').value.toUpperCase().trim();
             if (t) window.location.href = `/ticker/${t}`;
         }
-        async function executarScanner(tipo) {
-            const btn = document.querySelector('.btn-scanner-pro');
-            btn.innerHTML = 'Processando...';
+        async function executarScanner(tipo, btn) {
+            const status = document.getElementById('scannerStatus');
+            if (!btn || !status) return;
+
+            const labelMap = {
+                tendencia: 'Scanner Nacional',
+                bdr: 'Scanner BDR',
+                internacional: 'Scanner Internacional'
+            };
+
+            const originalText = btn.innerHTML;
+            btn.innerHTML = `${labelMap[tipo] || 'Processando...'} ...`;
             btn.disabled = true;
+            status.textContent = 'Executando scanner. Por favor aguarde...';
+
             try {
-                const res = await fetch(`/api/update-${tipo}`);
-                if (res.ok) window.location.reload();
+                const res = await fetch(`/api/update-tendencia${tipo === 'tendencia' ? '' : `-${tipo}`}`);
+                if (res.ok) {
+                    status.textContent = `${labelMap[tipo] || 'Scanner'} concluído com sucesso. Atualizando página...`;
+                    setTimeout(() => window.location.reload(), 1000);
+                } else {
+                    const json = await res.json().catch(() => null);
+                    status.textContent = json?.error ? `Erro: ${json.error}` : 'Erro ao executar scanner. Confira o log do servidor.';
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                }
             } catch (e) {
-                btn.innerHTML = 'Iniciar Scanner';
+                status.textContent = `Falha ao conectar ao servidor: ${e.message}`;
+                btn.innerHTML = originalText;
                 btn.disabled = false;
             }
         }
