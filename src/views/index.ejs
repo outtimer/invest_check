@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Radar B3 | Radar Profissional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'brand-blue': '#0ea5ff',
+                'brand-green': '#10b981',
+                'brand-red': '#ef4444'
+              }
+            }
+          }
+        }
+    </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-slate-950 text-slate-100">
+    <div x-data="{ mobileMenu: false }" class="md:flex">
+        <aside class="sidebar fixed inset-y-0 left-0 z-30 hidden w-72 overflow-y-auto border-r border-slate-800 bg-slate-950 md:block">
+            <div class="px-6 py-6 text-slate-100 border-b border-slate-800">
+                <div class="flex items-center gap-3">
+                    <span class="rounded-2xl bg-slate-900 p-3 text-brand-blue shadow-lg shadow-slate-950/30"><i class="fa-solid fa-wave-square fa-lg"></i></span>
+                    <div>
+                        <div class="text-xs uppercase tracking-[0.3em] text-slate-500">Terminal</div>
+                        <div class="text-xl font-bold">Radar B3</div>
+                    </div>
+                </div>
+            </div>
+            <nav class="mt-6 px-4 space-y-1">
+                <a href="/" class="nav-item group">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span class="nav-text">Radar de Mercado</span>
+                </a>
+                <a href="/watchlist" class="nav-item group">
+                    <i class="fa-solid fa-star"></i>
+                    <span class="nav-text">Minha Watchlist</span>
+                </a>
+            </nav>
+            <div class="mt-auto px-4 pb-6 pt-10">
+                <a href="#" class="nav-item group">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="nav-text">Configurações</span>
+                </a>
+            </div>
+        </aside>
+
+        <div class="main-layout md:ml-72">
+            <header class="navbar sticky top-0 z-20 border-b border-slate-800 bg-slate-950/95 backdrop-blur-lg px-4 py-4 shadow-sm shadow-black/20 md:px-8">
+                <div class="flex items-center justify-between gap-4 md:gap-8">
+                    <div class="flex items-center gap-4">
+                        <button @click="mobileMenu = !mobileMenu" class="md:hidden rounded-xl border border-slate-800 bg-slate-900 p-3 text-slate-100 shadow-inner shadow-black/20">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <a href="/" class="logo-container flex items-center gap-3 text-slate-100 no-underline">
+                            <svg class="logo-icon h-10 w-10" viewBox="0 0 24 24">
+                                <path d="M3.5,18.5L9.5,12.5L13.5,16.5L22,6.92L20.59,5.5L13.5,13.5L9.5,9.5L2,17L3.5,18.5Z" />
+                            </svg>
+                            <span class="logo-text text-lg font-bold tracking-tight uppercase">TERMINAL<span class="text-brand-blue">RADAR</span></span>
+                        </a>
+                    </div>
+
+                    <div class="hidden items-center gap-4 md:flex">
+                        <% 
+                            const agora = new Date();
+                            const hora = agora.getHours();
+                            const diaSemana = agora.getDay();
+                            const estaAberto = (diaSemana >= 1 && diaSemana <= 5 && hora >= 10 && hora < 18);
+                        %>
+                        <div class="market-status flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-slate-200">
+                            <span class="h-3 w-3 rounded-full <%= estaAberto ? 'bg-emerald-500' : 'bg-rose-500' %>"></span>
+                            <span>B3: <strong class="text-slate-50"><%= estaAberto ? 'OPEN' : 'CLOSED' %></strong></span>
+                            <span class="text-slate-500">(10:00 - 18:00)</span>
+                        </div>
+                    </div>
+
+                    <div class="flex-1"></div>
+
+                    <div class="hidden items-center gap-3 md:flex">
+                        <button class="btn-primary">Atualizar</button>
+                    </div>
+                </div>
+
+                <div class="mt-4 grid gap-3 md:grid-cols-[1.2fr,0.8fr]">
+                    <div class="relative rounded-3xl border border-slate-800 bg-slate-900/90 p-4 shadow-[0_20px_60px_-30px_rgba(0,0,0,0.6)]">
+                        <div class="flex items-center gap-3">
+                            <input type="text" id="gSearch" class="w-full rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-slate-100 outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/25" placeholder="Analisar ticker..." list="l-global">
+                            <button class="btn-primary" onclick="buscar()">Explorar</button>
+                        </div>
+                        <datalist id="l-global">
+                            <% if (locals.listaGlobal) { listaGlobal.forEach(t => { %><option value="<%= t %>"></option><% }) } %>
+                        </datalist>
+                    </div>
+                    <div class="self-end rounded-3xl border border-slate-800 bg-slate-900/90 p-4 text-sm text-slate-400 shadow-[0_20px_60px_-30px_rgba(0,0,0,0.6)]">
+                        A ferramenta exibe ações em tendência com filtros de valor e qualidade.
+                    </div>
+                </div>
+            </header>
+
+        <div class="flex-1 overflow-y-auto px-4 py-8 md:px-8">
+            <div class="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
+                <div>
+                    <h2 class="text-2xl font-bold tracking-tight text-slate-100">Terminal Radar</h2>
+                    <p class="mt-1 text-xs font-medium text-slate-400">
+                        Sincronização: <%= (locals.dados && dados.ultima_atualizacao) ? dados.ultima_atualizacao : 'Pendente' %>
+                    </p>
+                </div>
+                
+                <div class="space-y-3">
+                    <div class="grid gap-2 sm:grid-cols-3">
+                        <button class="btn-scanner-pro flex items-center justify-center gap-2 rounded-2xl bg-brand-blue px-4 py-3 font-semibold text-white shadow-lg shadow-brand-blue/20 transition-all hover:bg-blue-600 active:scale-95" onclick="executarScanner('tendencia', this)">
+                            <i class="fa-solid fa-flag"></i>
+                            Scanner Nacional
+                        </button>
+                        <button class="btn-scanner-pro flex items-center justify-center gap-2 rounded-2xl bg-slate-700 px-4 py-3 font-semibold text-white shadow-lg shadow-slate-950/20 transition-all hover:bg-slate-600 active:scale-95" onclick="executarScanner('bdr', this)">
+                            <i class="fa-solid fa-globe"></i>
+                            Scanner BDR
+                        </button>
+                        <button class="btn-scanner-pro flex items-center justify-center gap-2 rounded-2xl bg-emerald-500 px-4 py-3 font-semibold text-slate-950 shadow-lg shadow-emerald-500/20 transition-all hover:bg-emerald-400 active:scale-95" onclick="executarScanner('internacional', this)">
+                            <i class="fa-solid fa-plane"></i>
+                            Scanner Internacional
+                        </button>
+                    </div>
+                    <div id="scannerStatus" class="text-sm text-slate-300"></div>
+                </div>
+            </div>
+
+            <div class="space-y-8">
+                <section>
+                    <div class="mb-4 flex items-center gap-2">
+                        <span class="h-1 w-1 rounded-full bg-brand-blue"></span>
+                        <h3 class="text-lg font-semibold text-slate-100">Ações em Tendência (Elite)</h3>
+                        <span class="ml-auto rounded-full bg-slate-800 px-3 py-1 text-xs font-bold text-slate-300"><%= (dados.acoes || []).length %> ativos</span>
+                    </div>
+                    <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/50 shadow-lg">
+                        <table class="w-full text-sm">
+                            <thead class="border-b border-slate-800 bg-slate-950/50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left font-semibold text-slate-300">Ticker</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Preço</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Graham</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Score</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">ROE</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/L</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/VPA</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Força</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-800/50">
+                                <% (dados.acoes || []).forEach(a => { %>
+                                    <tr class="transition-colors hover:bg-slate-800/30">
+                                        <td class="px-6 py-3"><a href="/ticker/<%= a.ticker %>" class="font-bold text-brand-blue hover:underline"><%= a.ticker %></a></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200">R$ <%= a.preco.toFixed(2) %></td>
+                                        <td class="px-6 py-3 text-right font-mono <%= a.preco < a.graham ? 'text-emerald-400' : 'text-slate-400' %>">R$ <%= a.graham %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= a.score_qualidade %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof a.roe === 'number' ? a.roe.toFixed(1) : 'N/A' %>%</td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof a.pl === 'number' ? a.pl.toFixed(1) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof a.pvpa === 'number' ? a.pvpa.toFixed(2) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono font-bold text-emerald-400">+<%= a.forca %>%</td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="mb-4 flex items-center gap-2">
+                        <span class="h-1 w-1 rounded-full bg-brand-blue"></span>
+                        <h3 class="text-lg font-semibold text-slate-100">BDRs em Tendência Global</h3>
+                        <span class="ml-auto rounded-full bg-slate-800 px-3 py-1 text-xs font-bold text-slate-300"><%= (dados.bdrs || []).length %> ativos</span>
+                    </div>
+                    <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/50 shadow-lg">
+                        <table class="w-full text-sm">
+                            <thead class="border-b border-slate-800 bg-slate-950/50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left font-semibold text-slate-300">Ticker</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Preço</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Graham</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Score</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">ROE</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/L</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/VPA</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Força</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-800/50">
+                                <% (dados.bdrs || []).forEach(b => { %>
+                                    <tr class="transition-colors hover:bg-slate-800/30">
+                                        <td class="px-6 py-3"><a href="/ticker/<%= b.ticker %>" class="font-bold text-brand-blue hover:underline"><%= b.ticker %></a></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200">R$ <%= b.preco.toFixed(2) %></td>
+                                        <td class="px-6 py-3 text-right font-mono <%= b.preco < b.graham ? 'text-emerald-400' : 'text-slate-400' %>">R$ <%= b.graham %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= b.score_qualidade %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.roe === 'number' ? b.roe.toFixed(1) : 'N/A' %>%</td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.pl === 'number' ? b.pl.toFixed(1) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.pvpa === 'number' ? b.pvpa.toFixed(2) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono font-bold text-emerald-400">+<%= b.forca %>%</td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="mb-4 flex items-center gap-2">
+                        <span class="h-1 w-1 rounded-full bg-brand-blue"></span>
+                        <h3 class="text-lg font-semibold text-slate-100">Internacional em Tendência</h3>
+                        <span class="ml-auto rounded-full bg-slate-800 px-3 py-1 text-xs font-bold text-slate-300"><%= (dados.internacionais || []).length %> ativos</span>
+                    </div>
+                    <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/50 shadow-lg">
+                        <table class="w-full text-sm">
+                            <thead class="border-b border-slate-800 bg-slate-950/50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left font-semibold text-slate-300">Ticker</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Preço</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Graham</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Score</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">ROE</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/L</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">P/VPA</th>
+                                    <th class="px-6 py-3 text-right font-semibold text-slate-300">Força</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-800/50">
+                                <% (dados.internacionais || []).forEach(b => { %>
+                                    <tr class="transition-colors hover:bg-slate-800/30">
+                                        <td class="px-6 py-3"><a href="/ticker/<%= b.ticker %>" class="font-bold text-brand-blue hover:underline"><%= b.ticker %></a></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= b.ticker.includes('.SA') ? 'R$' : '$' %> <%= b.preco.toFixed(2) %></td>
+                                        <td class="px-6 py-3 text-right font-mono <%= b.preco < b.graham ? 'text-emerald-400' : 'text-slate-400' %>"><%= b.ticker.includes('.SA') ? 'R$' : '$' %> <%= b.graham %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= b.score_qualidade %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.roe === 'number' ? b.roe.toFixed(1) : 'N/A' %>%</td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.pl === 'number' ? b.pl.toFixed(1) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono text-slate-200"><%= typeof b.pvpa === 'number' ? b.pvpa.toFixed(2) : 'N/A' %></td>
+                                        <td class="px-6 py-3 text-right font-mono font-bold text-emerald-400">+<%= b.forca %>%</td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function buscar() {
+            const t = document.getElementById('gSearch').value.toUpperCase().trim();
+            if (t) window.location.href = `/ticker/${t}`;
+        }
+        async function executarScanner(tipo, btn) {
+            const status = document.getElementById('scannerStatus');
+            if (!btn || !status) return;
+
+            const labelMap = {
+                tendencia: 'Scanner Nacional',
+                bdr: 'Scanner BDR',
+                internacional: 'Scanner Internacional'
+            };
+
+            const originalText = btn.innerHTML;
+            btn.innerHTML = `${labelMap[tipo] || 'Processando...'} ...`;
+            btn.disabled = true;
+            status.textContent = 'Executando scanner. Por favor aguarde...';
+
+            try {
+                const res = await fetch(`/api/update-tendencia${tipo === 'tendencia' ? '' : `-${tipo}`}`);
+                if (res.ok) {
+                    status.textContent = `${labelMap[tipo] || 'Scanner'} concluído com sucesso. Atualizando página...`;
+                    setTimeout(() => window.location.reload(), 1000);
+                } else {
+                    const json = await res.json().catch(() => null);
+                    status.textContent = json?.error ? `Erro: ${json.error}` : 'Erro ao executar scanner. Confira o log do servidor.';
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                }
+            } catch (e) {
+                status.textContent = `Falha ao conectar ao servidor: ${e.message}`;
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>

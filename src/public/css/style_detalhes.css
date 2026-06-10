@@ -92,10 +92,10 @@ body {
 }
 
 .proventos-section { padding: 30px; }
-.table-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; }
-table { width: 100%; border-collapse: collapse; }
-th { background: #1e232d; color: var(--text-secondary); font-size: 11px; padding: 12px 20px; text-align: left; text-transform: uppercase; }
-td { padding: 12px 20px; border-bottom: 1px solid var(--border-color); font-size: 14px; }
+.table-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { background: #1e232d; color: var(--text-secondary); font-size: 10px; padding: 10px 14px; text-align: left; text-transform: uppercase; letter-spacing: 0.04em; }
+td { padding: 10px 14px; border-bottom: 1px solid var(--border-color); font-size: 13px; }
 
 /* ... (Mantenha o código anterior e adicione/atualize as classes abaixo) ... */
 

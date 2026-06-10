@@ -4,7 +4,7 @@ Este documento descreve o fluxo principal do projeto `Terminal Radar B3`, com fo
 
 ## Visão rápida
 
-- `server.js` é o backend principal em Express.
+- `src/backend/server.js` é o backend principal em Express.
 - `views/*.ejs` são as páginas renderizadas.
 - `consulta_ticker.py` fornece detalhes de um ticker via `yfinance`.
 - `scanner_tendencia.py` gera `dados_tendencia.json` para o dashboard.

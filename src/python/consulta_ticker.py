@@ -29,11 +29,25 @@ def consultar(ticker_nome):
         if not vpa or vpa == 0:
             total_patrimonio = info.get('totalStockholderEquity', 0)
             shares_outstanding = info.get('sharesOutstanding', 1)
-            vpa = total_patrimonio / shares_outstanding
+            vpa = total_patrimonio / shares_outstanding if shares_outstanding > 0 else 0
 
         preco_graham = 0
         if lpa > 0 and vpa > 0:
             preco_graham = math.sqrt(22.5 * lpa * vpa)
+
+        # Novos indicadores de qualidade
+        roe = info.get('returnOnEquity', 0) * 100 if info.get('returnOnEquity') else 0
+        trailing_pe = info.get('trailingPE', None)
+        pb_ratio = info.get('priceToBook', None)
+        total_debt = info.get('totalDebt', 0)
+        total_equity = info.get('totalStockholderEquity', 1)
+        debt_to_equity = (total_debt / total_equity) if total_equity > 0 else None
+        fcf = info.get('freeCashflow', 0)
+        
+        # Crescimento LPA
+        current_eps = info.get('trailingEps', 0)
+        forward_eps = info.get('forwardEps', 0)
+        eps_growth = (((forward_eps - current_eps) / abs(current_eps)) * 100) if current_eps != 0 else 0
 
         divs = tk.dividends
         um_ano = datetime.now() - timedelta(days=365)
@@ -57,6 +71,12 @@ def consultar(ticker_nome):
             "margem_liquida": round(info.get('profitMargins', 0) * 100, 2),
             "lpa": round(lpa, 2),
             "vpa": round(vpa, 2),
+            "roe": round(roe, 2),
+            "pl": round(trailing_pe, 2) if trailing_pe else None,
+            "pvpa": round(pb_ratio, 2) if pb_ratio else None,
+            "divida_equity": round(debt_to_equity, 2) if debt_to_equity else None,
+            "fcf": fcf if fcf else 0,
+            "eps_growth_yoy": round(eps_growth, 2),
             "lista_proventos": [{"data_com": i.strftime('%d/%m/%Y'), "valor": float(v)} for i, v in divs_12m.items()][::-1]
         }
         print(json.dumps(resultado))
