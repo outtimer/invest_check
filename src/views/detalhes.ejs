@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= ativo.ticker %> | Análise Completa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'brand-blue': '#0ea5ff',
+                'brand-green': '#10b981',
+                'brand-red': '#ef4444'
+              }
+            }
+          }
+        }
+    </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-slate-950 text-slate-100">
+    <div class="min-h-screen">
+        <header class="sticky top-0 z-20 border-b border-slate-800 bg-slate-950/95 backdrop-blur-lg px-4 py-4 shadow-sm shadow-black/20 md:px-8">
+            <div class="flex items-center justify-between gap-4">
+                <a href="/" class="flex items-center gap-3 text-slate-100 no-underline">
+                    <svg class="h-8 w-8" viewBox="0 0 24 24">
+                        <path d="M3.5,18.5L9.5,12.5L13.5,16.5L22,6.92L20.59,5.5L13.5,13.5L9.5,9.5L2,17L3.5,18.5Z" fill="currentColor" />
+                    </svg>
+                    <span class="text-lg font-bold tracking-tight uppercase">TERMINAL<span class="text-brand-blue">RADAR</span></span>
+                </a>
+
+                <% 
+                    const agora = new Date();
+                    const hora = agora.getHours();
+                    const diaSemana = agora.getDay();
+                    const estaAberto = (diaSemana >= 1 && diaSemana <= 5 && hora >= 10 && hora < 18);
+                    const isLocal = ativo.ticker.includes('.SA');
+                    const moeda = isLocal ? 'R$' : '$';
+                    const tradingSymbol = isLocal ? `BMFBOVESPA:${ativo.ticker.split('.')[0]}` : `NASDAQ:${ativo.ticker.replace('.', '')}`;
+                %>
+                <div class="flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-xs font-bold">
+                    <span class="h-2 w-2 rounded-full <%= estaAberto ? 'bg-emerald-500' : 'bg-rose-500' %>"></span>
+                    <span>B3: <%= estaAberto ? 'OPEN' : 'CLOSED' %></span>
+                </div>
+
+                <div class="flex-1"></div>
+
+                <div class="flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-3 py-2 text-xs">
+                    <input type="text" id="gSearch" class="w-32 border-none bg-transparent outline-none" placeholder="Ticker...">
+                    <button onclick="buscar()" class="rounded bg-brand-blue px-3 py-1 font-bold text-white hover:bg-blue-600">BUSCAR</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="flex-1 overflow-y-auto">
+            <div class="grid md:grid-cols-[300px,1fr] gap-0">
+                <aside class="border-r border-slate-800 bg-slate-900/50 p-6 md:min-h-screen">
+                    <a href="/" class="mb-6 inline-flex items-center gap-2 text-sm text-slate-400 hover:text-slate-200">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        Voltar
+                    </a>
+
+                    <div class="mb-6">
+                        <h1 class="text-3xl font-bold text-slate-100"><%= ativo.ticker %></h1>
+                        <p class="mt-1 text-sm text-slate-400"><%= ativo.nome %></p>
+                    </div>
+
+                    <div class="mb-4 space-y-3">
+                        <div class="rounded-xl border border-slate-800 bg-slate-950 p-4">
+                            <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Preço Atual</div>
+                            <div class="mt-1 text-2xl font-bold text-emerald-400"><%= moeda %> <%= (ativo.preco || 0).toFixed(2) %></div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="rounded-xl border border-slate-800 bg-slate-950 p-3">
+                                <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Máxima 200d</div>
+                                <div class="mt-1 font-mono text-sm font-bold text-slate-200">R$ <%= ativo.max_200 %></div>
+                            </div>
+                            <div class="rounded-xl border border-slate-800 bg-slate-950 p-3">
+                                <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Mínima 200d</div>
+                                <div class="mt-1 font-mono text-sm font-bold text-slate-200">R$ <%= ativo.min_200 %></div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-xl border border-slate-800 bg-slate-950 p-4">
+                            <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Preço Justo (Graham)</div>
+                            <div class="mt-1 font-mono text-xl font-bold text-brand-blue"><%= moeda %> <%= (ativo.graham || 0).toFixed(2) %></div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="rounded-xl border border-slate-800 bg-slate-950 p-3">
+                                <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Beta</div>
+                                <div class="mt-1 text-lg font-bold text-slate-200"><%= ativo.beta %></div>
+                            </div>
+                            <div class="rounded-xl border border-slate-800 bg-slate-950 p-3">
+                                <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Margem Líq.</div>
+                                <div class="mt-1 text-lg font-bold text-slate-200"><%= ativo.margem_liquida %>%</div>
+                            </div>
+                        </div>
+
+                        <div class="rounded-xl border-l-4 border-l-rose-500 border-slate-800 bg-slate-950 p-4">
+                            <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Stop Técnico (7%)</div>
+                            <div class="mt-1 font-mono text-xl font-bold text-rose-500">R$ <%= ativo.stop %></div>
+                        </div>
+
+                        <div class="rounded-xl border border-slate-800 bg-slate-950 p-4">
+                            <div class="text-xs font-medium uppercase tracking-wider text-slate-400">Média 200d</div>
+                            <div class="mt-1 font-mono text-lg font-bold text-slate-200">R$ <%= ativo.m200 %></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6 space-y-2 rounded-xl border border-slate-800 bg-slate-950 p-4">
+                        <div class="grid grid-cols-3 gap-2">
+                            <div>
+                                <div class="text-xs uppercase text-slate-400">Score</div>
+                                <div class="text-lg font-bold text-slate-200"><%= ativo.score_qualidade || 0 %></div>
+                            </div>
+                            <div>
+                                <div class="text-xs uppercase text-slate-400">ROE</div>
+                                <div class="text-lg font-bold text-slate-200"><%= typeof ativo.roe === 'number' ? ativo.roe.toFixed(1) : 'N/A' %>%</div>
+                            </div>
+                            <div>
+                                <div class="text-xs uppercase text-slate-400">P/L</div>
+                                <div class="text-lg font-bold text-slate-200"><%= typeof ativo.pl === 'number' ? ativo.pl.toFixed(1) : 'N/A' %></div>
+                            </div>
+                            <div>
+                                <div class="text-xs uppercase text-slate-400">P/VPA</div>
+                                <div class="text-lg font-bold text-slate-200"><%= typeof ativo.pvpa === 'number' ? ativo.pvpa.toFixed(2) : 'N/A' %></div>
+                            </div>
+                            <div>
+                                <div class="text-xs uppercase text-slate-400">D/E</div>
+                                <div class="text-lg font-bold text-slate-200"><%= typeof ativo.divida_equity === 'number' ? ativo.divida_equity.toFixed(2) : 'N/A' %></div>
+                            </div>
+                            <div>
+                                <div class="text-xs uppercase text-slate-400">Cres. EPS</div>
+                                <div class="text-lg font-bold text-slate-200"><%= typeof ativo.eps_growth_yoy === 'number' ? ativo.eps_growth_yoy.toFixed(1) : 'N/A' %>%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <% 
+                        const emTendencia = ativo.preco > ativo.m200;
+                        const estaBarata = ativo.preco < ativo.graham;
+                    %>
+                    <div class="rounded-xl border border-slate-800 bg-slate-950 p-4">
+                        <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Confluência</div>
+                        <div class="mt-3 space-y-2 text-sm font-bold">
+                            <div class="<%= emTendencia ? 'text-emerald-400' : 'text-slate-400' %>">
+                                <i class="<%= emTendencia ? 'fa-solid fa-check' : 'fa-solid fa-xmark' %>"></i>
+                                <%= emTendencia ? 'TENDÊNCIA DE ALTA' : 'ABAIXO DA MÉDIA' %>
+                            </div>
+                            <div class="<%= estaBarata ? 'text-emerald-400' : 'text-slate-400' %>">
+                                <i class="<%= estaBarata ? 'fa-solid fa-check' : 'fa-solid fa-xmark' %>"></i>
+                                <%= estaBarata ? 'PREÇO DESCONTADO' : 'ACIMA DO VALOR JUSTO' %>
+                            </div>
+                        </div>
+                        <% if(emTendencia && estaBarata) { %>
+                            <div class="mt-3 rounded bg-emerald-500 px-3 py-2 text-center text-xs font-bold text-black">
+                                ✓ COMPRA DE ALTA PRECISÃO
+                            </div>
+                        <% } %>
+                    </div>
+                </aside>
+
+                <main class="p-6 md:p-8">
+                    <div class="mb-8 rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+                        <div id="tv_widget" style="height: 500px;"></div>
+                        <script src="https://s3.tradingview.com/tv.js"></script>
+                        <script>
+                            new TradingView.widget({
+                                "autosize": false, "width": "100%", "height": "500", "symbol": "<%= tradingSymbol %>",
+                                "interval": "D", "theme": "dark", "style": "1", "locale": "br", "container_id": "tv_widget"
+                            });
+                        </script>
+                    </div>
+
+                    <div class="space-y-8">
+                        <section>
+                            <h2 class="mb-4 flex items-center gap-2 text-xl font-bold">
+                                <span class="h-1 w-4 rounded bg-brand-blue"></span>
+                                Perfil Corporativo
+                            </h2>
+                            <div class="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+                                <p class="leading-relaxed text-slate-300"><%= ativo.resumo %></p>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2 class="mb-4 flex items-center gap-2 text-xl font-bold">
+                                <span class="h-1 w-4 rounded bg-brand-blue"></span>
+                                Histórico de Dividendos (Yield: <%= ativo.dy %>%)
+                            </h2>
+                            <div class="overflow-x-auto rounded-xl border border-slate-800 bg-slate-900/50">
+                                <table class="w-full text-sm">
+                                    <thead class="border-b border-slate-800 bg-slate-950">
+                                        <tr>
+                                            <th class="px-6 py-3 text-left font-semibold text-slate-300">Data COM</th>
+                                            <th class="px-6 py-3 text-right font-semibold text-slate-300">Valor Bruto</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-slate-800/50">
+                                        <% if (ativo.lista_proventos && ativo.lista_proventos.length > 0) { %>
+                                            <% ativo.lista_proventos.forEach(p => { %>
+                                                <tr class="hover:bg-slate-800/30">
+                                                    <td class="px-6 py-3 text-slate-200"><%= p.data_com %></td>
+                                                    <td class="px-6 py-3 text-right font-mono font-bold text-emerald-400">R$ <%= p.valor.toFixed(4) %></td>
+                                                </tr>
+                                            <% }) %>
+                                        <% } else { %>
+                                            <tr>
+                                                <td colspan="2" class="px-6 py-4 text-center text-slate-400">Nenhum provento registrado nos últimos 12 meses.</td>
+                                            </tr>
+                                        <% } %>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2 class="mb-4 flex items-center gap-2 text-xl font-bold">
+                                <span class="h-1 w-4 rounded bg-brand-blue"></span>
+                                Metodologia de Cálculo
+                            </h2>
+                            <div class="grid gap-4 md:grid-cols-3">
+                                <div class="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+                                    <h3 class="mb-3 font-bold text-brand-blue">Graham: Preço Justo</h3>
+                                    <p class="text-sm leading-relaxed text-slate-400">Calculado via fórmula √(22.5 × LPA × VPA). Define o teto de valor aceitável por fundamentos.</p>
+                                </div>
+                                <div class="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+                                    <h3 class="mb-3 font-bold text-amber-500">Beta</h3>
+                                    <p class="text-sm leading-relaxed text-slate-400">Mede a volatilidade em relação ao Ibovespa. Seu valor de <strong><%= ativo.beta %></strong> indica o nível de risco sistêmico.</p>
+                                </div>
+                                <div class="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+                                    <h3 class="mb-3 font-bold text-emerald-400">Margem Líquida</h3>
+                                    <p class="text-sm leading-relaxed text-slate-400">Indica que a empresa retém <strong><%= ativo.margem_liquida %>%</strong> de lucro sobre tudo o que fatura.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function buscar() {
+            const t = document.getElementById('gSearch').value.toUpperCase().trim();
+            if (t) window.location.href = `/ticker/${t}`;
+        }
+    </script>
+</body>
+</html>

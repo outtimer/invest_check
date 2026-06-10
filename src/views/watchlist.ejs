@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Carteira | Terminal Radar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'brand-blue': '#0ea5ff',
+                'brand-green': '#10b981',
+                'brand-red': '#ef4444'
+              }
+            }
+          }
+        }
+    </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-slate-950 text-slate-100">
+    <div x-data="{ mobileMenu: false }" class="md:flex">
+        <aside class="sidebar fixed inset-y-0 left-0 z-30 hidden w-72 overflow-y-auto border-r border-slate-800 bg-slate-950 md:block">
+            <div class="px-6 py-6 text-slate-100 border-b border-slate-800">
+                <div class="flex items-center gap-3">
+                    <span class="rounded-2xl bg-slate-900 p-3 text-brand-blue shadow-lg shadow-slate-950/30"><i class="fa-solid fa-wave-square fa-lg"></i></span>
+                    <div>
+                        <div class="text-xs uppercase tracking-[0.3em] text-slate-500">Terminal</div>
+                        <div class="text-xl font-bold">Radar B3</div>
+                    </div>
+                </div>
+            </div>
+            <nav class="mt-6 px-4 space-y-1">
+                <a href="/" class="nav-item group">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span class="nav-text">Radar de Mercado</span>
+                </a>
+                <a href="/watchlist" class="nav-item group active">
+                    <i class="fa-solid fa-wallet"></i>
+                    <span class="nav-text">Minha Carteira</span>
+                </a>
+            </nav>
+        </aside>
+
+        <div class="main-layout md:ml-72">
+            <header class="navbar sticky top-0 z-20 border-b border-slate-800 bg-slate-950/95 backdrop-blur-lg px-4 py-4 shadow-sm shadow-black/20 md:px-8">
+                <div class="flex items-center justify-between gap-4 md:gap-8">
+                    <div class="flex items-center gap-4">
+                        <button @click="mobileMenu = !mobileMenu" class="md:hidden rounded-xl border border-slate-800 bg-slate-900 p-3 text-slate-100 shadow-inner shadow-black/20">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <a href="/" class="logo-container flex items-center gap-3 text-slate-100 no-underline">
+                            <svg class="logo-icon h-10 w-10" viewBox="0 0 24 24">
+                                <path d="M3.5,18.5L9.5,12.5L13.5,16.5L22,6.92L20.59,5.5L13.5,13.5L9.5,9.5L2,17L3.5,18.5Z" />
+                            </svg>
+                            <span class="logo-text text-lg font-bold tracking-tight uppercase">TERMINAL<span class="text-brand-blue">RADAR</span></span>
+                        </a>
+                    </div>
+
+                    <div class="flex-1"></div>
+
+                    <button class="flex items-center gap-2 rounded-2xl bg-brand-blue px-6 py-3 font-semibold text-white shadow-lg shadow-brand-blue/20 transition-all hover:bg-blue-600 active:scale-95" onclick="toggleModal(true)">
+                        <i class="fa-solid fa-plus"></i>
+                        NOVA OPERAÇÃO
+                    </button>
+                </div>
+            </header>
+
+            <div class="flex-1 overflow-y-auto px-4 py-8 md:px-8">
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold tracking-tight text-slate-100">Patrimônio Atualizado</h2>
+                    <p class="mt-1 text-xs font-medium text-slate-400">Controle de custódia e histórico de lote.</p>
+                </div>
+
+                <div class="mb-8 grid gap-4 md:grid-cols-3">
+                    <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+                        <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Total Investido</div>
+                        <div class="mt-2 font-mono text-2xl font-bold text-slate-300" id="totalInvestido">R$ 0,00</div>
+                    </div>
+                    <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+                        <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Valor de Mercado</div>
+                        <div class="mt-2 font-mono text-2xl font-bold text-slate-100" id="patrimonioTotal">R$ 0,00</div>
+                    </div>
+                    <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+                        <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Resultado Geral</div>
+                        <div class="mt-2 font-mono text-2xl font-bold text-emerald-400" id="resultadoGeral">R$ 0,00</div>
+                    </div>
+                </div>
+
+                <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/50 shadow-lg">
+                    <table class="w-full text-sm">
+                        <thead class="border-b border-slate-800 bg-slate-950/50">
+                            <tr>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-300"></th>
+                                <th class="px-6 py-3 text-left font-semibold text-slate-300">Ticker</th>
+                                <th class="px-6 py-3 text-right font-semibold text-slate-300">Saldo</th>
+                                <th class="px-6 py-3 text-right font-semibold text-slate-300">P. Médio</th>
+                                <th class="px-6 py-3 text-right font-semibold text-slate-300">P. Atual</th>
+                                <th class="px-6 py-3 text-right font-semibold text-slate-300">Valor Atual</th>
+                                <th class="px-6 py-3 text-right font-semibold text-slate-300">Diferença Total</th>
+                                <th class="px-6 py-3 text-right font-semibold text-slate-300">Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="watchlistBody" class="divide-y divide-slate-800/50"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay fixed inset-0 z-50 hidden items-center justify-center bg-black/70 backdrop-blur-sm" id="modalAdd">
+        <div class="modal-content w-full max-w-md rounded-2xl border border-slate-800 bg-slate-950 p-6 shadow-2xl">
+            <div class="mb-6 flex items-center justify-between">
+                <h3 class="text-xl font-bold">Registrar Operação</h3>
+                <button class="close-modal rounded-lg p-2 hover:bg-slate-800" onclick="toggleModal(false)">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+            
+            <div class="type-selector mb-6 grid grid-cols-2 gap-3">
+                <div id="btnTypeCompra" class="type-btn active-compra cursor-pointer rounded-xl border-2 border-emerald-500 bg-emerald-500/10 px-4 py-2 text-center font-bold text-emerald-400 transition" onclick="setType('C')">COMPRA</div>
+                <div id="btnTypeVenda" class="type-btn cursor-pointer rounded-xl border-2 border-slate-700 bg-transparent px-4 py-2 text-center font-bold text-slate-400 transition hover:border-rose-500 hover:text-rose-400" onclick="setType('V')">VENDA</div>
+            </div>
+            <input type="hidden" id="inType" value="C">
+
+            <div class="mb-4">
+                <label class="block text-sm font-semibold text-slate-300 mb-2">Data</label>
+                <input type="date" id="inData" class="w-full rounded-lg border border-slate-800 bg-slate-900 px-4 py-2 text-slate-100 focus:border-brand-blue focus:outline-none" onchange="validarData(this); fetchHistoricalPrice()">
+                <small id="dateError" class="mt-1 hidden text-xs text-rose-500">Fins de semana bloqueados.</small>
+            </div>
+
+            <div class="mb-4">
+                <label class="block text-sm font-semibold text-slate-300 mb-2">Ativo</label>
+                <input type="text" id="inTicker" class="w-full rounded-lg border border-slate-800 bg-slate-900 px-4 py-2 text-slate-100 focus:border-brand-blue focus:outline-none" placeholder="PETR4" list="l-ativos" oninput="fetchHistoricalPrice()">
+                <datalist id="l-ativos"><% listaGlobal.forEach(a => { %> <option value="<%= a.t %>"><%= a.n %></option> <% }) %></datalist>
+            </div>
+
+            <div class="mb-6 grid grid-cols-2 gap-3">
+                <div>
+                    <label class="block text-sm font-semibold text-slate-300 mb-2">Quantidade</label>
+                    <input type="number" id="inQtd" class="w-full rounded-lg border border-slate-800 bg-slate-900 px-4 py-2 text-slate-100 focus:border-brand-blue focus:outline-none">
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-semibold text-slate-300 mb-2" id="lblPreco">Preço Pago</label>
+                    <input type="number" step="0.01" id="inPM" class="w-full rounded-lg border border-slate-800 bg-slate-900 px-4 py-2 text-slate-100 focus:border-brand-blue focus:outline-none">
+                    <small id="priceLoader" class="absolute right-3 top-8 hidden text-xs text-brand-blue">Busca...</small>
+                </div>
+            </div>
+
+            <button class="btn-block w-full rounded-lg bg-brand-blue px-6 py-3 font-bold text-white shadow-lg shadow-brand-blue/20 transition-all hover:bg-blue-600 active:scale-95" id="btnSalvar" onclick="saveAndClose()">SALVAR OPERAÇÃO</button>
+        </div>
+    </div>
+
+    <style>
+        .modal-overlay { display: none; }
+        .modal-overlay.active { display: flex !important; }
+        .nav-item { @apply block rounded-lg px-4 py-2 text-sm font-medium text-slate-400 transition hover:bg-slate-800 hover:text-slate-100; }
+        .nav-item.active { @apply bg-slate-800 text-brand-blue; }
+        .row-master { @apply cursor-pointer transition-colors hover:bg-slate-800/30; }
+        .row-details { @apply hidden; }
+        .summary-value { @apply font-mono text-2xl font-bold; }
+    </style>
+
+    <script>
+        let currentType = 'C';
+
+        function setType(type) {
+            currentType = type;
+            document.getElementById('inType').value = type;
+            document.getElementById('btnTypeCompra').className = type === 'C' ? 'type-btn active-compra cursor-pointer rounded-xl border-2 border-emerald-500 bg-emerald-500/10 px-4 py-2 text-center font-bold text-emerald-400 transition' : 'type-btn cursor-pointer rounded-xl border-2 border-slate-700 bg-transparent px-4 py-2 text-center font-bold text-slate-400 transition hover:border-emerald-500 hover:text-emerald-400';
+            document.getElementById('btnTypeVenda').className = type === 'V' ? 'type-btn active-venda cursor-pointer rounded-xl border-2 border-rose-500 bg-rose-500/10 px-4 py-2 text-center font-bold text-rose-400 transition' : 'type-btn cursor-pointer rounded-xl border-2 border-slate-700 bg-transparent px-4 py-2 text-center font-bold text-slate-400 transition hover:border-rose-500 hover:text-rose-400';
+            document.getElementById('lblPreco').innerText = type === 'C' ? 'Preço Pago' : 'Preço de Venda';
+        }
+
+        function toggleModal(show, prefilledTicker = '') {
+            const modal = document.getElementById('modalAdd');
+            const inputData = document.getElementById('inData');
+            if(show) {
+                modal.classList.add('active');
+                const hoje = new Date();
+                inputData.value = hoje.toISOString().split('T')[0];
+                document.getElementById('inTicker').value = prefilledTicker;
+                document.getElementById('inQtd').value = '';
+                document.getElementById('inPM').value = '';
+                setType('C');
+                validarData(inputData);
+                if(prefilledTicker) fetchHistoricalPrice();
+            } else {
+                modal.classList.remove('active');
+            }
+        }
+
+        function validarData(input) {
+            const d = new Date(input.value + 'T00:00:00').getDay();
+            const btn = document.getElementById('btnSalvar');
+            const err = document.getElementById('dateError');
+            if(d === 0 || d === 6) { btn.disabled=true; btn.style.opacity='0.5'; err.style.display='block'; }
+            else { btn.disabled=false; btn.style.opacity='1'; err.style.display='none'; }
+        }
+
+        async function fetchHistoricalPrice() {
+            const t = document.getElementById('inTicker').value.toUpperCase();
+            const d = document.getElementById('inData').value;
+            if (t.length >= 4 && d) {
+                document.getElementById('priceLoader').style.display = 'block';
+                try {
+                    const res = await fetch(`/api/preco-historico?ticker=${t}&data=${d}`);
+                    const data = await res.json();
+                    if(data.preco > 0) document.getElementById('inPM').value = data.preco;
+                } catch(e) {}
+                document.getElementById('priceLoader').style.display = 'none';
+            }
+        }
+
+        async function renderWatchlist() {
+            const rawData = JSON.parse(localStorage.getItem('myPortfolio') || '[]');
+            const body = document.getElementById('watchlistBody');
+            if (rawData.length === 0) {
+                body.innerHTML = '<tr><td colspan="8" class="px-6 py-8 text-center text-slate-400">Sua carteira está vazia.</td></tr>';
+                atualizarSumario(0, 0);
+                return;
+            }
+
+            const consolidado = {};
+            rawData.sort((a,b) => new Date(a.data) - new Date(b.data)).forEach(item => {
+                if (!consolidado[item.ticker]) consolidado[item.ticker] = { ticker: item.ticker, saldoQtd: 0, precoMedio: 0, hist: [] };
+                const q = parseInt(item.qtd);
+                const p = parseFloat(item.pm);
+                const a = consolidado[item.ticker];
+                if (item.type === 'V') {
+                    a.saldoQtd -= q;
+                } else {
+                    const totalAnterior = a.saldoQtd * a.precoMedio;
+                    const totalNovo = q * p;
+                    a.saldoQtd += q;
+                    a.precoMedio = (totalAnterior + totalNovo) / a.saldoQtd;
+                }
+                a.hist.push(item);
+            });
+
+            let html = '';
+            let totalInvestidoGlobal = 0;
+            let patrimonioTotalGlobal = 0;
+
+            for (const key in consolidado) {
+                const a = consolidado[key];
+                try {
+                    const res = await fetch(`/api/preco/${a.ticker}`);
+                    const data = await res.json();
+                    const pAtual = parseFloat(data.preco);
+                    
+                    const valorAtualAtivo = a.saldoQtd * pAtual;
+                    const custoAtivo = a.saldoQtd * a.precoMedio;
+                    const diff = valorAtualAtivo - custoAtivo;
+                    const perc = a.precoMedio > 0 ? ((pAtual / a.precoMedio) - 1) * 100 : 0;
+                    const cClass = diff >= 0 ? 'text-emerald-400' : 'text-rose-400';
+
+                    totalInvestidoGlobal += custoAtivo;
+                    patrimonioTotalGlobal += valorAtualAtivo;
+
+                    html += `
+                        <tr class="row-master border-b border-slate-800/50 hover:bg-slate-800/30" onclick="toggleDetails('${a.ticker}')">
+                            <td class="px-6 py-3 text-center"><i class="fa-solid fa-chevron-down transition" id="icon-${a.ticker}"></i></td>
+                            <td class="px-6 py-3 font-bold text-slate-100">${a.ticker}</td>
+                            <td class="px-6 py-3 text-right font-mono text-slate-200">${a.saldoQtd}</td>
+                            <td class="px-6 py-3 text-right font-mono text-slate-200">R$ ${a.precoMedio.toFixed(2)}</td>
+                            <td class="px-6 py-3 text-right font-mono text-slate-200">R$ ${pAtual.toFixed(2)}</td>
+                            <td class="px-6 py-3 text-right font-mono text-slate-200">R$ ${valorAtualAtivo.toLocaleString('pt-BR', {minimumFractionDigits: 2})}</td>
+                            <td class="px-6 py-3 text-right font-mono font-bold ${cClass}">R$ ${diff.toFixed(2)} (${perc.toFixed(2)}%)</td>
+                            <td class="px-6 py-3 text-right">
+                                <div class="flex gap-2 justify-end">
+                                    <button class="rounded-lg border border-slate-700 bg-slate-900 px-3 py-1 text-xs text-slate-400 transition hover:border-brand-blue hover:text-brand-blue" onclick="event.stopPropagation(); toggleModal(true, '${a.ticker}')">
+                                        <i class="fa-solid fa-plus-minus"></i>
+                                    </button>
+                                    <button class="rounded-lg border border-slate-700 bg-slate-900 px-3 py-1 text-xs text-rose-400 transition hover:border-rose-500 hover:bg-rose-500/10" onclick="event.stopPropagation(); removeTickerGroup('${a.ticker}')" title="Apagar lote inteiro">
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row-details bg-slate-800/20" id="details-${a.ticker}">
+                            <td colspan="8" class="px-6 py-4">
+                                <div class="rounded-lg border border-slate-800 bg-slate-950 p-4">
+                                    <table class="w-full text-xs">
+                                        <thead class="border-b border-slate-800">
+                                            <tr>
+                                                <th class="px-3 py-2 text-left font-semibold text-slate-300">Operação</th>
+                                                <th class="px-3 py-2 text-left font-semibold text-slate-300">Data</th>
+                                                <th class="px-3 py-2 text-right font-semibold text-slate-300">Qtd</th>
+                                                <th class="px-3 py-2 text-right font-semibold text-slate-300">Preço</th>
+                                                <th class="px-3 py-2 text-right font-semibold text-slate-300">Ação</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="divide-y divide-slate-800/50">
+                                        ${a.hist.reverse().map(h => `
+                                            <tr>
+                                                <td class="px-3 py-2 font-bold ${h.type === 'V' ? 'text-rose-400' : 'text-emerald-400'}">${h.type === 'V' ? 'VENDA' : 'COMPRA'}</td>
+                                                <td class="px-3 py-2 text-slate-300">${h.data.split('-').reverse().join('/')}</td>
+                                                <td class="px-3 py-2 text-right font-mono text-slate-200">${h.qtd}</td>
+                                                <td class="px-3 py-2 text-right font-mono text-slate-200">R$ ${parseFloat(h.pm).toFixed(2)}</td>
+                                                <td class="px-3 py-2 text-right">
+                                                    <button onclick="removeItem('${h.id}'); event.stopPropagation();" class="rounded hover:text-rose-400" style="background:none; border:none; color:var(--accent-red); cursor:pointer">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>`).join('')}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>`;
+                } catch(e) {
+                    console.error(`Erro ao carregar preço de ${a.ticker}:`, e);
+                }
+            }
+            body.innerHTML = html;
+            atualizarSumario(totalInvestidoGlobal, patrimonioTotalGlobal);
+        }
+
+        function atualizarSumario(investido, patrimonio) {
+            const resGeral = patrimonio - investido;
+            document.getElementById('totalInvestido').innerText = `R$ ${investido.toLocaleString('pt-BR', {minimumFractionDigits: 2})}`;
+            document.getElementById('patrimonioTotal').innerText = `R$ ${patrimonio.toLocaleString('pt-BR', {minimumFractionDigits: 2})}`;
+            document.getElementById('resultadoGeral').innerText = `R$ ${resGeral.toLocaleString('pt-BR', {minimumFractionDigits: 2})}`;
+            document.getElementById('resultadoGeral').className = `summary-value ${resGeral >= 0 ? 'text-emerald-400' : 'text-rose-400'}`;
+        }
+
+        function removeTickerGroup(ticker) {
+            if(confirm(`Deseja apagar TODO o histórico e o lote de ${ticker}? Esta ação não pode ser desfeita.`)) {
+                let list = JSON.parse(localStorage.getItem('myPortfolio') || '[]');
+                list = list.filter(item => item.ticker !== ticker);
+                localStorage.setItem('myPortfolio', JSON.stringify(list));
+                renderWatchlist();
+            }
+        }
+
+        function toggleDetails(ticker) {
+            const el = document.getElementById(`details-${ticker}`);
+            const icon = document.getElementById(`icon-${ticker}`);
+            const isVisible = el.style.display === 'table-row';
+            el.style.display = isVisible ? 'none' : 'table-row';
+            icon.style.transform = isVisible ? 'rotate(0deg)' : 'rotate(180deg)';
+        }
+
+        function saveAndClose() {
+            const d = document.getElementById('inData').value;
+            const t = document.getElementById('inTicker').value.toUpperCase();
+            const q = document.getElementById('inQtd').value;
+            const p = document.getElementById('inPM').value;
+            const type = document.getElementById('inType').value;
+            if(!d || !t || !q || !p) return alert('Preencha todos os campos');
+            let list = JSON.parse(localStorage.getItem('myPortfolio') || '[]');
+            list.push({ id: Date.now().toString(), data: d, ticker: t, qtd: q, pm: p, type: type });
+            localStorage.setItem('myPortfolio', JSON.stringify(list));
+            toggleModal(false); renderWatchlist();
+        }
+
+        function removeItem(id) {
+            if(confirm("Remover esta operação específica?")) {
+                let list = JSON.parse(localStorage.getItem('myPortfolio') || '[]');
+                list = list.filter(i => i.id !== id);
+                localStorage.setItem('myPortfolio', JSON.stringify(list));
+                renderWatchlist();
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', renderWatchlist);
+    </script>
+</body>
+</html>

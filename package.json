@@ -1,11 +1,13 @@
 {
-  "name": "teste_python",
+  "name": "invest_check",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Dashboard de análise de ativos B3 com Node.js/Express, EJS e scripts Python.",
+  "main": "src/backend/server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "npx playwright test"
+    "start": "node src/backend/server.js",
+    "test": "npx playwright test",
+    "build:css": "npx tailwindcss -i src/public/css/tailwind.css -o src/public/css/tailwind.output.css --minify",
+    "watch:css": "npx tailwindcss -i src/public/css/tailwind.css -o src/public/css/tailwind.output.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +15,11 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.5.2"
+    "@tailwindcss/cli": "^4.3.0",
+    "@types/node": "^25.5.2",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
   },
   "dependencies": {
     "ejs": "^5.0.1",

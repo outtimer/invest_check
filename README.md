@@ -21,16 +21,17 @@ Um projeto híbrido de análise de ativos B3 com Node.js/Express, EJS e Python.
 
 ## Estrutura do projeto
 
-- `server.js` - servidor Express principal
+- `src/backend/server.js` - servidor Express principal
 - `package.json` - dependências Node
-- `consulta_ticker.py` - consulta de dados e cálculo de métricas por ticker
-- `scanner_tendencia.py` - construção de radar de ativos em tendência
-- `views/index.ejs` - dashboard de tendências
-- `views/detalhes.ejs` - página de detalhe de ativo
-- `views/watchlist.ejs` - carteira local com operações em `localStorage`
-- `public/css/` - estilos visuais
-- `estrutura_b3_completa.json` - base de ativos/tickers
-- `dados_tendencia.json` - resultado do scanner de tendências
+- `src/python/consulta_ticker.py` - consulta de dados e cálculo de métricas por ticker
+- `src/python/scanner_tendencia.py` - construção de radar de ativos em tendência
+- `src/python/scanner_dividendos.py` - análises de dividendos
+- `src/views/index.ejs` - dashboard de tendências
+- `src/views/detalhes.ejs` - página de detalhe de ativo
+- `src/views/watchlist.ejs` - carteira local com operações em `localStorage`
+- `src/public/css/` - estilos visuais
+- `data/` - arquivos de dados JSON do projeto
+- `legacy/projeto-node/` - código antigo de exemplo Node.js
 
 ## Documentação adicional
 
@@ -40,6 +41,7 @@ Um projeto híbrido de análise de ativos B3 com Node.js/Express, EJS e Python.
 - `docs/contributing.md` - guia de contribuição e boas práticas
 - `docs/roadmap.md` - ideias e prioridades para evolução do projeto
 - `docs/testes.md` - como rodar testes locais e pipelines de CI
+- Branch `feature/docs` foi criada para esta documentação e está pronta para revisão.
 - `CHANGELOG.md` - histórico de alterações
 - `requirements.txt` - dependências Python
 - `Dockerfile` - build de contêiner Docker
@@ -115,7 +117,7 @@ pip install -r requirements.txt
 3. Execute o servidor:
 
 ```bash
-node server.js
+node src/backend/server.js
 ```
 
 4. Acesse:

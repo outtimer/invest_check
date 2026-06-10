@@ -52,7 +52,7 @@ deep-translator
 Após instalar dependências:
 
 ```bash
-node server.js
+node src/backend/server.js
 ```
 
 Abra o navegador em:
@@ -62,7 +62,7 @@ Abra o navegador em:
 
 ## Comandos úteis
 
-- Reiniciar servidor: `Ctrl+C` e `node server.js`
+- Reiniciar servidor: `Ctrl+C` e `node src/backend/server.js`
 - Atualizar scanner de tendência: acionar o botão no dashboard ou chamar `GET /api/update-tendencia`
 
 ## Observações de ambiente
